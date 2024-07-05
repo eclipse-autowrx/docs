@@ -40,7 +40,7 @@ push-modification:
   variables:
     # GIT_REMOTE_URL: "<to define git://gitlab.eclipse.org:eclipse/${EF_SHORT_NAME}/website.git>"
     GIT_INIT_DIR: "public"
-    GIT_INIT_DEFAULT_BRANCH: "eclipse-pages"
+    GIT_INIT_DEFAULT_BRANCH: "deploy"
   script:
     - |
       git add -A
