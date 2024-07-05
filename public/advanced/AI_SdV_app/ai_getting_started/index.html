@@ -1,0 +1,2167 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.115.3">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.svg" type="image/svg">
+    <title>AI with playground :: digital.auto playground documentation</title>
+
+    
+    <link href="/css/nucleus.css?1720169700" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1720169700" rel="stylesheet">
+    <link href="/css/hybrid.css?1720169700" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1720169700" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1720169700" rel="stylesheet">
+    <link href="/css/auto-complete.css?1720169700" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1720169700" rel="stylesheet">
+    <link href="/css/theme.css?1720169700" rel="stylesheet">
+    <link href="/css/tabs.css?1720169700" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1720169700" rel="stylesheet">
+    
+    <link href="/css/theme-green.css?1720169700" rel="stylesheet">
+    
+    <link href="/css/playground.css?1720169700" rel="stylesheet">
+
+    <script src="/js/jquery-3.3.1.min.js?1720169700"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <head>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSPHHE9ZTS"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-QSPHHE9ZTS', { 'anonymize_ip': false });
+}
+</script>
+ 
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-QSPHHE9ZTS', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+  </head>
+  <body class="" data-url="/advanced/ai_sdv_app/ai_getting_started/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <p style="font-size: x-large; color: #ffffff; margin: 0 0 10px 0">digital.auto</p>
+<a id="logo" href="/">
+    
+    <svg
+        width="146"
+        height="88"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xml:space="preserve"
+        overflow="hidden"
+    >
+        <defs>
+            <clipPath id="clip0"><rect x="959" y="543" width="146" height="88" /></clipPath>
+        </defs>
+        <g clip-path="url(#clip0)" transform="translate(-959 -543)">
+            <path
+                d="M141.968 30.6699C139.838 28.7275 136.875 26.5443 133.024 24.8301 134.962 23.2332 136.591 21.148 137.821 19.2867 138.414 18.387 138.7 17.3743 138.7 16.3722 138.7 14.6665 137.875 12.9928 136.348 11.9737 134.318 10.6241 131.619 10.8267 129.837 12.4875 126.794 15.3296 125.212 20.1268 124.617 22.31 123.786 22.1671 122.927 22.0541 122.042 21.9689L121.775 22.2098 121.775 22.2098C121.775 22.2098 112.492 7.90572 112.492 7.90572 109.277 2.95505 103.838 0 97.9388 0L53.7772 0C51.4192 0 49.1208 0.965828 47.4706 2.65017L37.1066 13.2295 10.0122 13.2295C10.0122 13.2295 10.0122 13.2295 10.0122 13.2295 9.43015 11.0548 7.44733 9.44934 5.09139 9.44934 2.28345 9.44934-0.00213207 11.7328-0.00213207 14.5429-0.00213207 17.3529 2.28132 19.6364 5.09139 19.6364 7.44733 19.6364 9.43015 18.0309 10.0122 15.8562L38.211 15.8562 49.3468 4.48801C50.5066 3.30471 52.1228 2.62458 53.7794 2.62458L97.941 2.62458C102.947 2.62458 107.563 5.1319 110.288 9.33208L119.807 24.0029 119.807 24.0029C119.807 24.0029 100.216 41.8547 100.216 41.8547 99.5784 42.4368 98.7448 42.7587 97.8834 42.7587L68.9853 42.7587 68.9853 56.2973 62.8002 56.2973 50.5152 43.3365 22.6895 43.3365C22.1075 41.1618 20.1246 39.5563 17.7687 39.5563 14.9607 39.5563 12.6752 41.8398 12.6752 44.6498 12.6752 47.4599 14.9586 49.7434 17.7687 49.7434 20.1246 49.7434 22.1075 48.1379 22.6895 45.9632L49.3809 45.9632 61.6659 58.9241 68.981 58.9241 68.981 59.5019 118.933 59.5019C118.933 59.5019 113.398 65.0367 112.183 72.4627L68.981 72.3284 68.981 76.552 65.8874 76.552 52.9265 63.3204 24.2182 63.3204C24.2182 63.3204 24.2182 63.3204 24.2182 63.3204 23.6361 61.1457 21.6533 59.5402 19.2974 59.5402 16.4894 59.5402 14.2039 61.8237 14.2039 64.6338 14.2039 67.4438 16.4873 69.7273 19.2974 69.7273 21.6533 69.7273 23.6361 68.1218 24.2182 65.9471L51.8221 65.9471 62.2117 76.552 31.5973 76.552C31.0152 74.3773 29.0324 72.7719 26.6765 72.7719 23.8685 72.7719 21.583 75.0553 21.583 77.8654 21.583 80.6755 23.8664 82.9589 26.6765 82.9589 29.0324 82.9589 31.0152 81.3535 31.5973 79.1787L68.9789 79.1787 68.9789 79.8909 112.72 79.8909 113.268 81.4707C114.475 84.9694 117.769 87.3169 121.471 87.3169L133.363 87.3169C137.346 87.3169 141.071 85.3554 143.329 82.0741L143.412 81.9568C143.915 81.2213 144.203 80.3663 144.241 79.4772L145.989 40.3708C146.151 36.7036 144.685 33.1473 141.968 30.672ZM5.09352 17.0118C3.73326 17.0118 2.62671 15.9053 2.62671 14.545 2.62671 13.1847 3.73326 12.0782 5.09352 12.0782 6.45378 12.0782 7.56033 13.1847 7.56033 14.545 7.56033 15.9053 6.45378 17.0118 5.09352 17.0118ZM17.7687 47.1188C16.4084 47.1188 15.3019 46.0122 15.3019 44.652 15.3019 43.2917 16.4084 42.1852 17.7687 42.1852 19.1289 42.1852 20.2355 43.2917 20.2355 44.652 20.2355 46.0122 19.1289 47.1188 17.7687 47.1188ZM19.2995 67.1006C17.9392 67.1006 16.8327 65.994 16.8327 64.6338 16.8327 63.2735 17.9392 62.1669 19.2995 62.1669 20.6598 62.1669 21.7663 63.2735 21.7663 64.6338 21.7663 65.994 20.6598 67.1006 19.2995 67.1006ZM26.6807 80.3322C25.3205 80.3322 24.2139 79.2256 24.2139 77.8654 24.2139 76.5051 25.3205 75.3986 26.6807 75.3986 28.041 75.3986 29.1476 76.5051 29.1476 77.8654 29.1476 79.2256 28.041 80.3322 26.6807 80.3322ZM134.097 38.2707C132.86 40.0787 130.939 42.1255 128.052 43.5518 126.549 44.2938 124.886 44.6541 123.21 44.6541L111.612 44.6541C110.514 44.6541 109.62 43.7608 109.62 42.6628 109.62 40.1469 110.505 37.7078 112.132 35.7847 115.665 31.6101 122.272 24.9794 127.711 26.2927 129.945 26.8321 131.589 27.7148 132.792 28.6956 135.664 31.0387 136.186 35.209 134.097 38.2707Z"
+                fill="#FFFFFF"
+                transform="matrix(1 0 0 1.00702 959 543.037)"
+            />
+            <path
+                d="M94.7535 38.9785C96.6681 38.9785 98.5081 38.2366 99.8854 36.9062L113.264 23.9922 68.981 23.9922 68.981 24.0306 48.2509 24.0306C47.622 21.6768 45.3513 19.9924 42.7459 20.2824 40.4177 20.5425 38.5329 22.4273 38.2707 24.7555 37.9253 27.8257 40.3281 30.4353 43.3301 30.4353 45.686 30.4353 47.6689 28.8299 48.2509 26.6552L68.981 26.6552 68.981 38.9785 94.7535 38.9785ZM43.3301 27.8107C41.9698 27.8107 40.8633 26.7042 40.8633 25.3439 40.8633 23.9837 41.9698 22.8771 43.3301 22.8771 44.6904 22.8771 45.7969 23.9837 45.7969 25.3439 45.7969 26.7042 44.6904 27.8107 43.3301 27.8107Z"
+                fill="#FFFFFF"
+                transform="matrix(1 0 0 1.00702 959 543.037)"
+            />
+        </g>
+    </svg>
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1720169700"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1720169700"></script>
+<script type="text/javascript">
+    
+        var baseurl = "\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1720169700"></script>
+
+    
+  </div>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/basics/" title="Getting Started" class="dd-item
+        
+        
+        
+        ">
+      <a href="/basics/">
+          <b>1. </b>Getting Started
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/overview/" title="Overview" class="dd-item ">
+        <a href="/basics/overview/">
+        Overview
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/login/" title="Login" class="dd-item ">
+        <a href="/basics/login/">
+        Login
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/intro/" title="Introduction" class="dd-item ">
+        <a href="/basics/intro/">
+        Introduction
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/play/" title="Playing with Prototypes" class="dd-item ">
+        <a href="/basics/play/">
+        Playing with Prototypes
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/experiment/" title="Experiment" class="dd-item ">
+        <a href="/basics/experiment/">
+        Experiment
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/engaged/" title="Build Your First Prototype" class="dd-item
+        
+        
+        
+        ">
+      <a href="/engaged/">
+          <b>2. </b>Build Your First Prototype
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/engaged/helloworld/" title="Create &#39;Hello World&#39; Prototype" class="dd-item ">
+        <a href="/engaged/helloworld/">
+        Create &#39;Hello World&#39; Prototype
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/engaged/3dcar/" title="Using &#39;General 3D Car Model&#39; Widget" class="dd-item ">
+        <a href="/engaged/3dcar/">
+        Using &#39;General 3D Car Model&#39; Widget
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/engaged/simplelandingai/" title="Using &#39;Simple LandingAI&#39; Widget" class="dd-item ">
+        <a href="/engaged/simplelandingai/">
+        Using &#39;Simple LandingAI&#39; Widget
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/engaged/vss_basic/" title="Vehicle API" class="dd-item ">
+        <a href="/engaged/vss_basic/">
+        Vehicle API
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/engaged/widget_basic/" title="Using builtin widget" class="dd-item ">
+        <a href="/engaged/widget_basic/">
+        Using builtin widget
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/engaged/create_custom_widget/" title="Create custom widget" class="dd-item ">
+        <a href="/engaged/create_custom_widget/">
+        Create custom widget
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/campaign/" title="Campaign" class="dd-item
+        
+        
+        
+        ">
+      <a href="/campaign/">
+          <b>3. </b>Campaign
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/campaign/gen-ai-awards-2024/" title="GenAI Awards 2024" class="dd-item
+        
+        
+        
+        ">
+      <a href="/campaign/gen-ai-awards-2024/">
+          GenAI Awards 2024
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/campaign/gen-ai-awards-2024/1-getting-started/" title="Getting started" class="dd-item ">
+        <a href="/campaign/gen-ai-awards-2024/1-getting-started/">
+        Getting started
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/campaign/gen-ai-awards-2024/2-onboarding/" title="Onboarding" class="dd-item ">
+        <a href="/campaign/gen-ai-awards-2024/2-onboarding/">
+        Onboarding
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/campaign/gen-ai-awards-2024/3-access-aws-bedrock/" title="Access AWS Bedrock console" class="dd-item ">
+        <a href="/campaign/gen-ai-awards-2024/3-access-aws-bedrock/">
+        Access AWS Bedrock console
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/campaign/gen-ai-awards-2024/4-build-first-genai/" title="Build your GenAI" class="dd-item ">
+        <a href="/campaign/gen-ai-awards-2024/4-build-first-genai/">
+        Build your GenAI
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/campaign/gen-ai-awards-2024/5-submit-your-genai/" title="Submit your genAI" class="dd-item ">
+        <a href="/campaign/gen-ai-awards-2024/5-submit-your-genai/">
+        Submit your genAI
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/campaign/gen-ai-awards-2024/6-update-genai/" title="Update your submission" class="dd-item ">
+        <a href="/campaign/gen-ai-awards-2024/6-update-genai/">
+        Update your submission
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/campaign/gen-ai-awards-2024/7-use-genai/" title="Use GenAI on playground" class="dd-item ">
+        <a href="/campaign/gen-ai-awards-2024/7-use-genai/">
+        Use GenAI on playground
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/advanced/" title="Advanced" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/advanced/">
+          <b>4. </b>Advanced
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced/architecture/" title="Architecture" class="dd-item ">
+        <a href="/advanced/architecture/">
+        Architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced/how-python-javascript-works/" title="How Python-Javascript works" class="dd-item ">
+        <a href="/advanced/how-python-javascript-works/">
+        How Python-Javascript works
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced/genaiwidget/" title="How GenAI works on playground?" class="dd-item ">
+        <a href="/advanced/genaiwidget/">
+        How GenAI works on playground?
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced/socket-io-provider/" title="Socket.IO Integration" class="dd-item ">
+        <a href="/advanced/socket-io-provider/">
+        Socket.IO Integration
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced/playground_n_soafee/" title="Cloud native experiment with playground" class="dd-item ">
+        <a href="/advanced/playground_n_soafee/">
+        Cloud native experiment with playground
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/advanced/ai_sdv_app/" title="AI SdV Application" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/advanced/ai_sdv_app/">
+          AI SdV Application
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced/ai_sdv_app/ai_app_on_pg/" title="AI App Concept" class="dd-item ">
+        <a href="/advanced/ai_sdv_app/ai_app_on_pg/">
+        AI App Concept
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/advanced/ai_sdv_app/ai_getting_started/" title="AI with playground" class="dd-item active">
+        <a href="/advanced/ai_sdv_app/ai_getting_started/">
+        AI with playground
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/insider/" title="Under the Hood" class="dd-item
+        
+        
+        
+        ">
+      <a href="/insider/">
+          <b>5. </b>Under the Hood
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/dreamkit/" title="dreamKIT" class="dd-item
+        
+        
+        
+        ">
+      <a href="/dreamkit/">
+          <b>6. </b>dreamKIT
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/dreamkit/overview/" title="Overview dreamKIT" class="dd-item ">
+        <a href="/dreamkit/overview/">
+        Overview dreamKIT
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/dreamkit/architecture/" title="Architecture" class="dd-item ">
+        <a href="/dreamkit/architecture/">
+        Architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/dreamkit/retrofit_kit/" title="Co-Creation Challenge Vehicle KIT" class="dd-item ">
+        <a href="/dreamkit/retrofit_kit/">
+        Co-Creation Challenge Vehicle KIT
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/dreamkit/working/" title="Working" class="dd-item
+        
+        
+        
+        ">
+      <a href="/dreamkit/working/">
+          Working
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/dreamkit/working/ecuplugplay/" title="ECU Plug and Play" class="dd-item
+        
+        
+        
+        ">
+      <a href="/dreamkit/working/ecuplugplay/">
+          ECU Plug and Play
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/" title="Identify your ECU with dreamKIT" class="dd-item ">
+        <a href="/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/">
+        Identify your ECU with dreamKIT
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/" title="Develop SDV applications to interact with your ECUs" class="dd-item ">
+        <a href="/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/">
+        Develop SDV applications to interact with your ECUs
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/dreamkit/working/deployment/" title="Playground to dreamKIT" class="dd-item ">
+        <a href="/dreamkit/working/deployment/">
+        Playground to dreamKIT
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://github.com/digital-auto/playground"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://www.youtube.com/@sdvpg"><i class='fas fa-camera'></i> Showcases</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/digital-auto/playground/tree/main/docs/content/advanced/AI_SdV_app/ai_getting_started.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/advanced/'>Advanced</a> > <a href='/advanced/ai_sdv_app/'>AI SdV Application</a> > AI with playground
+          
+        
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#how-the-ai-widget-works">How the AI widget works</a></li>
+        <li><a href="#source-code-for-driver-distraction-widget">Source code for Driver Distraction Widget</a></li>
+        <li><a href="#how-about-real-vehicle-envinronment">How about real vehicle envinronment?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              AI with playground
+            </h1>
+          
+
+        
+
+
+<h3 id="introduction">Introduction</h3>
+<p>AI becomes more and more popular in daily life, and
+definitely it is also a trend in the automotive industry.
+In this section, we will introduce how to use AI in the playground.</p>
+<blockquote>
+<p><strong>Note:</strong> AI have a lot of different applications, and we will only introduce a simple image processing use case in this section.</p>
+<p>We assume that you already know how to create account, model and prototype in the playground. If not, please refer this <a href="/engaged/helloworld.md">Helloworld</a> section.</p>
+</blockquote>
+<h4 id="1-go-to-the-playgroundhttpsdigitalautonetlifyapp-and-login-with-your-account">1. Go to the <a href="https://digitalauto.netlify.app/">playground</a>, and login with your account.</h4>
+<h4 id="2-create-a-new-model-if-you-dont-have-one">2. Create a new model, if you don&rsquo;t have one.</h4>
+<h4 id="3-create-a-new-prototype">3. Create a new prototype</h4>
+<p>Make sure you select the model you just created.</p>
+<h4 id="4-config-dashboard">4. Config dashboard</h4>
+<p>Go to the prototype page, and click the &ldquo;Code Tab&rdquo; and on the right side, click &ldquo;Dashboard Config&rdquo; tab. Then pick a widget, and select &ldquo;Driver Distraction&rdquo; widget, place it on the dashboard.
+<img src="https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs_ai/pick-widget-ai.png" alt="Driver-Distraction"></p>
+<p>Then you have a &ldquo;Dashboard Config&rdquo; as below:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>[
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;plugin&#34;</span>: <span style="color:#e6db74">&#34;Builtin&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;widget&#34;</span>: <span style="color:#e6db74">&#34;Driver-Distraction&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;options&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;draw_boundary&#34;</span>: <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;set_to_api&#34;</span>: <span style="color:#e6db74">&#34;Vehicle.Driver.DistractionLevel&#34;</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;boxes&#34;</span>: [
+</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">2</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">7</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">6</span>
+</span></span><span style="display:flex;"><span>        ]
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>]
+</span></span></code></pre></div><h4 id="5-use-ai-widget">5. Use AI Widget</h4>
+<p>Switch to &ldquo;Dashboard&rdquo; tab, give some seconds for the widget and AI model to load, and you will see a &ldquo;Driver Distraction&rdquo; widget on the dashboard.</p>
+<blockquote>
+<p>If the browser ask you to allow the camera, please allow it. The widget need to access your camera to capture the image.</p>
+</blockquote>
+<p>After AI model successfully loaded, you will see the result, try to use your phone, put it in your ear, AI widget can detect you are using phone or not. Base on that, it will give you a distraction level.
+The distraction level is a number between 0 and 100, 0 means you are not distracted at all, 100 means you are distracted. This level will auto set to api: <strong>&ldquo;Vehicle.Driver.DistractionLevel&rdquo;</strong>.</p>
+<p>You can call this api in your app, and do some actions base on the distraction level.</p>
+<blockquote>
+<p>You can tell the widget to set the distraction level to any api you want, just change the &ldquo;set_to_api&rdquo; option in the &ldquo;Dashboard Config&rdquo; tab.</p>
+</blockquote>
+<p><img src="https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs_ai/no-phone-used.png" alt="no phone used">
+No phone used result</p>
+<p><img src="https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs_ai/phone-used.png" alt="phone used">
+Phone used result</p>
+<h4 id="6-verify-api-result">6. Verify API result</h4>
+<p>Display the distraction level  result in another widget.</p>
+<p>Go back to &ldquo;Dashboard Config&rdquo;, pick a new widget, and select &ldquo;Single-API-Value&rdquo; widget, place it on the dashboard.
+<img src="https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs_ai/single-api-widget.png" alt="pick Single API Value"></p>
+<p>In new widget option, change to name and API to &ldquo;Distraction Level&rdquo;, and API to &ldquo;Vehicle.Driver.DistractionLevel&rdquo; as below.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;plugin&#34;</span>: <span style="color:#e6db74">&#34;Builtin&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;widget&#34;</span>: <span style="color:#e6db74">&#34;Single-API-Widget&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;options&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;label&#34;</span>: <span style="color:#e6db74">&#34;Distraction Level&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;api&#34;</span>: <span style="color:#e6db74">&#34;Vehicle.Driver.DistractionLevel&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;labelStyle&#34;</span>: <span style="color:#e6db74">&#34;color:black;font-size:20px&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;valueStyle&#34;</span>: <span style="color:#e6db74">&#34;color:teal;font-size:30px;&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;boxStyle&#34;</span>: <span style="color:#e6db74">&#34;background-color:white;&#34;</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;boxes&#34;</span>: [
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Go back to &ldquo;Dashboard&rdquo; tab, you will see the distraction level result in the new widget.</p>
+<p><img src="https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs_ai/result-on-new-widget.png" alt="result-on-widget"></p>
+<h4 id="7-write-application-code">7. Write application code</h4>
+<p>Write some code to do some actions base on the distraction level. In the &ldquo;Code&rdquo; tab, you can write your python code in the left panel.
+Try to using distraction level to control HVAC Fan.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> sdv_model <span style="color:#f92672">import</span> Vehicle
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> plugins
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> browser <span style="color:#f92672">import</span> aio
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>vehicle <span style="color:#f92672">=</span> Vehicle()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>stop <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>full <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    level <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> vehicle<span style="color:#f92672">.</span>Driver<span style="color:#f92672">.</span>DistractionLevel<span style="color:#f92672">.</span>get()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> level<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">50</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> vehicle<span style="color:#f92672">.</span>Cabin<span style="color:#f92672">.</span>HVAC<span style="color:#f92672">.</span>Station<span style="color:#f92672">.</span>Row1<span style="color:#f92672">.</span>Left<span style="color:#f92672">.</span>FanSpeed<span style="color:#f92672">.</span>set(full)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> aio<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> vehicle<span style="color:#f92672">.</span>Cabin<span style="color:#f92672">.</span>HVAC<span style="color:#f92672">.</span>Station<span style="color:#f92672">.</span>Row1<span style="color:#f92672">.</span>Left<span style="color:#f92672">.</span>FanSpeed<span style="color:#f92672">.</span>set(stop)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> aio<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">1</span>)
+</span></span></code></pre></div><h4 id="8-add-a-fan-widget-to-the-dashboard">8. Add a Fan widget to the dashboard</h4>
+<p>Go back to &ldquo;Dashboard Config&rdquo;, pick a new widget, and select &ldquo;Fan-Widget&rdquo;, place it on the dashboard.
+In widget option, mention the API you using in python code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;plugin&#34;</span>: <span style="color:#e6db74">&#34;Builtin&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;widget&#34;</span>: <span style="color:#e6db74">&#34;Fan-Widget&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;options&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;api&#34;</span>: <span style="color:#e6db74">&#34;Vehicle.Cabin.HVAC.Station.Row1.Left.FanSpeed&#34;</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;boxes&#34;</span>: [
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">8</span>
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="9-run-the-application">9. Run the application</h4>
+<p>Go to &ldquo;Dashboard&rdquo; tab, click &ldquo;Run&rdquo; button, and you will see the fan speed change base on the distraction level.</p>
+<p><img src="https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs_ai/fan-speed.png" alt="fan-speed"></p>
+<p>You can follow this video for step by step guide:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/R-oKt7ziy8I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="how-the-ai-widget-works">How the AI widget works</h3>
+<p>The AI widget is a wrapper of the <a href="https://www.tensorflow.org/js">Tensorflow.js</a> library.</p>
+<h4 id="step-1">Step 1:</h4>
+<p>We train a model with Tensorflow, and export it to a format that tensorflowjs can be used.###</p>
+<h4 id="step-2">Step 2:</h4>
+<p>We use the tensorflowjs to load the model, and run it in the browser. Capture the image continously, and run the model to get the result(distraction_level)</p>
+<h4 id="step-3">Step 3:</h4>
+<p>The widget will set distraction_level to the api, via a special mechanism provide by digital.auto so that a widget can set a value to an API. This is a builti in mechanism, and you don&rsquo;t need to care about it. Please refer <a href="/engaged/create_custom_widget.md">Create Custom Widget</a> tutorial for more detail.</p>
+<p>And from now on, you can use the distraction_level via API in your application code, and do some actions base on it.</p>
+<p><img src="https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs_ai/AI-On-Playground.png" alt="AI on playground"></p>
+<h3 id="source-code-for-driver-distraction-widget">Source code for Driver Distraction Widget</h3>
+<p>You can find the source code for the <strong>Driver Distraction Widget</strong> <a href="https://studio.digitalauto.tech/project/Xnu8FkkYq1O7">here</a></p>
+<blockquote>
+<p>This is just an example, and you can use the same method to apply AI in other use cases.</p>
+<p>The are plenty of models available in the internet, and you can use them in the widget.</p>
+<p>You can also train your own model, and use it in the widget. Please refer to <a href="https://www.tensorflow.org/js">Tensorflow.js</a> for more detail.</p>
+<p>You can also using another method to have an AI engine running and give the result to widget. This tutorial is just one of the way to do it.</p>
+</blockquote>
+<h3 id="how-about-real-vehicle-envinronment">How about real vehicle envinronment?</h3>
+<p>On real vehicle, we need to consider the performance of the AI model, and the performance of the hardware.</p>
+<p>On vehcile context, python code(or C++) keep the sample logic. And the AI model is running on a separate hardware or seperate app/service, and the result is send to the python code via API. The python code will do some actions base on the result from the API.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/advanced/ai_sdv_app/ai_app_on_pg/" title="AI App Concept"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/insider/" title="Under the Hood" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1720169700"></script>
+    <script src="/js/perfect-scrollbar.min.js?1720169700"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1720169700"></script>
+    <script src="/js/jquery.sticky.js?1720169700"></script>
+    <script src="/js/featherlight.min.js?1720169700"></script>
+    <script src="/js/highlight.pack.js?1720169700"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1720169700"></script>
+    <script src="/js/learn.js?1720169700"></script>
+    <script src="/js/hugo-learn.js?1720169700"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1720169700"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+
