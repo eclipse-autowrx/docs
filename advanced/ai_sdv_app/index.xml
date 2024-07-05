@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI SdV Application on digital.auto playground documentation</title>
-    <link>https://eclipse.dev/autowrx/advanced/ai_sdv_app/</link>
+    <link>/advanced/ai_sdv_app/</link>
     <description>Recent content in AI SdV Application on digital.auto playground documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Aug 2023 07:07:47 +0700</lastBuildDate><atom:link href="https://eclipse.dev/autowrx/advanced/ai_sdv_app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Aug 2023 07:07:47 +0700</lastBuildDate><atom:link href="/advanced/ai_sdv_app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI App Concept</title>
-      <link>https://eclipse.dev/autowrx/advanced/ai_sdv_app/ai_app_on_pg/</link>
+      <link>/advanced/ai_sdv_app/ai_app_on_pg/</link>
       <pubDate>Mon, 25 Sep 2023 07:07:47 +0700</pubDate>
       
-      <guid>https://eclipse.dev/autowrx/advanced/ai_sdv_app/ai_app_on_pg/</guid>
+      <guid>/advanced/ai_sdv_app/ai_app_on_pg/</guid>
       <description>Preface This document for AI engineer who familiar with AI application development concept.
 It assumes you have basic understanding on Vehicle API concept, we provide simple explanation at this VSS Basic Documentation.
 The purpose of this document is to discuss AI-on-Edge, means realtime AI running directly on vehicle, not apply for AI-on-Cloud like ChatGPT&amp;hellip;
@@ -21,10 +21,10 @@ AI application on playground Nowadays, AI is a hot topic. There are plenty of to
     
     <item>
       <title>AI with playground</title>
-      <link>https://eclipse.dev/autowrx/advanced/ai_sdv_app/ai_getting_started/</link>
+      <link>/advanced/ai_sdv_app/ai_getting_started/</link>
       <pubDate>Thu, 03 Aug 2023 06:51:01 +0700</pubDate>
       
-      <guid>https://eclipse.dev/autowrx/advanced/ai_sdv_app/ai_getting_started/</guid>
+      <guid>/advanced/ai_sdv_app/ai_getting_started/</guid>
       <description>Introduction AI becomes more and more popular in daily life, and definitely it is also a trend in the automotive industry. In this section, we will introduce how to use AI in the playground.
 Note: AI have a lot of different applications, and we will only introduce a simple image processing use case in this section.
 We assume that you already know how to create account, model and prototype in the playground.</description>
