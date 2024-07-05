@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working on digital.auto playground documentation</title>
+    <link>/dreamkit/working/</link>
+    <description>Recent content in Working on digital.auto playground documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Aug 2023 07:01:23 +0700</lastBuildDate><atom:link href="/dreamkit/working/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playground to dreamKIT</title>
+      <link>/dreamkit/working/deployment/</link>
+      <pubDate>Thu, 16 Nov 2023 14:22:13 +0700</pubDate>
+      
+      <guid>/dreamkit/working/deployment/</guid>
+      <description>a demonstration for a simple flow from digital.auto playground to dreamKIT could be found here,</description>
+    </item>
+    
+  </channel>
+</rss>

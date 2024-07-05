@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dreamKIT on digital.auto playground documentation</title>
+    <link>/dreamkit/</link>
+    <description>Recent content in dreamKIT on digital.auto playground documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2023 07:12:12 +0700</lastBuildDate><atom:link href="/dreamkit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview dreamKIT</title>
+      <link>/dreamkit/overview/</link>
+      <pubDate>Thu, 03 Aug 2023 07:27:00 +0700</pubDate>
+      
+      <guid>/dreamkit/overview/</guid>
+      <description>The digital.auto dreamKIT is a proof-of-concept (PoC) hardware, providing a hands-on, physical experience for SDV applications. With the dreamKIT you can try out your digitally developed SDV features on a physical device. Therefore, it allows you to transfer your use case from the virtual exploration phase into the productization phase.
+dreamKIT is a candidate for SDV Alliance Integration Blueprint. Check it out the latest COVESA white paper release here
+Should you have any specific interest on dreamKIT, please give us feedback here https://forms.</description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>/dreamkit/architecture/</link>
+      <pubDate>Wed, 15 Nov 2023 20:50:38 +0700</pubDate>
+      
+      <guid>/dreamkit/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Co-Creation Challenge Vehicle KIT</title>
+      <link>/dreamkit/retrofit_kit/</link>
+      <pubDate>Wed, 15 Nov 2023 20:50:38 +0700</pubDate>
+      
+      <guid>/dreamkit/retrofit_kit/</guid>
+      <description>Hardware Basics 1. Nvidia Jetson Nano CPU: Quad-core ARM A57 @ 1.43 GHz GPU: 128-core Maxwell Memory: 4 GB 64-bit LPDDR4 URL: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
+2. Uninterruptible Power UPS for Jetson Nano with 4x 3500mAh 18650 Akku
+3. WiFi Module Wi-Fi 5 and Bluetooth 4.2 Module 2.4G/5GHz dual-band WiFi URL: https://www.waveshare.com/wireless-ac8265.htm
+4. GPS and 4G Communication Module 2G/3G/4G network connection GNSS connector, supports GPS, Beidou, Glonass, LBS base station positioning URL: https://www.waveshare.com/sim7600g-h-4g-dongle.htm</description>
+    </item>
+    
+  </channel>
+</rss>
