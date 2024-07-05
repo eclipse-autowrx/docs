@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started on digital.auto playground documentation</title>
+    <link>https://eclipse.dev/autowrx/basics/</link>
+    <description>Recent content in Getting Started on digital.auto playground documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jul 2023 16:13:24 +0700</lastBuildDate><atom:link href="https://eclipse.dev/autowrx/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>https://eclipse.dev/autowrx/basics/overview/</link>
+      <pubDate>Wed, 02 Aug 2023 07:05:26 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/basics/overview/</guid>
+      <description>1. Overview The open and web based digital.auto playground offers a rapid prototyping environment to explore and validate ideas of a Vehicle App.
+digital.auto interacts with different vehicle sensors and actuators via standardized APIs specified by the COVESA Vehicle Signal Specification (VSS) without custom setup requirements.
+Within the platform you can:
+browse, navigate and enhance vehicle signals (sensors, actuators and branches) in the Vehicle API Catalogue mapped to a 3D model of the vehicle.</description>
+    </item>
+    
+    <item>
+      <title>Login</title>
+      <link>https://eclipse.dev/autowrx/basics/login/</link>
+      <pubDate>Wed, 02 Aug 2023 07:17:50 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/basics/login/</guid>
+      <description>Before you begin exploring our rapid prototyping environment for Vehicle Apps, let&amp;rsquo;s ensure you&amp;rsquo;re familiar with our login process. Follow this step-by-step guide for a smooth start:
+Click &amp;ldquo;Login&amp;rdquo; in the top right conner of the playground homepage to open the login popup.
+1. Login From here, you can:
+Log In: If you already have an account, click on the &amp;ldquo;Login&amp;rdquo; button, and follow below procedure.
+Sign Up: New around here?</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://eclipse.dev/autowrx/basics/intro/</link>
+      <pubDate>Wed, 02 Aug 2023 07:29:01 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/basics/intro/</guid>
+      <description>What is playground.digital.auto? The playground.digital.auto is a cloud-based, rapid prototyping environment for new, SDV-enabled features. The prototypes are built against real-world vehicle APIs and can be seamlessly migrated to automotive runtimes, such as Eclipse Velocitas. The playground is open and free to use at playground.digital.auto.
+The playground is designed to foster continuous, customer-centric digital innovation. By supporting the new way of thinking and working digital first, digital.auto enables developers to deliver fast tangible results and early validation.</description>
+    </item>
+    
+    <item>
+      <title>Playing with Prototypes</title>
+      <link>https://eclipse.dev/autowrx/basics/play/</link>
+      <pubDate>Wed, 02 Aug 2023 07:29:01 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/basics/play/</guid>
+      <description>This page provides instructions on how to interact with the prototype and try it out on yourself.
+To begin with, open the desired prototype from the model you have selected.
+The prototype offers 5 primary sections that you can explore: Journey, Code, Dashboard, Discussion, and Feedback. In the following guide, we will walk you through each of these sections in detail.
+Journey In this section, you have the opportunity to either introduce your own prototype or read about the introductions of others.</description>
+    </item>
+    
+    <item>
+      <title>Experiment</title>
+      <link>https://eclipse.dev/autowrx/basics/experiment/</link>
+      <pubDate>Wed, 02 Aug 2023 07:29:15 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/basics/experiment/</guid>
+      <description>To get started on your experimental journey, visit the playground Home and scroll down to Prototypes Gallery section
+These are the most common prototypes help you undertand how the playground working, and what it can do.
+Select prototype Passenger welcome and explorer what it does.
+At the first Tab, Customer Journey, we can see the general description of this prototype, what the problem it solve, who will get impact on this issue, the complexity level, also the release status.</description>
+    </item>
+    
+  </channel>
+</rss>
