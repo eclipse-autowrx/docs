@@ -37,8 +37,10 @@ push-modification:
   needs:
     - job: build-hugo
       artifacts: true
-  # variables:
+  variables:
     # GIT_REMOTE_URL: "<to define git://gitlab.eclipse.org:eclipse/${EF_SHORT_NAME}/website.git>"
+    GIT_INIT_DIR: "public"
+    GIT_INIT_DEFAULT_BRANCH: "eclipse-pages"
   script:
     - |
       git add -A
