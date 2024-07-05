@@ -50,7 +50,7 @@ push-modification:
         git commit -m "Website build - job: $CI_JOB_NAME-$CI_JOB_ID \
         Build logs: $CI_JOB_URL"
         git log --graph --abbrev-commit --date=relative -n 5
-        git push origin HEAD:$CI_DEFAULT_BRANCH;
+        git push origin HEAD:$GIT_INIT_DEFAULT_BRANCH;
       else
         echo "No changes have been detected, nothing to publish"
       fi
