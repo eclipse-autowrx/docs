@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Build Your First Prototype on digital.auto playground documentation</title>
+    <link>https://eclipse.dev/autowrx/engaged/</link>
+    <description>Recent content in Build Your First Prototype on digital.auto playground documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2023 07:09:57 +0700</lastBuildDate><atom:link href="https://eclipse.dev/autowrx/engaged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create &#39;Hello World&#39; Prototype</title>
+      <link>https://eclipse.dev/autowrx/engaged/helloworld/</link>
+      <pubDate>Wed, 02 Aug 2023 07:31:32 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/engaged/helloworld/</guid>
+      <description>A software engineer typically starts programming journey by printing &amp;ldquo;hello world&amp;rdquo; on the terminal. An embedded software engineer typically begins first MCU programming by blinking a LED. That&amp;rsquo;s a good moment to remember. In this section, to get started with digital.auto playground, we do the same basis but memorable thing - blinking your vehicle headlight.
+Before going to detail, here is a summary of what we shall do in this section:</description>
+    </item>
+    
+    <item>
+      <title>Using &#39;General 3D Car Model&#39; Widget</title>
+      <link>https://eclipse.dev/autowrx/engaged/3dcar/</link>
+      <pubDate>Wed, 02 Aug 2023 07:31:32 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/engaged/3dcar/</guid>
+      <description>Introduction General 3D Car Model widget is designed to enhance your experience in developing software for software-defined vehicles (SDV). It allows you to interact with a realistic 3D model of a sedan, complete with customizable features via Vehicle APIs. This guide will walk you through the steps to integrate and use this widget in your SDV applications.
+Here&amp;rsquo;s a quick overview of what we&amp;rsquo;ll cover:
+1. Adding the widget to your dashboard from the Marketplace</description>
+    </item>
+    
+    <item>
+      <title>Using &#39;Simple LandingAI&#39; Widget</title>
+      <link>https://eclipse.dev/autowrx/engaged/simplelandingai/</link>
+      <pubDate>Wed, 02 Aug 2023 07:31:32 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/engaged/simplelandingai/</guid>
+      <description>Introduction This Landing AI widget allows users to import Landing AI models and use their prediction result as API value to control vehicle functions, streamlining the presentation of ideas about their SDV application without the need for in-depth web code manipulation.
+Here we take demo case as an example to demonstrate how to create an AI-related Software-defined Vehicle prototype. The process is divided into two main parts, building an object detection AI model on the Landing AI platform LandingAI from scratch and deploying this model on digital.</description>
+    </item>
+    
+    <item>
+      <title>Vehicle API</title>
+      <link>https://eclipse.dev/autowrx/engaged/vss_basic/</link>
+      <pubDate>Thu, 03 Aug 2023 06:32:41 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/engaged/vss_basic/</guid>
+      <description>Vehicle API introduction Vehicle API is an abstract way to manipulate everything an actuator on vehicle, or get a sensor value from vehicle without knowledge of ECU and E/E Architechture. On the context of Software define Vehicle, we are an application developer. We would like to make an smart application to serve special purpose. Let&amp;rsquo;s say we would have an AI algorithm to turn on or off the headlight depend on weather condition and some other factors, and then the algorithm output say that we should turn the light on.</description>
+    </item>
+    
+    <item>
+      <title>Using builtin widget</title>
+      <link>https://eclipse.dev/autowrx/engaged/widget_basic/</link>
+      <pubDate>Wed, 02 Aug 2023 10:13:23 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/engaged/widget_basic/</guid>
+      <description>At the &amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section, you already now how to pick a widget from gallery and put it to dashboars. In this section, we will go deeper on each kind of widget, change the option to she how we can manipulate them just by some simple arguments.
+Before you begin, let make a simple prototype with below python code. If you don&amp;rsquo;t know how, please read this tutorial first &amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section</description>
+    </item>
+    
+    <item>
+      <title>Create custom widget</title>
+      <link>https://eclipse.dev/autowrx/engaged/create_custom_widget/</link>
+      <pubDate>Wed, 02 Aug 2023 10:13:23 +0700</pubDate>
+      
+      <guid>https://eclipse.dev/autowrx/engaged/create_custom_widget/</guid>
+      <description>1. Widget introduction Widget is an element of a graphical user interface that displays information or provides a specific way for a user to interact with an application. In the context of digital.auto playground, a widget is associated to the behavior represented by one or more Vehicle APIs.
+Each widget is an isolated website, embedded into the playground dashboard by iframe. The playground supports a mechanism to set/get APIs value from/to widget.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,2273 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/autowrx/images/favicon.svg" type="image/svg">
+    <title>Co-Creation Challenge Vehicle KIT :: digital.auto playground documentation</title>
+
+    
+    <link href="/autowrx/css/nucleus.css?1720170054" rel="stylesheet">
+    <link href="/autowrx/css/fontawesome-all.min.css?1720170054" rel="stylesheet">
+    <link href="/autowrx/css/hybrid.css?1720170054" rel="stylesheet">
+    <link href="/autowrx/css/featherlight.min.css?1720170054" rel="stylesheet">
+    <link href="/autowrx/css/perfect-scrollbar.min.css?1720170054" rel="stylesheet">
+    <link href="/autowrx/css/auto-complete.css?1720170054" rel="stylesheet">
+    <link href="/autowrx/css/atom-one-dark-reasonable.css?1720170054" rel="stylesheet">
+    <link href="/autowrx/css/theme.css?1720170054" rel="stylesheet">
+    <link href="/autowrx/css/tabs.css?1720170054" rel="stylesheet">
+    <link href="/autowrx/css/hugo-theme.css?1720170054" rel="stylesheet">
+    
+    <link href="/autowrx/css/theme-green.css?1720170054" rel="stylesheet">
+    
+    <link href="/autowrx/css/playground.css?1720170054" rel="stylesheet">
+
+    <script src="/autowrx/js/jquery-3.3.1.min.js?1720170054"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <head>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSPHHE9ZTS"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-QSPHHE9ZTS', { 'anonymize_ip': false });
+}
+</script>
+ 
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-QSPHHE9ZTS', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+  </head>
+  <body class="" data-url="/autowrx/dreamkit/retrofit_kit/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <p style="font-size: x-large; color: #ffffff; margin: 0 0 10px 0">digital.auto</p>
+<a id="logo" href="https://eclipse.dev/autowrx/">
+    
+    <svg
+        width="146"
+        height="88"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xml:space="preserve"
+        overflow="hidden"
+    >
+        <defs>
+            <clipPath id="clip0"><rect x="959" y="543" width="146" height="88" /></clipPath>
+        </defs>
+        <g clip-path="url(#clip0)" transform="translate(-959 -543)">
+            <path
+                d="M141.968 30.6699C139.838 28.7275 136.875 26.5443 133.024 24.8301 134.962 23.2332 136.591 21.148 137.821 19.2867 138.414 18.387 138.7 17.3743 138.7 16.3722 138.7 14.6665 137.875 12.9928 136.348 11.9737 134.318 10.6241 131.619 10.8267 129.837 12.4875 126.794 15.3296 125.212 20.1268 124.617 22.31 123.786 22.1671 122.927 22.0541 122.042 21.9689L121.775 22.2098 121.775 22.2098C121.775 22.2098 112.492 7.90572 112.492 7.90572 109.277 2.95505 103.838 0 97.9388 0L53.7772 0C51.4192 0 49.1208 0.965828 47.4706 2.65017L37.1066 13.2295 10.0122 13.2295C10.0122 13.2295 10.0122 13.2295 10.0122 13.2295 9.43015 11.0548 7.44733 9.44934 5.09139 9.44934 2.28345 9.44934-0.00213207 11.7328-0.00213207 14.5429-0.00213207 17.3529 2.28132 19.6364 5.09139 19.6364 7.44733 19.6364 9.43015 18.0309 10.0122 15.8562L38.211 15.8562 49.3468 4.48801C50.5066 3.30471 52.1228 2.62458 53.7794 2.62458L97.941 2.62458C102.947 2.62458 107.563 5.1319 110.288 9.33208L119.807 24.0029 119.807 24.0029C119.807 24.0029 100.216 41.8547 100.216 41.8547 99.5784 42.4368 98.7448 42.7587 97.8834 42.7587L68.9853 42.7587 68.9853 56.2973 62.8002 56.2973 50.5152 43.3365 22.6895 43.3365C22.1075 41.1618 20.1246 39.5563 17.7687 39.5563 14.9607 39.5563 12.6752 41.8398 12.6752 44.6498 12.6752 47.4599 14.9586 49.7434 17.7687 49.7434 20.1246 49.7434 22.1075 48.1379 22.6895 45.9632L49.3809 45.9632 61.6659 58.9241 68.981 58.9241 68.981 59.5019 118.933 59.5019C118.933 59.5019 113.398 65.0367 112.183 72.4627L68.981 72.3284 68.981 76.552 65.8874 76.552 52.9265 63.3204 24.2182 63.3204C24.2182 63.3204 24.2182 63.3204 24.2182 63.3204 23.6361 61.1457 21.6533 59.5402 19.2974 59.5402 16.4894 59.5402 14.2039 61.8237 14.2039 64.6338 14.2039 67.4438 16.4873 69.7273 19.2974 69.7273 21.6533 69.7273 23.6361 68.1218 24.2182 65.9471L51.8221 65.9471 62.2117 76.552 31.5973 76.552C31.0152 74.3773 29.0324 72.7719 26.6765 72.7719 23.8685 72.7719 21.583 75.0553 21.583 77.8654 21.583 80.6755 23.8664 82.9589 26.6765 82.9589 29.0324 82.9589 31.0152 81.3535 31.5973 79.1787L68.9789 79.1787 68.9789 79.8909 112.72 79.8909 113.268 81.4707C114.475 84.9694 117.769 87.3169 121.471 87.3169L133.363 87.3169C137.346 87.3169 141.071 85.3554 143.329 82.0741L143.412 81.9568C143.915 81.2213 144.203 80.3663 144.241 79.4772L145.989 40.3708C146.151 36.7036 144.685 33.1473 141.968 30.672ZM5.09352 17.0118C3.73326 17.0118 2.62671 15.9053 2.62671 14.545 2.62671 13.1847 3.73326 12.0782 5.09352 12.0782 6.45378 12.0782 7.56033 13.1847 7.56033 14.545 7.56033 15.9053 6.45378 17.0118 5.09352 17.0118ZM17.7687 47.1188C16.4084 47.1188 15.3019 46.0122 15.3019 44.652 15.3019 43.2917 16.4084 42.1852 17.7687 42.1852 19.1289 42.1852 20.2355 43.2917 20.2355 44.652 20.2355 46.0122 19.1289 47.1188 17.7687 47.1188ZM19.2995 67.1006C17.9392 67.1006 16.8327 65.994 16.8327 64.6338 16.8327 63.2735 17.9392 62.1669 19.2995 62.1669 20.6598 62.1669 21.7663 63.2735 21.7663 64.6338 21.7663 65.994 20.6598 67.1006 19.2995 67.1006ZM26.6807 80.3322C25.3205 80.3322 24.2139 79.2256 24.2139 77.8654 24.2139 76.5051 25.3205 75.3986 26.6807 75.3986 28.041 75.3986 29.1476 76.5051 29.1476 77.8654 29.1476 79.2256 28.041 80.3322 26.6807 80.3322ZM134.097 38.2707C132.86 40.0787 130.939 42.1255 128.052 43.5518 126.549 44.2938 124.886 44.6541 123.21 44.6541L111.612 44.6541C110.514 44.6541 109.62 43.7608 109.62 42.6628 109.62 40.1469 110.505 37.7078 112.132 35.7847 115.665 31.6101 122.272 24.9794 127.711 26.2927 129.945 26.8321 131.589 27.7148 132.792 28.6956 135.664 31.0387 136.186 35.209 134.097 38.2707Z"
+                fill="#FFFFFF"
+                transform="matrix(1 0 0 1.00702 959 543.037)"
+            />
+            <path
+                d="M94.7535 38.9785C96.6681 38.9785 98.5081 38.2366 99.8854 36.9062L113.264 23.9922 68.981 23.9922 68.981 24.0306 48.2509 24.0306C47.622 21.6768 45.3513 19.9924 42.7459 20.2824 40.4177 20.5425 38.5329 22.4273 38.2707 24.7555 37.9253 27.8257 40.3281 30.4353 43.3301 30.4353 45.686 30.4353 47.6689 28.8299 48.2509 26.6552L68.981 26.6552 68.981 38.9785 94.7535 38.9785ZM43.3301 27.8107C41.9698 27.8107 40.8633 26.7042 40.8633 25.3439 40.8633 23.9837 41.9698 22.8771 43.3301 22.8771 44.6904 22.8771 45.7969 23.9837 45.7969 25.3439 45.7969 26.7042 44.6904 27.8107 43.3301 27.8107Z"
+                fill="#FFFFFF"
+                transform="matrix(1 0 0 1.00702 959 543.037)"
+            />
+        </g>
+    </svg>
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/autowrx/js/lunr.min.js?1720170054"></script>
+<script type="text/javascript" src="/autowrx/js/auto-complete.js?1720170054"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/eclipse.dev\/autowrx\/";
+    
+</script>
+<script type="text/javascript" src="/autowrx/js/search.js?1720170054"></script>
+
+    
+  </div>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/basics/" title="Getting Started" class="dd-item
+        
+        
+        
+        ">
+      <a href="/autowrx/basics/">
+          <b>1. </b>Getting Started
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/basics/overview/" title="Overview" class="dd-item ">
+        <a href="/autowrx/basics/overview/">
+        Overview
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/basics/login/" title="Login" class="dd-item ">
+        <a href="/autowrx/basics/login/">
+        Login
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/basics/intro/" title="Introduction" class="dd-item ">
+        <a href="/autowrx/basics/intro/">
+        Introduction
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/basics/play/" title="Playing with Prototypes" class="dd-item ">
+        <a href="/autowrx/basics/play/">
+        Playing with Prototypes
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/basics/experiment/" title="Experiment" class="dd-item ">
+        <a href="/autowrx/basics/experiment/">
+        Experiment
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/engaged/" title="Build Your First Prototype" class="dd-item
+        
+        
+        
+        ">
+      <a href="/autowrx/engaged/">
+          <b>2. </b>Build Your First Prototype
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/engaged/helloworld/" title="Create &#39;Hello World&#39; Prototype" class="dd-item ">
+        <a href="/autowrx/engaged/helloworld/">
+        Create &#39;Hello World&#39; Prototype
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/engaged/3dcar/" title="Using &#39;General 3D Car Model&#39; Widget" class="dd-item ">
+        <a href="/autowrx/engaged/3dcar/">
+        Using &#39;General 3D Car Model&#39; Widget
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/engaged/simplelandingai/" title="Using &#39;Simple LandingAI&#39; Widget" class="dd-item ">
+        <a href="/autowrx/engaged/simplelandingai/">
+        Using &#39;Simple LandingAI&#39; Widget
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/engaged/vss_basic/" title="Vehicle API" class="dd-item ">
+        <a href="/autowrx/engaged/vss_basic/">
+        Vehicle API
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/engaged/widget_basic/" title="Using builtin widget" class="dd-item ">
+        <a href="/autowrx/engaged/widget_basic/">
+        Using builtin widget
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/engaged/create_custom_widget/" title="Create custom widget" class="dd-item ">
+        <a href="/autowrx/engaged/create_custom_widget/">
+        Create custom widget
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/campaign/" title="Campaign" class="dd-item
+        
+        
+        
+        ">
+      <a href="/autowrx/campaign/">
+          <b>3. </b>Campaign
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/campaign/gen-ai-awards-2024/" title="GenAI Awards 2024" class="dd-item
+        
+        
+        
+        ">
+      <a href="/autowrx/campaign/gen-ai-awards-2024/">
+          GenAI Awards 2024
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/campaign/gen-ai-awards-2024/1-getting-started/" title="Getting started" class="dd-item ">
+        <a href="/autowrx/campaign/gen-ai-awards-2024/1-getting-started/">
+        Getting started
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/campaign/gen-ai-awards-2024/2-onboarding/" title="Onboarding" class="dd-item ">
+        <a href="/autowrx/campaign/gen-ai-awards-2024/2-onboarding/">
+        Onboarding
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/campaign/gen-ai-awards-2024/3-access-aws-bedrock/" title="Access AWS Bedrock console" class="dd-item ">
+        <a href="/autowrx/campaign/gen-ai-awards-2024/3-access-aws-bedrock/">
+        Access AWS Bedrock console
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/campaign/gen-ai-awards-2024/4-build-first-genai/" title="Build your GenAI" class="dd-item ">
+        <a href="/autowrx/campaign/gen-ai-awards-2024/4-build-first-genai/">
+        Build your GenAI
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/campaign/gen-ai-awards-2024/5-submit-your-genai/" title="Submit your genAI" class="dd-item ">
+        <a href="/autowrx/campaign/gen-ai-awards-2024/5-submit-your-genai/">
+        Submit your genAI
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/campaign/gen-ai-awards-2024/6-update-genai/" title="Update your submission" class="dd-item ">
+        <a href="/autowrx/campaign/gen-ai-awards-2024/6-update-genai/">
+        Update your submission
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/campaign/gen-ai-awards-2024/7-use-genai/" title="Use GenAI on playground" class="dd-item ">
+        <a href="/autowrx/campaign/gen-ai-awards-2024/7-use-genai/">
+        Use GenAI on playground
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/advanced/" title="Advanced" class="dd-item
+        
+        
+        
+        ">
+      <a href="/autowrx/advanced/">
+          <b>4. </b>Advanced
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/advanced/architecture/" title="Architecture" class="dd-item ">
+        <a href="/autowrx/advanced/architecture/">
+        Architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/advanced/how-python-javascript-works/" title="How Python-Javascript works" class="dd-item ">
+        <a href="/autowrx/advanced/how-python-javascript-works/">
+        How Python-Javascript works
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/advanced/genaiwidget/" title="How GenAI works on playground?" class="dd-item ">
+        <a href="/autowrx/advanced/genaiwidget/">
+        How GenAI works on playground?
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/advanced/socket-io-provider/" title="Socket.IO Integration" class="dd-item ">
+        <a href="/autowrx/advanced/socket-io-provider/">
+        Socket.IO Integration
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/advanced/playground_n_soafee/" title="Cloud native experiment with playground" class="dd-item ">
+        <a href="/autowrx/advanced/playground_n_soafee/">
+        Cloud native experiment with playground
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/advanced/ai_sdv_app/" title="AI SdV Application" class="dd-item
+        
+        
+        
+        ">
+      <a href="/autowrx/advanced/ai_sdv_app/">
+          AI SdV Application
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/advanced/ai_sdv_app/ai_app_on_pg/" title="AI App Concept" class="dd-item ">
+        <a href="/autowrx/advanced/ai_sdv_app/ai_app_on_pg/">
+        AI App Concept
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/advanced/ai_sdv_app/ai_getting_started/" title="AI with playground" class="dd-item ">
+        <a href="/autowrx/advanced/ai_sdv_app/ai_getting_started/">
+        AI with playground
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/insider/" title="Under the Hood" class="dd-item
+        
+        
+        
+        ">
+      <a href="/autowrx/insider/">
+          <b>5. </b>Under the Hood
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/dreamkit/" title="dreamKIT" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/autowrx/dreamkit/">
+          <b>6. </b>dreamKIT
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/dreamkit/overview/" title="Overview dreamKIT" class="dd-item ">
+        <a href="/autowrx/dreamkit/overview/">
+        Overview dreamKIT
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/dreamkit/architecture/" title="Architecture" class="dd-item ">
+        <a href="/autowrx/dreamkit/architecture/">
+        Architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/dreamkit/retrofit_kit/" title="Co-Creation Challenge Vehicle KIT" class="dd-item active">
+        <a href="/autowrx/dreamkit/retrofit_kit/">
+        Co-Creation Challenge Vehicle KIT
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/dreamkit/working/" title="Working" class="dd-item
+        
+        
+        
+        ">
+      <a href="/autowrx/dreamkit/working/">
+          Working
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/autowrx/dreamkit/working/ecuplugplay/" title="ECU Plug and Play" class="dd-item
+        
+        
+        
+        ">
+      <a href="/autowrx/dreamkit/working/ecuplugplay/">
+          ECU Plug and Play
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/" title="Identify your ECU with dreamKIT" class="dd-item ">
+        <a href="/autowrx/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/">
+        Identify your ECU with dreamKIT
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/" title="Develop SDV applications to interact with your ECUs" class="dd-item ">
+        <a href="/autowrx/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/">
+        Develop SDV applications to interact with your ECUs
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/autowrx/dreamkit/working/deployment/" title="Playground to dreamKIT" class="dd-item ">
+        <a href="/autowrx/dreamkit/working/deployment/">
+        Playground to dreamKIT
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://github.com/digital-auto/playground"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://www.youtube.com/@sdvpg"><i class='fas fa-camera'></i> Showcases</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/digital-auto/playground/tree/main/docs/content/dreamkit/retrofit_kit.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/autowrx/'></a> > <a href='/autowrx/dreamkit/'>dreamKIT</a> > Co-Creation Challenge Vehicle KIT
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#hardware">Hardware</a>
+      <ul>
+        <li><a href="#basics">Basics</a></li>
+        <li><a href="#sensor-kit-installed">Sensor Kit (Installed)</a></li>
+        <li><a href="#actuators">Actuators</a></li>
+      </ul>
+    </li>
+    <li><a href="#software">Software</a>
+      <ul>
+        <li><a href="#os">OS</a></li>
+        <li><a href="#kuksa">Kuksa</a></li>
+        <li><a href="#velocitas">Velocitas</a></li>
+      </ul>
+    </li>
+    <li><a href="#example">Example</a>
+      <ul>
+        <li><a href="#discomfort-recognition-use-case-with-velocitas-and-landing-ai">Discomfort recognition use case with Velocitas and Landing AI</a></li>
+      </ul>
+    </li>
+    <li><a href="#appendix">Appendix</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Co-Creation Challenge Vehicle KIT
+            </h1>
+          
+
+        
+
+
+<h2 id="hardware">Hardware</h2>
+<h3 id="basics">Basics</h3>
+<h4 id="1-nvidia-jetson-nano">1. Nvidia Jetson Nano</h4>
+<p>CPU: Quad-core ARM A57 @ 1.43 GHz
+GPU: 128-core Maxwell
+Memory: 4 GB 64-bit LPDDR4
+URL: <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">https://developer.nvidia.com/embedded/jetson-nano-developer-kit</a></p>
+<h4 id="2-uninterruptible-power">2. Uninterruptible Power</h4>
+<p>UPS for Jetson Nano with 4x 3500mAh 18650 Akku</p>
+<h4 id="3-wifi-module">3. WiFi Module</h4>
+<p>Wi-Fi 5 and Bluetooth 4.2 Module
+2.4G/5GHz dual-band WiFi
+URL: <a href="https://www.waveshare.com/wireless-ac8265.htm">https://www.waveshare.com/wireless-ac8265.htm</a></p>
+<h4 id="4-gps-and-4g-communication-module">4. GPS and 4G Communication Module</h4>
+<p>2G/3G/4G network connection
+GNSS connector, supports GPS, Beidou, Glonass, LBS base station positioning
+URL: <a href="https://www.waveshare.com/sim7600g-h-4g-dongle.htm">https://www.waveshare.com/sim7600g-h-4g-dongle.htm</a></p>
+<h4 id="5-storage">5. Storage</h4>
+<p>Size: 128 GB
+Speed: 130MB/s
+A2- und V30-Classified</p>
+<h4 id="6-camera-1-front-seats--2-rear-seats-optional-3-windshield-12-installed">6. Camera 1 (Front seats) &amp; 2 (Rear seats), Optional 3 (Windshield) (1,2 Installed)</h4>
+<p>Night Vision USB Camera with IR LEDs
+170° fisheye lens
+1920 x 1080 at 30 fps; 1280 x 720 at 60 fps; 640 x 480 at 100 fps</p>
+<h4 id="7-microphone-installed">7. Microphone (Installed)</h4>
+<p>USB-Connected
+360° omnidirectional audio
+Mute button
+Notice-Cancelling</p>
+<h4 id="8-bluetooth-obd-ii-scanner">8. Bluetooth OBD II Scanner</h4>
+<p>ELM 327</p>
+<h4 id="9-display-installed">9. Display (Installed)</h4>
+<p>7&quot; HDMI LCD
+1024*600 IPS Touchscreen</p>
+<h3 id="sensor-kit-installed">Sensor Kit (Installed)</h3>
+<h4 id="1-mmwave-radar-sensor">1. mmWave Radar Sensor</h4>
+<p>60- to 64-GHz
+4 RX, 3 TX with 120° azimuth FoV and 30° elevation FoV
+URL: <a href="https://www.ti.com/tool/IWR6843ISK">https://www.ti.com/tool/IWR6843ISK</a></p>
+<h4 id="2-nicla-sense-me-installed">2. Nicla Sense ME (Installed)</h4>
+<p>16-bit 6-axis IMU
+24-bit absolute barometric pressure sensor
+12-bit 3-axis geomagnetic sensor
+Gas sensor with integrated pressure, humidity, and temperature
+URL: <a href="https://docs.arduino.cc/hardware/nicla-sense-me">https://docs.arduino.cc/hardware/nicla-sense-me</a></p>
+<h4 id="3-infrared-co2-sensor">3. Infrared CO2 Sensor</h4>
+<p>Vin: Power Positive (Vin)
+GND: Negative Power Supply (GND)
+Vo: analogue output.
+PWM: PWM.
+HD: HD (zero for school, low for more than 7 seconds)
+Rx: TTL level data input for UART (RXD)
+Tx: TTL data output with UART (TXD) level.
+Pin 1: Analog Output Vo</p>
+<h4 id="4-laser-pm25-sensor">4. Laser PM2.5 Sensor</h4>
+<p>Features:
+Interface specification:
+1: CTL: control pin, reserved
+2: 1um:&gt; 0.3 micron particle concentration, PWM output.
+3: 5 V: 5 V power input.
+4: 25um:&gt; 2.5 micron particle concentration, PWM output
+5: GND: GND
+6: R: Receiver for serial port RX
+7:T: Transmission via serial port TXPS: the distance of the interface is 2.54mm</p>
+<p>Communication protocol:
+Serial communication protocol: 9600 8N1 (rate of 9600, data bits 8, parity none, stop bits 1)
+Communication cycle for series reports: 1 + 0.5 seconds.
+Data frame (10 bytes): message header + job + data (6 bytes) + checksum + message trailer.
+The number of bytes: Name: Content
+0:Message Head:AA
+1: order: c0
+2: Data 1: PM2.5 low-byte.
+3: Data 2: PM2.5 high byte
+4: Data 3: PM10 low-byte.
+5: Data 4: PM10 high byte
+6: data 5: 0 (reserved)
+7: Data 6: 0 (reserved)
+8: Checksum: Checksum
+9:Message Trailer:AB</p>
+<p>Checksum: Data 1 + Data 2 + &hellip; + Data 6
+PM2.5 data content: PM2.5 (ug / m3) = ((PM2.5 high-byte x 256) + PM2.5 low-byte) / 10.
+PM10 data content: PM10 (ug / m3) = ((PM10 high-byte x 256) + PM10 low-byte) / 10.</p>
+<h3 id="actuators">Actuators</h3>
+<h4 id="1-backseat-fan-installed">1. Backseat fan (Installed)</h4>
+<h4 id="2-portable-espresso-machine-installed">2. Portable Espresso machine (Installed)</h4>
+<h4 id="3-led-text-display-for-back-window-installed">3. LED text display for back window (Installed)</h4>
+<h4 id="4-car-air-purifier-installed">4. Car air purifier (Installed)</h4>
+<h4 id="5-massage-cushion-installed">5. Massage cushion (Installed)</h4>
+<h4 id="6-ambient-lights">6. Ambient lights</h4>
+<h4 id="7-head-up-display">7. Head-up display</h4>
+<h2 id="software">Software</h2>
+<h3 id="os">OS</h3>
+<p>Operating System: Ubuntu 20.04.</p>
+<h3 id="kuksa">Kuksa</h3>
+<p>Kuksa Databroker is available on localhost: 55555 providing the available Vehicle and Sensor Information as VSS Values.</p>
+<h3 id="velocitas">Velocitas</h3>
+<p>Velocitas Python SDK is installed on the Jetson Nano. SDV applications can be created using Python templates following the online tutorials: <a href="https://eclipse.dev/velocitas/docs/tutorials/vehicle_app_development/python_development/">https://eclipse.dev/velocitas/docs/tutorials/vehicle_app_development/python_development/</a></p>
+<h2 id="example">Example</h2>
+<h3 id="discomfort-recognition-use-case-with-velocitas-and-landing-ai">Discomfort recognition use case with Velocitas and Landing AI</h3>
+<p>This documentation provides a step-by-step guide on creating a Discomfort Recognition application using Velocitas Python template and the LandingAI API on a Jetson Nano system.</p>
+<h4 id="step-1-folder-setup">Step 1. Folder Setup</h4>
+<p>a. Create a new folder in the Jetson Nano system at the following path:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>/usr/bin/dreamkit/prototypes
+</span></span></code></pre></div><p>Use a unique identifier as the folder name.</p>
+<p>b. Inside the created folder, add a new Python file named main.py.</p>
+<h4 id="step-2-edit-prototypesjson">Step 2. Edit prototypes.json</h4>
+<p>a. Locate and edit the prototypes.json file in the following path:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>/usr/bin/dreamkit/prototypes
+</span></span></code></pre></div><p>b. Add a new entry for the Discomfort Recognition use case:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  &#34;id&#34;: &#34;YOUR_UNIQUE_IDENTIFIER&#34;,
+</span></span><span style="display:flex;"><span>  &#34;lastdeploy&#34;: &#34;CURRENT_DATE_TIME&#34;,
+</span></span><span style="display:flex;"><span>  &#34;name&#34;: &#34;Discomfort Recognition&#34;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Replace YOUR_UNIQUE_IDENTIFIER with the same name as the folder created in Step 1 and update CURRENT_DATE_TIME with the current date and time.</p>
+<h4 id="step-3-python-code">Step 3. Python Code</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#f92672">import</span> cv2
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> logging <span style="color:#66d9ef">as</span> log
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> datetime <span style="color:#66d9ef">as</span> dt
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> landingai.predict <span style="color:#f92672">import</span> Predictor
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> json 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Path to the Haar Cascade file for face detection</span>
+</span></span><span style="display:flex;"><span>cascPath <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;haarcascade_frontalface_default.xml&#34;</span>
+</span></span><span style="display:flex;"><span>faceCascade <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>CascadeClassifier(cascPath)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Configure logging</span>
+</span></span><span style="display:flex;"><span>log<span style="color:#f92672">.</span>basicConfig(filename<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;webcam.log&#39;</span>, level<span style="color:#f92672">=</span>log<span style="color:#f92672">.</span>INFO)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Initialize the video capture from the default camera (camera index 0)</span>
+</span></span><span style="display:flex;"><span>video_capture <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>VideoCapture(<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>anterior <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>font <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>FONT_HERSHEY_SIMPLEX
+</span></span><span style="display:flex;"><span>label_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;normal&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Enter your LandingAI API Key and Endpoint ID</span>
+</span></span><span style="display:flex;"><span>endpoint_id <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Endpoint_ID&#34;</span>
+</span></span><span style="display:flex;"><span>api_key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Your_API_KEY&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> video_capture<span style="color:#f92672">.</span>isOpened():
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#39;Unable to load camera.&#39;</span>)
+</span></span><span style="display:flex;"><span>        sleep(<span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Capture frame-by-frame</span>
+</span></span><span style="display:flex;"><span>    ret, frame <span style="color:#f92672">=</span> video_capture<span style="color:#f92672">.</span>read()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    gray <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(frame, cv2<span style="color:#f92672">.</span>COLOR_BGR2GRAY)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Detect faces in the grayscale frame</span>
+</span></span><span style="display:flex;"><span>    faces <span style="color:#f92672">=</span> faceCascade<span style="color:#f92672">.</span>detectMultiScale(
+</span></span><span style="display:flex;"><span>        gray,
+</span></span><span style="display:flex;"><span>        scaleFactor<span style="color:#f92672">=</span><span style="color:#ae81ff">1.1</span>,
+</span></span><span style="display:flex;"><span>        minNeighbors<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>,
+</span></span><span style="display:flex;"><span>        minSize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">30</span>)
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Draw rectangles around detected faces</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (x, y, w, h) <span style="color:#f92672">in</span> faces:
+</span></span><span style="display:flex;"><span>        cv2<span style="color:#f92672">.</span>rectangle(frame, (x, y), (x<span style="color:#f92672">+</span>w, y<span style="color:#f92672">+</span>h), (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> anterior <span style="color:#f92672">!=</span> len(faces):
+</span></span><span style="display:flex;"><span>        anterior <span style="color:#f92672">=</span> len(faces)
+</span></span><span style="display:flex;"><span>        log<span style="color:#f92672">.</span>info(<span style="color:#e6db74">&#34;faces: &#34;</span> <span style="color:#f92672">+</span> str(len(faces)) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; at &#34;</span> <span style="color:#f92672">+</span> str(dt<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>now()))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Capture a new frame</span>
+</span></span><span style="display:flex;"><span>    check2, frame2 <span style="color:#f92672">=</span> video_capture<span style="color:#f92672">.</span>read()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Save the current frame as an image</span>
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>imwrite(filename<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;image.png&#39;</span>, img<span style="color:#f92672">=</span>frame2)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Load the saved image</span>
+</span></span><span style="display:flex;"><span>    image <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#34;image.png&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Run inference using LandingAI Predictor</span>
+</span></span><span style="display:flex;"><span>    predictor <span style="color:#f92672">=</span> Predictor(endpoint_id, api_key<span style="color:#f92672">=</span>api_key)
+</span></span><span style="display:flex;"><span>    predictions <span style="color:#f92672">=</span> predictor<span style="color:#f92672">.</span>predict(image)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Extract information from predictions</span>
+</span></span><span style="display:flex;"><span>    score <span style="color:#f92672">=</span> predictions[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>score
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> predictions[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>label_name:
+</span></span><span style="display:flex;"><span>        label_name <span style="color:#f92672">=</span> predictions[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>label_name
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Draw a black background rectangle for displaying the label</span>
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>rectangle(frame, (<span style="color:#ae81ff">50</span>, <span style="color:#ae81ff">50</span>), (<span style="color:#ae81ff">225</span>, <span style="color:#ae81ff">125</span>), (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>), <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Add the predicted label text to the frame</span>
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>putText(frame, label_name, (<span style="color:#ae81ff">50</span> <span style="color:#f92672">+</span> int(<span style="color:#ae81ff">125</span><span style="color:#f92672">/</span><span style="color:#ae81ff">10</span>), <span style="color:#ae81ff">50</span> <span style="color:#f92672">+</span> int(<span style="color:#ae81ff">75</span><span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)), cv2<span style="color:#f92672">.</span>FONT_HERSHEY_SIMPLEX, <span style="color:#ae81ff">0.7</span>, (<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>), <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Display the resulting frame with live video and predictions</span>
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;Video&#39;</span>, frame)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Check for key presses</span>
+</span></span><span style="display:flex;"><span>    key <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> key <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xFF</span> <span style="color:#f92672">==</span> ord(<span style="color:#e6db74">&#39;s&#39;</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Save the current frame as an image</span>
+</span></span><span style="display:flex;"><span>        check, frame <span style="color:#f92672">=</span> video_capture<span style="color:#f92672">.</span>read()
+</span></span><span style="display:flex;"><span>        cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#34;Capturing&#34;</span>, frame)
+</span></span><span style="display:flex;"><span>        cv2<span style="color:#f92672">.</span>imwrite(filename<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;saved_img.jpg&#39;</span>, img<span style="color:#f92672">=</span>frame)
+</span></span><span style="display:flex;"><span>        video_capture<span style="color:#f92672">.</span>release()
+</span></span><span style="display:flex;"><span>        img_new <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;saved_img.jpg&#39;</span>, cv2<span style="color:#f92672">.</span>IMREAD_GRAYSCALE)
+</span></span><span style="display:flex;"><span>        img_new <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#34;Captured Image&#34;</span>, img_new)
+</span></span><span style="display:flex;"><span>        cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">1650</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;Image Saved&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;Program End&#34;</span>)
+</span></span><span style="display:flex;"><span>        cv2<span style="color:#f92672">.</span>destroyAllWindows()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elif</span> key <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xFF</span> <span style="color:#f92672">==</span> ord(<span style="color:#e6db74">&#39;q&#39;</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Turn off the camera and exit the program</span>
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;Turning off camera.&#34;</span>)
+</span></span><span style="display:flex;"><span>        video_capture<span style="color:#f92672">.</span>release()
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;Camera off.&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;Program ended.&#34;</span>)
+</span></span><span style="display:flex;"><span>        cv2<span style="color:#f92672">.</span>destroyAllWindows()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>
+</span></span></code></pre></div><h5 id="the-result-of-our-application-on-jetson-nano">The result of our application on Jetson Nano:</h5>
+<p><img src="./images/jetson_nano_ui.png" alt="Screen shot from the Jetson Nano"></p>
+<h2 id="appendix">Appendix</h2>
+<h4 id="list-of-available-vss-signals-with-data-stream-mapping-from-the-sensors">List of available VSS signals with data stream mapping from the sensors.</h4>
+<pre tabindex="0"><code>Vehicle.Acceleration.Longitudinal
+Vehicle.Acceleration.Lateral
+Vehicle.Acceleration.Vertical
+Vehicle.AngularVelocity.Roll
+Vehicle.AngularVelocity.Pitch
+Vehicle.AngularVelocity.Yaw
+Vehicle.Cabin.HVAC.AmbientAirTemperature
+</code></pre>
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/autowrx/dreamkit/architecture/" title="Architecture"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/autowrx/dreamkit/working/" title="Working" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/autowrx/js/clipboard.min.js?1720170055"></script>
+    <script src="/autowrx/js/perfect-scrollbar.min.js?1720170055"></script>
+    <script src="/autowrx/js/perfect-scrollbar.jquery.min.js?1720170055"></script>
+    <script src="/autowrx/js/jquery.sticky.js?1720170055"></script>
+    <script src="/autowrx/js/featherlight.min.js?1720170055"></script>
+    <script src="/autowrx/js/highlight.pack.js?1720170055"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/autowrx/js/modernizr.custom-3.6.0.js?1720170055"></script>
+    <script src="/autowrx/js/learn.js?1720170055"></script>
+    <script src="/autowrx/js/hugo-learn.js?1720170055"></script>
+    
+        
+            <script src="/autowrx/mermaid/mermaid.js?1720170055"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+
