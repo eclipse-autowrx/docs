@@ -10,7 +10,7 @@ themeVariant = "green"
 disableLandingPageButton = true
 showVisitedLinks = true
 
-editURL = "https://github.com/digital-auto/playground/tree/main/docs/content/"
+editURL = "https://gitlab.eclipse.org/eclipse/autowrx/docs/-/tree/main/content/"
 
 # For search functionality
 [outputs]
@@ -24,7 +24,7 @@ home = [ "HTML", "RSS", "JSON"]
 [[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/digital-auto/playground"
+url = "https://gitlab.eclipse.org/eclipse/autowrx/"
 weight = 10
 
 [[menu.shortcuts]]
