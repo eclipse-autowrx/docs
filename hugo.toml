@@ -22,7 +22,8 @@ home = [ "HTML", "RSS", "JSON"]
 
 
 [[menu.shortcuts]] 
-name = "<i class='fab fa-github'></i> Github repo"
+
+name = "<i class="fa-brands fa-gitlab"></i> Github repo"
 identifier = "ds"
 url = "https://gitlab.eclipse.org/eclipse/autowrx/"
 weight = 10
