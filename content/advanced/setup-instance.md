@@ -1,5 +1,5 @@
 ---
-title: "Setup instance"
+title: "Setup autowrx instance"
 date: 2023-08-03T06:48:16+07:00
 draft: false
 weight: 8
@@ -11,8 +11,8 @@ This guide will walk you through the steps to set up, run, and customize an inst
 
 Before proceeding with the setup, ensure that you have the following prerequisites installed on your system:
 
--   node (version 20.12.12 or higher)
--   Yarn (optional, if installed, it needs to be installed globally)
+- node (version 20.12.12 or higher)
+- Yarn (optional, if installed, it needs to be installed globally)
 
 ## Setting up autowrx
 
@@ -91,11 +91,11 @@ The image below contains the files you can edit:
 
 The following files, starting from the root of your project directory, can be customized:
 
--   public/imgs/favicon.ico: This file is the small favicon that appears on the browser tab.
--   public/imgs/logo-wide.png: This file is the logo of your instance.
--   src/configs/config.ts: This file contains various configuration settings.
--   src/index.css: This file contains the styling for your instance.
--   instance.ts: This file allows you to update some content of the instance.
+- public/imgs/favicon.ico: This file is the small favicon that appears on the browser tab.
+- public/imgs/logo-wide.png: This file is the logo of your instance.
+- src/configs/config.ts: This file contains various configuration settings.
+- src/index.css: This file contains the styling for your instance.
+- instance.ts: This file allows you to update some content of the instance.
 
 > Note: If any of the above files do not exist in your project, please create a new file with the exact name.
 
