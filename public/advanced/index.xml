@@ -4,62 +4,51 @@
     <title>Advanced on digital.auto playground documentation</title>
     <link>/advanced/</link>
     <description>Recent content in Advanced on digital.auto playground documentation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Aug 2023 07:04:25 +0700</lastBuildDate><atom:link href="/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Sep 2023 07:07:47 +0700</lastBuildDate>
+    <atom:link href="/advanced/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architecture</title>
       <link>/advanced/architecture/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/advanced/architecture/</guid>
-      <description>Getting started Please have a look at image below.
-This architecture has 2 parts:
-(1) Playground general architecture (2) Architecture and flow from Playground to dreamKIT This page is focused on (1) Playground general architecture. For more information about (2) Architecture and flow from Playground to dreamKIT, please refer Playground to dreamKIT.
-Playground general architecture The playground is a cloud-based web application that is responsible for rapidly prototyping environment for new, SDV-enabled features.</description>
+      <description>&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;&#xA;&lt;p&gt;Please have a look at image below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/Architecture/architecture-from-playground-to-dreamKIT-2.png&#34; alt=&#34;architecture-from-playground-to-dreamKIT&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This architecture has 2 parts:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;(1) Playground general architecture&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;(2) Architecture and flow from Playground to dreamKIT&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This page is focused on &lt;strong&gt;(1) Playground general architecture&lt;/strong&gt;. For more information about &lt;strong&gt;(2) Architecture and flow from Playground to dreamKIT&lt;/strong&gt;, please refer &lt;a href=&#34;https://docs.digital.auto/dreamkit/working/deployment/&#34;&gt;Playground to dreamKIT&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;playground-general-architecture&#34;&gt;Playground general architecture&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/Architecture/general-architecture-2.png&#34; alt=&#34;general-architecture&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The playground is a cloud-based web application that is responsible for rapidly prototyping environment for new, SDV-enabled features.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How Python-Javascript works</title>
       <link>/advanced/how-python-javascript-works/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/advanced/how-python-javascript-works/</guid>
-      <description>Prerequisite To understand how this Python-Javascript works, you need some foundation knowledge of HTML, Javascript, and Python. You also need to read Create &amp;lsquo;Hello World&amp;rsquo; Prototype guide or at least have some experience with prototype on Playground before reading this documentation.
-Similarity of Python code on Playground No matter what prototype and model is being used, every Python code on Playground share the same structure. They always contain this line of code:</description>
+      <description>&lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;&#xA;&lt;p&gt;To understand how this Python-Javascript works, you need some foundation knowledge of HTML, Javascript, and Python.&#xA;You also need to read &lt;a href=&#34;https://docs.digital.auto/advanced/how-python-javascript-works/&#34;&gt;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&lt;/a&gt; guide or at least have some experience with prototype on Playground before reading this documentation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;similarity-of-python-code-on-playground&#34;&gt;Similarity of Python code on Playground&lt;/h2&gt;&#xA;&lt;p&gt;No matter what prototype and model is being used, every Python code on Playground share the same structure.&#xA;They always contain this line of code:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How GenAI works on playground?</title>
       <link>/advanced/genaiwidget/</link>
       <pubDate>Mon, 25 Sep 2023 07:07:47 +0700</pubDate>
-      
       <guid>/advanced/genaiwidget/</guid>
-      <description>1. GenAI on playground.digital.auto Developing SDV prototypes is not easy, as it requires knowledge and skills in different areas. But Generative AI can make it easier by taking care of some tasks, so developers can focus more on creativity. Generative AI is also part of the playground, which makes it more user-friendly for newcomers who may struggle with writing their first Python code, creating or choosing the right widget, or putting everything together to tell a story.</description>
+      <description>&lt;h3 id=&#34;1-genai-on-playgrounddigitalauto&#34;&gt;1. GenAI on playground.digital.auto&lt;/h3&gt;&#xA;&lt;p&gt;Developing SDV prototypes is not easy, as it requires knowledge and skills in different areas. But Generative AI can make it easier by taking care of some tasks, so developers can focus more on creativity. Generative AI is also part of the playground, which makes it more user-friendly for newcomers who may struggle with writing their first Python code, creating or choosing the right widget, or putting everything together to tell a story.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Socket.IO Integration</title>
       <link>/advanced/socket-io-provider/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:16 +0700</pubDate>
-      
       <guid>/advanced/socket-io-provider/</guid>
-      <description>Connect digital.auto playground to third party system via socket.io
-There is many ways to connect to digital.auto from 3rd systems/apps such as HTTP API, SOAP, etc., however those methods are just one-way request. To support you fetch continuous data, 2-ways communication, we build up some socker.io servers below:
-EU: https://bridge.digitalauto.tech Asia: https://bridge.digitalauto.asia (our server run socket.io version 4.x, no auth require)
-For more infomation, visit there site: https://socket.io/
-How communication work Let&amp;rsquo;s get started 1.</description>
+      <description>&lt;p&gt;Connect digital.auto playground to third party system via socket.io&lt;/p&gt;&#xA;&lt;p&gt;There is many ways to connect to digital.auto from 3rd systems/apps such as HTTP API, SOAP, etc., however those methods are just one-way request.&#xA;To support you fetch continuous data, 2-ways communication, we build up some socker.io servers below:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;EU: &lt;code&gt;https://bridge.digitalauto.tech&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Asia: &lt;code&gt;https://bridge.digitalauto.asia&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;(our server run socket.io version 4.x, no auth require)&lt;/p&gt;&#xA;&lt;p&gt;For more infomation, visit there site: &lt;a href=&#34;https://socket.io/&#34;&gt;https://socket.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bestudio.digitalauto.tech/project/mgthm9sd3MDU/socketio-overview.png&#34; alt=&#34;socketio-overview&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-communication-work&#34;&gt;How communication work&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bestudio.digitalauto.tech/project/mgthm9sd3MDU/socket-io-flow.png&#34; alt=&#34;socket-io-flow&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cloud native experiment with playground</title>
       <link>/advanced/playground_n_soafee/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/advanced/playground_n_soafee/</guid>
-      <description>1. Introduction Typically the process to develop, build, test and deploy one vehicle applications takes months or years, at a very high cost. Due to the complexity of development process and the limitation of the development tools which are not easy and efficient to use.
-On the trending of software defined vehicle, the software development process is changing. The software development process is moving from traditional waterfall model to agile model.</description>
+      <description>&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Typically the process to develop, build, test and deploy one vehicle applications takes months or years, at a very high cost. Due to the complexity of development process and the limitation of  the development tools which are not easy and efficient to use.&lt;/p&gt;&#xA;&lt;p&gt;On the trending of software defined vehicle, the software development process is changing. The software development process is moving from traditional waterfall model to agile model. The software development tools are moving from traditional IDE to cloud based IDE. The software development process is moving from traditional manual process to CI/CD process.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Setup autowrx instance</title>
+      <link>/advanced/setup-instance/</link>
+      <pubDate>Thu, 03 Aug 2023 06:48:16 +0700</pubDate>
+      <guid>/advanced/setup-instance/</guid>
+      <description>&lt;p&gt;This guide will walk you through the steps to set up, run, and customize an instance of the open-source autowrx project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;Before proceeding with the setup, ensure that you have the following prerequisites installed on your system:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;node (version 20.12.12 or higher)&lt;/li&gt;&#xA;&lt;li&gt;Yarn (optional, if installed, it needs to be installed globally)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;setting-up-autowrx&#34;&gt;Setting up autowrx&lt;/h2&gt;&#xA;&lt;p&gt;Follow the steps below to set up your instance of autowrx:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Clone the Repository&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -4,339 +4,233 @@
     <title>digital.auto playground documentation</title>
     <link>/</link>
     <description>Recent content on digital.auto playground documentation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 May 2024 08:07:23 +0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 May 2024 08:07:23 +0700</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI App Concept</title>
       <link>/advanced/ai_sdv_app/ai_app_on_pg/</link>
       <pubDate>Mon, 25 Sep 2023 07:07:47 +0700</pubDate>
-      
       <guid>/advanced/ai_sdv_app/ai_app_on_pg/</guid>
-      <description>Preface This document for AI engineer who familiar with AI application development concept.
-It assumes you have basic understanding on Vehicle API concept, we provide simple explanation at this VSS Basic Documentation.
-The purpose of this document is to discuss AI-on-Edge, means realtime AI running directly on vehicle, not apply for AI-on-Cloud like ChatGPT&amp;hellip;
-AI application on playground Nowadays, AI is a hot topic. There are plenty of tools, libraries and methods to build and deploy an AI application or reuse AI service from 3rd provider.</description>
+      <description>&lt;h3 id=&#34;preface&#34;&gt;Preface&lt;/h3&gt;&#xA;&lt;p&gt;This document for AI engineer who familiar with AI application development concept.&lt;/p&gt;&#xA;&lt;p&gt;It assumes you have basic understanding on Vehicle API concept, we provide simple explanation at this &lt;a href=&#34;/playground/engaged/vss_basic&#34;&gt;VSS Basic Documentation&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The purpose of this document is to discuss AI-on-Edge, means realtime AI running directly on vehicle, not apply for AI-on-Cloud like ChatGPT&amp;hellip;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ai-application-on-playground&#34;&gt;AI application on playground&lt;/h3&gt;&#xA;&lt;p&gt;Nowadays, AI is a hot topic. There are plenty of tools, libraries and methods to build and deploy an AI application or reuse AI service from 3rd provider. In the scope of this tutorial, we discuss about the process to build an AI application by your own, test it on &lt;strong&gt;digital.auto playground&lt;/strong&gt;, and deploy it to &lt;strong&gt;PoC HW&lt;/strong&gt; such as dreamKIT&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Architecture</title>
       <link>/advanced/architecture/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/advanced/architecture/</guid>
-      <description>Getting started Please have a look at image below.
-This architecture has 2 parts:
-(1) Playground general architecture (2) Architecture and flow from Playground to dreamKIT This page is focused on (1) Playground general architecture. For more information about (2) Architecture and flow from Playground to dreamKIT, please refer Playground to dreamKIT.
-Playground general architecture The playground is a cloud-based web application that is responsible for rapidly prototyping environment for new, SDV-enabled features.</description>
+      <description>&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;&#xA;&lt;p&gt;Please have a look at image below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/Architecture/architecture-from-playground-to-dreamKIT-2.png&#34; alt=&#34;architecture-from-playground-to-dreamKIT&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This architecture has 2 parts:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;(1) Playground general architecture&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;(2) Architecture and flow from Playground to dreamKIT&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This page is focused on &lt;strong&gt;(1) Playground general architecture&lt;/strong&gt;. For more information about &lt;strong&gt;(2) Architecture and flow from Playground to dreamKIT&lt;/strong&gt;, please refer &lt;a href=&#34;https://docs.digital.auto/dreamkit/working/deployment/&#34;&gt;Playground to dreamKIT&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;playground-general-architecture&#34;&gt;Playground general architecture&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/Architecture/general-architecture-2.png&#34; alt=&#34;general-architecture&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The playground is a cloud-based web application that is responsible for rapidly prototyping environment for new, SDV-enabled features.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Getting started</title>
       <link>/campaign/gen-ai-awards-2024/1-getting-started/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/campaign/gen-ai-awards-2024/1-getting-started/</guid>
-      <description>Great to have you join the digital.auto GenAI Awards!
-We are on the lookout for innovative ways to apply multimodel GenAI in our web-based prototyping environment. The goal is to create visually rich SDV prototypes and solution sketches.
-Submit your GenAI-driven SDV idea and win up to €5,000! With quarterly competitions, each round offers a chance to win €2,000, and the final showdown between the 3 best teams adds another €3,000 to the pot.</description>
+      <description>&lt;p&gt;Great to have you join the digital.auto GenAI Awards!&lt;/p&gt;&#xA;&lt;p&gt;We are on the lookout for innovative ways to apply multimodel GenAI in our web-based prototyping environment. The goal is to create visually rich SDV prototypes and solution sketches.&lt;/p&gt;&#xA;&lt;p&gt;Submit your GenAI-driven SDV idea and win up to €5,000! With quarterly competitions, each round offers a chance to win €2,000, and the final showdown between the 3 best teams adds another €3,000 to the pot.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How Python-Javascript works</title>
       <link>/advanced/how-python-javascript-works/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/advanced/how-python-javascript-works/</guid>
-      <description>Prerequisite To understand how this Python-Javascript works, you need some foundation knowledge of HTML, Javascript, and Python. You also need to read Create &amp;lsquo;Hello World&amp;rsquo; Prototype guide or at least have some experience with prototype on Playground before reading this documentation.
-Similarity of Python code on Playground No matter what prototype and model is being used, every Python code on Playground share the same structure. They always contain this line of code:</description>
+      <description>&lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;&#xA;&lt;p&gt;To understand how this Python-Javascript works, you need some foundation knowledge of HTML, Javascript, and Python.&#xA;You also need to read &lt;a href=&#34;https://docs.digital.auto/advanced/how-python-javascript-works/&#34;&gt;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&lt;/a&gt; guide or at least have some experience with prototype on Playground before reading this documentation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;similarity-of-python-code-on-playground&#34;&gt;Similarity of Python code on Playground&lt;/h2&gt;&#xA;&lt;p&gt;No matter what prototype and model is being used, every Python code on Playground share the same structure.&#xA;They always contain this line of code:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Create &#39;Hello World&#39; Prototype</title>
       <link>/engaged/helloworld/</link>
       <pubDate>Wed, 02 Aug 2023 07:31:32 +0700</pubDate>
-      
       <guid>/engaged/helloworld/</guid>
-      <description>A software engineer typically starts programming journey by printing &amp;ldquo;hello world&amp;rdquo; on the terminal. An embedded software engineer typically begins first MCU programming by blinking a LED. That&amp;rsquo;s a good moment to remember. In this section, to get started with digital.auto playground, we do the same basis but memorable thing - blinking your vehicle headlight.
-Before going to detail, here is a summary of what we shall do in this section:</description>
+      <description>&lt;p&gt;A software engineer typically starts programming journey by printing &amp;ldquo;hello world&amp;rdquo; on the terminal. An embedded software engineer typically begins first MCU programming by blinking a LED. That&amp;rsquo;s a good moment to remember.&#xA;In this section, to get started with digital.auto playground, we do the same basis but memorable thing - &lt;strong&gt;blinking your vehicle headlight&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Before going to detail, here is a summary of what we shall do in this section:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using &#39;General 3D Car Model&#39; Widget</title>
       <link>/engaged/3dcar/</link>
       <pubDate>Wed, 02 Aug 2023 07:31:32 +0700</pubDate>
-      
       <guid>/engaged/3dcar/</guid>
-      <description>Introduction General 3D Car Model widget is designed to enhance your experience in developing software for software-defined vehicles (SDV). It allows you to interact with a realistic 3D model of a sedan, complete with customizable features via Vehicle APIs. This guide will walk you through the steps to integrate and use this widget in your SDV applications.
-Here&amp;rsquo;s a quick overview of what we&amp;rsquo;ll cover:
-1. Adding the widget to your dashboard from the Marketplace</description>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;General 3D Car Model&lt;/strong&gt; widget is designed to enhance your experience in developing software for software-defined vehicles (SDV). It allows you to interact with a realistic 3D model of a sedan, complete with customizable features via Vehicle APIs. This guide will walk you through the steps to integrate and use this widget in your SDV applications.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a quick overview of what we&amp;rsquo;ll cover:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Adding the widget to your dashboard from the Marketplace&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using &#39;Simple LandingAI&#39; Widget</title>
       <link>/engaged/simplelandingai/</link>
       <pubDate>Wed, 02 Aug 2023 07:31:32 +0700</pubDate>
-      
       <guid>/engaged/simplelandingai/</guid>
-      <description>Introduction This Landing AI widget allows users to import Landing AI models and use their prediction result as API value to control vehicle functions, streamlining the presentation of ideas about their SDV application without the need for in-depth web code manipulation.
-Here we take demo case as an example to demonstrate how to create an AI-related Software-defined Vehicle prototype. The process is divided into two main parts, building an object detection AI model on the Landing AI platform LandingAI from scratch and deploying this model on digital.</description>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;This Landing AI widget allows users to import Landing AI models and use their prediction result as API value to control vehicle functions, streamlining the presentation of ideas about their SDV application without the need for in-depth web code manipulation.&lt;/p&gt;&#xA;&lt;p&gt;Here we take demo case as an example to demonstrate how to create an AI-related Software-defined Vehicle prototype. The process is divided into two main parts, building an object detection AI model on the Landing AI platform &lt;a href=&#34;https://landing.ai/&#34;&gt;&lt;strong&gt;LandingAI&lt;/strong&gt;&lt;/a&gt; from scratch and deploying this model on digital.auto Playground.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AI with playground</title>
       <link>/advanced/ai_sdv_app/ai_getting_started/</link>
       <pubDate>Thu, 03 Aug 2023 06:51:01 +0700</pubDate>
-      
       <guid>/advanced/ai_sdv_app/ai_getting_started/</guid>
-      <description>Introduction AI becomes more and more popular in daily life, and definitely it is also a trend in the automotive industry. In this section, we will introduce how to use AI in the playground.
-Note: AI have a lot of different applications, and we will only introduce a simple image processing use case in this section.
-We assume that you already know how to create account, model and prototype in the playground.</description>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;AI becomes more and more popular in daily life, and&#xA;definitely it is also a trend in the automotive industry.&#xA;In this section, we will introduce how to use AI in the playground.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; AI have a lot of different applications, and we will only introduce a simple image processing use case in this section.&lt;/p&gt;&#xA;&lt;p&gt;We assume that you already know how to create account, model and prototype in the playground. If not, please refer this &lt;a href=&#34;/engaged/helloworld.md&#34;&gt;Helloworld&lt;/a&gt; section.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Onboarding</title>
       <link>/campaign/gen-ai-awards-2024/2-onboarding/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/campaign/gen-ai-awards-2024/2-onboarding/</guid>
-      <description>Before you can build, test and submit your genAI, you need to register your team first.
-Go to https://genai.digital.auto/
-You need to login first to do further steps. You can login with a GitHub account. Fill your team&amp;rsquo;s information. Every team member should already have an account. Your team can have up to 5 members. NOTE: The campain is limited to NONemployee of companies in the list of sponsorship.
-Apply for Amazon Web Service Bedrock credits.</description>
+      <description>&lt;p&gt;Before you can build, test and submit your genAI, you need to register your team first.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go to &lt;a href=&#34;https://genai.digital.auto/&#34;&gt;https://genai.digital.auto/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;You need to login first to do further steps. You can login with a GitHub account.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/onboarding.png&#34; alt=&#34;Onboarding&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fill your team&amp;rsquo;s information. Every team member should already have an account. Your team can have up to 5 members.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/register-team.png&#34; alt=&#34;Step 1 - Register team&#34;&gt;&#xA;&lt;strong&gt;NOTE:&lt;/strong&gt; The campain is limited to &lt;strong&gt;NON&lt;/strong&gt;employee of companies in the list of sponsorship.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How GenAI works on playground?</title>
       <link>/advanced/genaiwidget/</link>
       <pubDate>Mon, 25 Sep 2023 07:07:47 +0700</pubDate>
-      
       <guid>/advanced/genaiwidget/</guid>
-      <description>1. GenAI on playground.digital.auto Developing SDV prototypes is not easy, as it requires knowledge and skills in different areas. But Generative AI can make it easier by taking care of some tasks, so developers can focus more on creativity. Generative AI is also part of the playground, which makes it more user-friendly for newcomers who may struggle with writing their first Python code, creating or choosing the right widget, or putting everything together to tell a story.</description>
+      <description>&lt;h3 id=&#34;1-genai-on-playgrounddigitalauto&#34;&gt;1. GenAI on playground.digital.auto&lt;/h3&gt;&#xA;&lt;p&gt;Developing SDV prototypes is not easy, as it requires knowledge and skills in different areas. But Generative AI can make it easier by taking care of some tasks, so developers can focus more on creativity. Generative AI is also part of the playground, which makes it more user-friendly for newcomers who may struggle with writing their first Python code, creating or choosing the right widget, or putting everything together to tell a story.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Access AWS Bedrock console</title>
       <link>/campaign/gen-ai-awards-2024/3-access-aws-bedrock/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/campaign/gen-ai-awards-2024/3-access-aws-bedrock/</guid>
-      <description>This guide show how you can access Amazon Web Service Bedrock console after you applied for credits and approved
-From previous Review your team screen, copy your IAM user and IAM password, then click Open AWS Bedrock. Fill your IAM username and password. Then click Sign in. Search for AWS Bedrock in search bar, then click AWS Bedrock. Click get started to navigate to Bedrock console. Change your AWS region to US East (N.</description>
+      <description>&lt;p&gt;This guide show how you can access Amazon Web Service Bedrock console after you applied for credits and approved&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;From previous &lt;strong&gt;Review your team&lt;/strong&gt; screen, copy your IAM user and IAM password, then click Open AWS Bedrock.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/open-aws-console.png&#34; alt=&#34;open-aws-console&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fill your IAM username and password. Then click Sign in.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/fill-username-password.png&#34; alt=&#34;fill-username-password&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Search for AWS Bedrock in search bar, then click AWS Bedrock.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/search-bedrock.png&#34; alt=&#34;search-bedrock&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Click get started to navigate to Bedrock console.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/get-started-bedrock.png&#34; alt=&#34;get-started-bedrock&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Change your AWS region to US East (N. Virginia) - us-east-1. This ensures that you can access all available LLM models.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/bedrock-console.png&#34; alt=&#34;bedrock-console&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Build your GenAI</title>
       <link>/campaign/gen-ai-awards-2024/4-build-first-genai/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/campaign/gen-ai-awards-2024/4-build-first-genai/</guid>
-      <description>This guide shows how you can build a simple GenAI Python by using prompt engineering methods.
-1. After accessing the AWS Bedrock console, navigate directly to the Playground/chat section to begin experimenting. 2. Select the model you want to experiment with. 3. First, choose the provider, then select the model from this provider, and press &amp;ldquo;apply&amp;rdquo; to return to the playground chat interface. 4. Try the simple prompt: &amp;ldquo;Generate an SDV Python code to open the driver&amp;rsquo;s door.</description>
+      <description>&lt;p&gt;This guide shows how you can build a simple GenAI Python by using prompt engineering methods.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; After accessing the AWS Bedrock console, navigate directly to the Playground/chat section to begin experimenting.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20build%20your%20GenAI/1-chat.jpg&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Select the model you want to experiment with.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20build%20your%20GenAI/3-chat.jpg&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; First, choose the provider, then select the model from this provider, and press &amp;ldquo;apply&amp;rdquo; to return to the playground chat interface.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20build%20your%20GenAI/4-select.jpg&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Try the simple prompt: &amp;ldquo;Generate an SDV Python code to open the driver&amp;rsquo;s door.&amp;rdquo;&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20build%20your%20GenAI/5-input.jpg&#34; alt=&#34;4&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Overview dreamKIT</title>
       <link>/dreamkit/overview/</link>
       <pubDate>Thu, 03 Aug 2023 07:27:00 +0700</pubDate>
-      
       <guid>/dreamkit/overview/</guid>
-      <description>The digital.auto dreamKIT is a proof-of-concept (PoC) hardware, providing a hands-on, physical experience for SDV applications. With the dreamKIT you can try out your digitally developed SDV features on a physical device. Therefore, it allows you to transfer your use case from the virtual exploration phase into the productization phase.
-dreamKIT is a candidate for SDV Alliance Integration Blueprint. Check it out the latest COVESA white paper release here
-Should you have any specific interest on dreamKIT, please give us feedback here https://forms.</description>
+      <description>&lt;p&gt;The digital.auto dreamKIT is a proof-of-concept (PoC) hardware, providing a hands-on, physical experience for SDV applications. With the dreamKIT you can try out your digitally developed SDV features on a physical device. Therefore, it allows you to transfer your use case from the virtual exploration phase into the productization phase.&lt;/p&gt;&#xA;&lt;p&gt;dreamKIT is a candidate for &lt;a href=&#34;https://covesa.global/wp-content/uploads/2024/04/SDV-alliance-announcement-20230109.pdf&#34;&gt;SDV Alliance Integration Blueprint&lt;/a&gt;. Check it out the latest COVESA white paper release &lt;a href=&#34;https://covesa.global/wp-content/uploads/2024/05/SDV-Alliance-Integration-Blueprint-20240109.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Should you have any specific interest on dreamKIT, please give us feedback here &lt;a href=&#34;https://forms.office.com/e/BiJcMEhbBy&#34;&gt;https://forms.office.com/e/BiJcMEhbBy&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Submit your genAI</title>
       <link>/campaign/gen-ai-awards-2024/5-submit-your-genai/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/campaign/gen-ai-awards-2024/5-submit-your-genai/</guid>
-      <description>This guide explains how to submit your work for the GenAI Awards. You can make your submission through the Marketplace, which accepts a variety of entries, including GenAI, Widget, and Vehicle App projects.
-On the Marketplace website, we refer to a GenAI submission as a &amp;ldquo;Package.&amp;rdquo;
-From previous Review your team screen. Click Go to marketplace, or you can go to https://marketplace.digital.auto In the marketplace, if you&amp;rsquo;ve previously logged into the GenAI website, your login should carry over.</description>
+      <description>&lt;p&gt;This guide explains how to submit your work for the GenAI Awards. You can make your submission through the &lt;a href=&#34;https://marketplace.digital.auto&#34;&gt;Marketplace&lt;/a&gt;, which accepts a variety of entries, including GenAI, Widget, and Vehicle App projects.&lt;/p&gt;&#xA;&lt;p&gt;On the &lt;a href=&#34;https://marketplace.digital.auto&#34;&gt;Marketplace&lt;/a&gt; website, we refer to a GenAI submission as a &amp;ldquo;Package.&amp;rdquo;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;From previous &lt;strong&gt;Review your team&lt;/strong&gt; screen. Click &lt;strong&gt;Go to marketplace&lt;/strong&gt;, or you can go to &lt;a href=&#34;https://marketplace.digital.auto&#34;&gt;https://marketplace.digital.auto&lt;/a&gt;&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/open-marketplace.png&#34; alt=&#34;open-marketplace&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;In the marketplace, if you&amp;rsquo;ve previously logged into the GenAI website, your login should carry over. If you find yourself not signed in, please log in again using the same account with which you registered your team on the GenAI website.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Architecture</title>
       <link>/dreamkit/architecture/</link>
       <pubDate>Wed, 15 Nov 2023 20:50:38 +0700</pubDate>
-      
       <guid>/dreamkit/architecture/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;./images/dreamKIT_architecture.png&#34; alt=&#34;dreamKIT architecture&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Update your submission</title>
       <link>/campaign/gen-ai-awards-2024/6-update-genai/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/campaign/gen-ai-awards-2024/6-update-genai/</guid>
-      <description>This guide shows how you can update your GenAI submission
-1. After accessing the marketplace, navigate to &amp;ldquo;My package&amp;rdquo; 2. Select your GenAI Awards submission pacakge 3. Click update button 4. Adjust the deployment URL, dredentials, and instruction </description>
+      <description>&lt;p&gt;This guide shows how you can update your GenAI submission&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; After accessing the marketplace, navigate to &amp;ldquo;My package&amp;rdquo;&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20update%20your%20submission/1.jpg&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Select your GenAI Awards submission pacakge&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20update%20your%20submission/2.jpg&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Click update button&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20update%20your%20submission/3.jpg&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Adjust the deployment URL, dredentials, and instruction&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20update%20your%20submission/4.jpg&#34; alt=&#34;4&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Socket.IO Integration</title>
       <link>/advanced/socket-io-provider/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:16 +0700</pubDate>
-      
       <guid>/advanced/socket-io-provider/</guid>
-      <description>Connect digital.auto playground to third party system via socket.io
-There is many ways to connect to digital.auto from 3rd systems/apps such as HTTP API, SOAP, etc., however those methods are just one-way request. To support you fetch continuous data, 2-ways communication, we build up some socker.io servers below:
-EU: https://bridge.digitalauto.tech Asia: https://bridge.digitalauto.asia (our server run socket.io version 4.x, no auth require)
-For more infomation, visit there site: https://socket.io/
-How communication work Let&amp;rsquo;s get started 1.</description>
+      <description>&lt;p&gt;Connect digital.auto playground to third party system via socket.io&lt;/p&gt;&#xA;&lt;p&gt;There is many ways to connect to digital.auto from 3rd systems/apps such as HTTP API, SOAP, etc., however those methods are just one-way request.&#xA;To support you fetch continuous data, 2-ways communication, we build up some socker.io servers below:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;EU: &lt;code&gt;https://bridge.digitalauto.tech&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Asia: &lt;code&gt;https://bridge.digitalauto.asia&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;(our server run socket.io version 4.x, no auth require)&lt;/p&gt;&#xA;&lt;p&gt;For more infomation, visit there site: &lt;a href=&#34;https://socket.io/&#34;&gt;https://socket.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bestudio.digitalauto.tech/project/mgthm9sd3MDU/socketio-overview.png&#34; alt=&#34;socketio-overview&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-communication-work&#34;&gt;How communication work&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bestudio.digitalauto.tech/project/mgthm9sd3MDU/socket-io-flow.png&#34; alt=&#34;socket-io-flow&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Vehicle API</title>
       <link>/engaged/vss_basic/</link>
       <pubDate>Thu, 03 Aug 2023 06:32:41 +0700</pubDate>
-      
       <guid>/engaged/vss_basic/</guid>
-      <description>Vehicle API introduction Vehicle API is an abstract way to manipulate everything an actuator on vehicle, or get a sensor value from vehicle without knowledge of ECU and E/E Architechture. On the context of Software define Vehicle, we are an application developer. We would like to make an smart application to serve special purpose. Let&amp;rsquo;s say we would have an AI algorithm to turn on or off the headlight depend on weather condition and some other factors, and then the algorithm output say that we should turn the light on.</description>
+      <description>&lt;h1 id=&#34;vehicle-api-introduction&#34;&gt;Vehicle API introduction&lt;/h1&gt;&#xA;&lt;p&gt;Vehicle API is an abstract way to manipulate everything an actuator on vehicle, or get a sensor value from vehicle without knowledge of ECU and E/E Architechture.&#xA;On the context of Software define Vehicle, we are an application developer. We would like to make an smart application to serve special purpose. Let&amp;rsquo;s say we would have an AI algorithm to turn on or off the headlight depend on weather condition and some other factors, and then the algorithm output say that we should turn the light on. How can we do that if we don&amp;rsquo;t know anything about embedded, CAN signal, ECU, gateway, and plenty of security, safety stuff&amp;hellip; you can not do that. Vehicle API was born to solve that problem.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using builtin widget</title>
       <link>/engaged/widget_basic/</link>
       <pubDate>Wed, 02 Aug 2023 10:13:23 +0700</pubDate>
-      
       <guid>/engaged/widget_basic/</guid>
-      <description>At the &amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section, you already now how to pick a widget from gallery and put it to dashboars. In this section, we will go deeper on each kind of widget, change the option to she how we can manipulate them just by some simple arguments.
-Before you begin, let make a simple prototype with below python code. If you don&amp;rsquo;t know how, please read this tutorial first &amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section</description>
+      <description>&lt;p&gt;At the &lt;a href=&#34;/engaged/helloworld/&#34;&gt;&amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section&lt;/a&gt;, you already now how to pick a widget from gallery and put it to dashboars. In this section, we will go deeper on each kind of widget, change the option to she how we can manipulate them just by some simple arguments.&lt;/p&gt;&#xA;&lt;p&gt;Before you begin, let make a simple prototype with below python code. If you don&amp;rsquo;t know how, please read this tutorial first &lt;a href=&#34;/engaged/helloworld/&#34;&gt;&amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Overview</title>
       <link>/basics/overview/</link>
       <pubDate>Wed, 02 Aug 2023 07:05:26 +0700</pubDate>
-      
       <guid>/basics/overview/</guid>
-      <description>1. Overview The open and web based digital.auto playground offers a rapid prototyping environment to explore and validate ideas of a Vehicle App.
-digital.auto interacts with different vehicle sensors and actuators via standardized APIs specified by the COVESA Vehicle Signal Specification (VSS) without custom setup requirements.
-Within the platform you can:
-browse, navigate and enhance vehicle signals (sensors, actuators and branches) in the Vehicle API Catalogue mapped to a 3D model of the vehicle.</description>
+      <description>&lt;h2 id=&#34;1-overview&#34;&gt;1. Overview&lt;/h2&gt;&#xA;&lt;p&gt;The open and web based &lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;digital.auto&lt;/a&gt; playground offers a rapid prototyping environment to explore and validate ideas of a &lt;em&gt;Vehicle App&lt;/em&gt;.&lt;br&gt;&#xA;&lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;digital.auto&lt;/a&gt; interacts with different vehicle sensors and actuators via standardized APIs specified by the COVESA &lt;a href=&#34;https://covesa.github.io/vehicle_signal_specification/introduction/&#34;&gt;Vehicle Signal Specification (VSS)&lt;/a&gt; without custom setup requirements.&lt;br&gt;&#xA;Within the platform you can:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;browse, navigate and enhance vehicle signals (sensors, actuators and branches) in the &lt;a href=&#34;https://digitalauto.netlify.app/model/STLWzk1WyqVVLbfymb4f/cvi/list&#34;&gt;Vehicle API Catalogue&lt;/a&gt; mapped to a 3D model of the vehicle.&lt;/li&gt;&#xA;&lt;li&gt;build &lt;em&gt;Vehicle App&lt;/em&gt; prototypes in the browser using Python and the Vehicle API Catalogue.&lt;/li&gt;&#xA;&lt;li&gt;test the &lt;em&gt;Vehicle App&lt;/em&gt; prototype in a dashboard with 3D animation for API calls.&lt;/li&gt;&#xA;&lt;li&gt;create new plugins, which usually represent UX widgets or remote server communication to enhance the vehicle mockup experience in the playground.&lt;/li&gt;&#xA;&lt;li&gt;collect and evaluate user feedback to prioritize your development portfolio.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;2-start-the-journey-of-a-_vehicle-app_&#34;&gt;2. Start the journey of a &lt;em&gt;Vehicle App&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;As first step open &lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;digital.auto&lt;/a&gt;, select &lt;a href=&#34;https://digitalauto.netlify.app/model&#34;&gt;&lt;em&gt;Get Started&lt;/em&gt;&lt;/a&gt; in the prototyping section of the landing page and use the Vehicle Model of your choice.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Use GenAI on playground</title>
       <link>/campaign/gen-ai-awards-2024/7-use-genai/</link>
       <pubDate>Mon, 25 Sep 2023 07:07:47 +0700</pubDate>
-      
       <guid>/campaign/gen-ai-awards-2024/7-use-genai/</guid>
-      <description>1. SDV ProtoPilot (GenAI Python) 1. Click on the SDV Protopilot button. Then enter your input prompt and choose a generator. 2. Select a generator from the marketplace, your own generator will be displayed here after the admin approves it. 3. Input prompt and selected a generator, click on the &amp;ldquo;Generate&amp;rdquo; button and wait for the code to be generated. 4. This may take from 30 to 90 seconds, depending on the complexity and quality of the generator.</description>
+      <description>&lt;h3 id=&#34;1-sdv-protopilot-genai-python&#34;&gt;1. SDV ProtoPilot (GenAI Python)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Click on the SDV Protopilot button. Then enter your input prompt and choose a generator.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI/SDV%20ProtoPilot/21.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Select a generator from the marketplace, your own generator will be displayed here after the admin approves it.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI/SDV%20ProtoPilot/22.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Input prompt and selected a generator, click on the &amp;ldquo;Generate&amp;rdquo; button and wait for the code to be generated.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI/SDV%20ProtoPilot/23.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; This may take from 30 to 90 seconds, depending on the complexity and quality of the generator. If the generator is well-trained and fine-tuned, it will produce the code faster and more accurately.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI/SDV%20ProtoPilot/24.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cloud native experiment with playground</title>
       <link>/advanced/playground_n_soafee/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
       <guid>/advanced/playground_n_soafee/</guid>
-      <description>1. Introduction Typically the process to develop, build, test and deploy one vehicle applications takes months or years, at a very high cost. Due to the complexity of development process and the limitation of the development tools which are not easy and efficient to use.
-On the trending of software defined vehicle, the software development process is changing. The software development process is moving from traditional waterfall model to agile model.</description>
+      <description>&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Typically the process to develop, build, test and deploy one vehicle applications takes months or years, at a very high cost. Due to the complexity of development process and the limitation of  the development tools which are not easy and efficient to use.&lt;/p&gt;&#xA;&lt;p&gt;On the trending of software defined vehicle, the software development process is changing. The software development process is moving from traditional waterfall model to agile model. The software development tools are moving from traditional IDE to cloud based IDE. The software development process is moving from traditional manual process to CI/CD process.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Create custom widget</title>
       <link>/engaged/create_custom_widget/</link>
       <pubDate>Wed, 02 Aug 2023 10:13:23 +0700</pubDate>
-      
       <guid>/engaged/create_custom_widget/</guid>
-      <description>1. Widget introduction Widget is an element of a graphical user interface that displays information or provides a specific way for a user to interact with an application. In the context of digital.auto playground, a widget is associated to the behavior represented by one or more Vehicle APIs.
-Each widget is an isolated website, embedded into the playground dashboard by iframe. The playground supports a mechanism to set/get APIs value from/to widget.</description>
+      <description>&lt;h2 id=&#34;1-widget-introduction&#34;&gt;1. Widget introduction&lt;/h2&gt;&#xA;&lt;p&gt;Widget is an element of a graphical user interface that displays information or provides a specific way for a user to interact with an application. In the context of digital.auto playground, a widget is associated to the behavior represented by one or more Vehicle APIs.&lt;/p&gt;&#xA;&lt;p&gt;Each widget is an isolated website, embedded into the playground dashboard by iframe. The playground supports a mechanism to set/get APIs value from/to widget.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Login</title>
       <link>/basics/login/</link>
       <pubDate>Wed, 02 Aug 2023 07:17:50 +0700</pubDate>
-      
       <guid>/basics/login/</guid>
-      <description>Before you begin exploring our rapid prototyping environment for Vehicle Apps, let&amp;rsquo;s ensure you&amp;rsquo;re familiar with our login process. Follow this step-by-step guide for a smooth start:
-Click &amp;ldquo;Login&amp;rdquo; in the top right conner of the playground homepage to open the login popup.
-1. Login From here, you can:
-Log In: If you already have an account, click on the &amp;ldquo;Login&amp;rdquo; button, and follow below procedure.
-Sign Up: New around here?</description>
+      <description>&lt;p&gt;Before you begin exploring our rapid prototyping environment for Vehicle Apps, let&amp;rsquo;s ensure you&amp;rsquo;re familiar with our login process. Follow this step-by-step guide for a smooth start:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Click &amp;ldquo;Login&amp;rdquo; in the top right conner of the &lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;playground homepage&lt;/a&gt; to open the login popup.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./images/entry_login.png&#34; alt=&#34;Entry Login&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-login&#34;&gt;1. Login&lt;/h3&gt;&#xA;&lt;p&gt;From here, you can:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Log In&lt;/strong&gt;: If you already have an account, click on the &amp;ldquo;Login&amp;rdquo; button, and follow below procedure.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sign Up&lt;/strong&gt;: New around here? No worries. Then refer to the &lt;a href=&#34;#2-sign-up&#34;&gt;&amp;ldquo;Sign-up&amp;rdquo;&lt;/a&gt; section below for a guided walk-through.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Identify your ECU with dreamKIT</title>
       <link>/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/</link>
       <pubDate>Fri, 24 May 2024 08:07:23 +0700</pubDate>
-      
       <guid>/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/</guid>
-      <description>In this section, we will help you to identify the requirements to successfully connect an ECU to dreamKIT. The necessary information will consists of the dreamKIT hardware specifications and the communication identifiers on your ECU.
-What you will achieve By following this guide, you can register any ECU to the dreamKIT. You will be confident to connect any ECU for your own development purpose.
-1. dreamKIT hardware specifications Currently, our dreamKIT supports Controller Area Network (CAN) bus, both Standard CAN and CAN-FD.</description>
+      <description>&lt;p&gt;In this section, we will help you to identify the requirements to successfully connect an ECU to dreamKIT. The necessary information will consists of the dreamKIT hardware specifications and the communication identifiers on your ECU.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-you-will-achieve&#34;&gt;What you will achieve&lt;/h2&gt;&#xA;&lt;p&gt;By following this guide, you can register any ECU to the dreamKIT. You will be confident to connect any ECU for your own development purpose.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-dreamkit-hardware-specifications&#34;&gt;1. dreamKIT hardware specifications&lt;/h2&gt;&#xA;&lt;p&gt;Currently, our dreamKIT supports Controller Area Network (CAN) bus, both Standard CAN and CAN-FD. Please ensure your ECU has CAN protocol.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Co-Creation Challenge Vehicle KIT</title>
       <link>/dreamkit/retrofit_kit/</link>
       <pubDate>Wed, 15 Nov 2023 20:50:38 +0700</pubDate>
-      
       <guid>/dreamkit/retrofit_kit/</guid>
-      <description>Hardware Basics 1. Nvidia Jetson Nano CPU: Quad-core ARM A57 @ 1.43 GHz GPU: 128-core Maxwell Memory: 4 GB 64-bit LPDDR4 URL: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
-2. Uninterruptible Power UPS for Jetson Nano with 4x 3500mAh 18650 Akku
-3. WiFi Module Wi-Fi 5 and Bluetooth 4.2 Module 2.4G/5GHz dual-band WiFi URL: https://www.waveshare.com/wireless-ac8265.htm
-4. GPS and 4G Communication Module 2G/3G/4G network connection GNSS connector, supports GPS, Beidou, Glonass, LBS base station positioning URL: https://www.waveshare.com/sim7600g-h-4g-dongle.htm</description>
+      <description>&lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;&#xA;&lt;h3 id=&#34;basics&#34;&gt;Basics&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1-nvidia-jetson-nano&#34;&gt;1. Nvidia Jetson Nano&lt;/h4&gt;&#xA;&lt;p&gt;CPU: Quad-core ARM A57 @ 1.43 GHz&#xA;GPU: 128-core Maxwell&#xA;Memory: 4 GB 64-bit LPDDR4&#xA;URL: &lt;a href=&#34;https://developer.nvidia.com/embedded/jetson-nano-developer-kit&#34;&gt;https://developer.nvidia.com/embedded/jetson-nano-developer-kit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;2-uninterruptible-power&#34;&gt;2. Uninterruptible Power&lt;/h4&gt;&#xA;&lt;p&gt;UPS for Jetson Nano with 4x 3500mAh 18650 Akku&lt;/p&gt;&#xA;&lt;h4 id=&#34;3-wifi-module&#34;&gt;3. WiFi Module&lt;/h4&gt;&#xA;&lt;p&gt;Wi-Fi 5 and Bluetooth 4.2 Module&#xA;2.4G/5GHz dual-band WiFi&#xA;URL: &lt;a href=&#34;https://www.waveshare.com/wireless-ac8265.htm&#34;&gt;https://www.waveshare.com/wireless-ac8265.htm&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;4-gps-and-4g-communication-module&#34;&gt;4. GPS and 4G Communication Module&lt;/h4&gt;&#xA;&lt;p&gt;2G/3G/4G network connection&#xA;GNSS connector, supports GPS, Beidou, Glonass, LBS base station positioning&#xA;URL: &lt;a href=&#34;https://www.waveshare.com/sim7600g-h-4g-dongle.htm&#34;&gt;https://www.waveshare.com/sim7600g-h-4g-dongle.htm&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;5-storage&#34;&gt;5. Storage&lt;/h4&gt;&#xA;&lt;p&gt;Size: 128 GB&#xA;Speed: 130MB/s&#xA;A2- und V30-Classified&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Setup autowrx instance</title>
+      <link>/advanced/setup-instance/</link>
+      <pubDate>Thu, 03 Aug 2023 06:48:16 +0700</pubDate>
+      <guid>/advanced/setup-instance/</guid>
+      <description>&lt;p&gt;This guide will walk you through the steps to set up, run, and customize an instance of the open-source autowrx project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;Before proceeding with the setup, ensure that you have the following prerequisites installed on your system:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;node (version 20.12.12 or higher)&lt;/li&gt;&#xA;&lt;li&gt;Yarn (optional, if installed, it needs to be installed globally)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;setting-up-autowrx&#34;&gt;Setting up autowrx&lt;/h2&gt;&#xA;&lt;p&gt;Follow the steps below to set up your instance of autowrx:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Clone the Repository&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Introduction</title>
       <link>/basics/intro/</link>
       <pubDate>Wed, 02 Aug 2023 07:29:01 +0700</pubDate>
-      
       <guid>/basics/intro/</guid>
-      <description>What is playground.digital.auto? The playground.digital.auto is a cloud-based, rapid prototyping environment for new, SDV-enabled features. The prototypes are built against real-world vehicle APIs and can be seamlessly migrated to automotive runtimes, such as Eclipse Velocitas. The playground is open and free to use at playground.digital.auto.
-The playground is designed to foster continuous, customer-centric digital innovation. By supporting the new way of thinking and working digital first, digital.auto enables developers to deliver fast tangible results and early validation.</description>
+      <description>&lt;h3 id=&#34;what-is-playgrounddigitalauto&#34;&gt;What is playground.digital.auto?&lt;/h3&gt;&#xA;&lt;p&gt;The playground.digital.auto is a cloud-based, rapid prototyping environment for new, SDV-enabled features. The prototypes are built against real-world vehicle APIs and can be seamlessly migrated to automotive runtimes, such as Eclipse Velocitas. The playground is open and free to use at &lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;playground.digital.auto&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The playground is designed to foster continuous, customer-centric digital innovation. By supporting the new way of thinking and working digital first, digital.auto enables developers to deliver fast tangible results and early validation. Prototypes are developed in Python. To interact with vehicle sensors and actuators, the COVESA &lt;a href=&#34;https://wiki.covesa.global/display/WIK4/VSS+-+Vehicle+Signal+Specification&#34;&gt;Vehicle Signal Specification (VSS)&lt;/a&gt; is used. In the browser environment of the playground, the vehicle sensors and actuators are mocked, using simple test values. Access to VSS in Python is provided via the emerging VSS Python mapping, as defined by the &lt;a href=&#34;https://projects.eclipse.org/projects/automotive.velocitas&#34;&gt;Eclipse Velocitas&lt;/a&gt; project (part of Eclipse SdV). As we will discuss in the following, access to more sophisticated vehicle simulation environments or even real sensors and actuators is possible via a cloud bridge mechanism.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playing with Prototypes</title>
       <link>/basics/play/</link>
       <pubDate>Wed, 02 Aug 2023 07:29:01 +0700</pubDate>
-      
       <guid>/basics/play/</guid>
-      <description>This page provides instructions on how to interact with the prototype and try it out on yourself.
-To begin with, open the desired prototype from the model you have selected.
-The prototype offers 5 primary sections that you can explore: Journey, Code, Dashboard, Discussion, and Feedback. In the following guide, we will walk you through each of these sections in detail.
-Journey In this section, you have the opportunity to either introduce your own prototype or read about the introductions of others.</description>
+      <description>&lt;p&gt;This page provides instructions on how to interact with the prototype and try it out on yourself.&lt;/p&gt;&#xA;&lt;p&gt;To begin with, open the desired prototype from the model you have selected.&lt;/p&gt;&#xA;&lt;p&gt;The prototype offers 5 primary sections that you can explore: Journey, Code, Dashboard, Discussion, and Feedback. In the following guide, we will walk you through each of these sections in detail.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./images/overall.png&#34; alt=&#34;prototype feature&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;_journey_&#34;&gt;&lt;em&gt;Journey&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In this section, you have the opportunity to either introduce your own prototype or read about the introductions of others. The main focus of this section is to showcase the purpose and objectives of each prototype&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Develop SDV applications to interact with your ECUs</title>
       <link>/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/</link>
       <pubDate>Fri, 24 May 2024 07:54:53 +0700</pubDate>
-      
       <guid>/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/</guid>
-      <description>In this tutorial, we&amp;rsquo;ll walk you through a simple yet illustrative example: creating and deploying a simple LED blinking application to an ECU.
-Before going into the coding and deployment, you could explore the digital.auto ecosystem to better understand the capabilities and features of dreamKIT. For a preview of what our team has done with the dreamKIT, please watch our videos. These resources provide you with insights and inspiration for your projects.</description>
+      <description>&lt;p&gt;In this tutorial, we&amp;rsquo;ll walk you through a simple yet illustrative example: creating and deploying a simple LED blinking application to an ECU.&lt;/p&gt;&#xA;&lt;p&gt;Before going into the coding and deployment, you could explore the &lt;a href=&#34;https://www.digital-auto.org/&#34;&gt;digital.auto&lt;/a&gt; ecosystem to better understand the capabilities and features of dreamKIT. For a preview of what our team has done with the dreamKIT, please watch our &lt;a href=&#34;https://youtube.com/playlist?list=PLJ_UU5lKzLPrFau3iMGTaBfRGQGulfCpJ&amp;amp;si=dLVU6kzulmqTlQV8&#34;&gt;videos&lt;/a&gt;. These resources provide you with insights and inspiration for your projects.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playground to dreamKIT</title>
       <link>/dreamkit/working/deployment/</link>
       <pubDate>Thu, 16 Nov 2023 14:22:13 +0700</pubDate>
-      
       <guid>/dreamkit/working/deployment/</guid>
-      <description>a demonstration for a simple flow from digital.auto playground to dreamKIT could be found here,</description>
+      <description>&lt;p&gt;&lt;img src=&#34;./images/deployment.png&#34; alt=&#34;deployment&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;a demonstration for a simple flow from digital.auto playground to dreamKIT could be found here,&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/owT6symBAuo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>Experiment</title>
       <link>/basics/experiment/</link>
       <pubDate>Wed, 02 Aug 2023 07:29:15 +0700</pubDate>
-      
       <guid>/basics/experiment/</guid>
-      <description>To get started on your experimental journey, visit the playground Home and scroll down to Prototypes Gallery section
-These are the most common prototypes help you undertand how the playground working, and what it can do.
-Select prototype Passenger welcome and explorer what it does.
-At the first Tab, Customer Journey, we can see the general description of this prototype, what the problem it solve, who will get impact on this issue, the complexity level, also the release status.</description>
+      <description>&lt;p&gt;To get started on your experimental journey, visit the playground Home and scroll down to &lt;!-- raw HTML omitted --&gt;Prototypes Gallery&lt;!-- raw HTML omitted --&gt; section&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs/prototype_gallery.png&#34; alt=&#34;Prototype Gallery&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;These are the most common prototypes help you undertand how the playground working, and what it can do.&lt;/p&gt;&#xA;&lt;p&gt;Select prototype &lt;!-- raw HTML omitted --&gt;Passenger welcome&lt;!-- raw HTML omitted --&gt; and explorer what it does.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs/gallery01.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the first Tab, Customer Journey, we can see the general description of this prototype, what the problem it solve, who will get impact on this issue, the complexity level, also the release status. And at the bottom, the most important thing, is Customer Journey. This table will describle the story line step by step. Who will do what, you will have the picture what going in each minor step.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs/sample_001.png&#34; alt=&#34;Customer Journey&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
