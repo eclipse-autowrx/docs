@@ -2,83 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GenAI Awards 2024 on digital.auto playground documentation</title>
-    <link>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/</link>
+    <link>/campaign/gen-ai-awards-2024/</link>
     <description>Recent content in GenAI Awards 2024 on digital.auto playground documentation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Aug 2023 07:07:47 +0700</lastBuildDate><atom:link href="https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Sep 2023 07:07:47 +0700</lastBuildDate>
+    <atom:link href="/campaign/gen-ai-awards-2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting started</title>
-      <link>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/1-getting-started/</link>
+      <link>/campaign/gen-ai-awards-2024/1-getting-started/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/1-getting-started/</guid>
-      <description>Great to have you join the digital.auto GenAI Awards!
-We are on the lookout for innovative ways to apply multimodel GenAI in our web-based prototyping environment. The goal is to create visually rich SDV prototypes and solution sketches.
-Submit your GenAI-driven SDV idea and win up to €5,000! With quarterly competitions, each round offers a chance to win €2,000, and the final showdown between the 3 best teams adds another €3,000 to the pot.</description>
+      <guid>/campaign/gen-ai-awards-2024/1-getting-started/</guid>
+      <description>&lt;p&gt;Great to have you join the digital.auto GenAI Awards!&lt;/p&gt;&#xA;&lt;p&gt;We are on the lookout for innovative ways to apply multimodel GenAI in our web-based prototyping environment. The goal is to create visually rich SDV prototypes and solution sketches.&lt;/p&gt;&#xA;&lt;p&gt;Submit your GenAI-driven SDV idea and win up to €5,000! With quarterly competitions, each round offers a chance to win €2,000, and the final showdown between the 3 best teams adds another €3,000 to the pot.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Onboarding</title>
-      <link>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/2-onboarding/</link>
+      <link>/campaign/gen-ai-awards-2024/2-onboarding/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/2-onboarding/</guid>
-      <description>Before you can build, test and submit your genAI, you need to register your team first.
-Go to https://genai.digital.auto/
-You need to login first to do further steps. You can login with a GitHub account. Fill your team&amp;rsquo;s information. Every team member should already have an account. Your team can have up to 5 members. NOTE: The campain is limited to NONemployee of companies in the list of sponsorship.
-Apply for Amazon Web Service Bedrock credits.</description>
+      <guid>/campaign/gen-ai-awards-2024/2-onboarding/</guid>
+      <description>&lt;p&gt;Before you can build, test and submit your genAI, you need to register your team first.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go to &lt;a href=&#34;https://genai.digital.auto/&#34;&gt;https://genai.digital.auto/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;You need to login first to do further steps. You can login with a GitHub account.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/onboarding.png&#34; alt=&#34;Onboarding&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fill your team&amp;rsquo;s information. Every team member should already have an account. Your team can have up to 5 members.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/register-team.png&#34; alt=&#34;Step 1 - Register team&#34;&gt;&#xA;&lt;strong&gt;NOTE:&lt;/strong&gt; The campain is limited to &lt;strong&gt;NON&lt;/strong&gt;employee of companies in the list of sponsorship.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Access AWS Bedrock console</title>
-      <link>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/3-access-aws-bedrock/</link>
+      <link>/campaign/gen-ai-awards-2024/3-access-aws-bedrock/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/3-access-aws-bedrock/</guid>
-      <description>This guide show how you can access Amazon Web Service Bedrock console after you applied for credits and approved
-From previous Review your team screen, copy your IAM user and IAM password, then click Open AWS Bedrock. Fill your IAM username and password. Then click Sign in. Search for AWS Bedrock in search bar, then click AWS Bedrock. Click get started to navigate to Bedrock console. Change your AWS region to US East (N.</description>
+      <guid>/campaign/gen-ai-awards-2024/3-access-aws-bedrock/</guid>
+      <description>&lt;p&gt;This guide show how you can access Amazon Web Service Bedrock console after you applied for credits and approved&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;From previous &lt;strong&gt;Review your team&lt;/strong&gt; screen, copy your IAM user and IAM password, then click Open AWS Bedrock.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/open-aws-console.png&#34; alt=&#34;open-aws-console&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fill your IAM username and password. Then click Sign in.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/fill-username-password.png&#34; alt=&#34;fill-username-password&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Search for AWS Bedrock in search bar, then click AWS Bedrock.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/search-bedrock.png&#34; alt=&#34;search-bedrock&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Click get started to navigate to Bedrock console.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/get-started-bedrock.png&#34; alt=&#34;get-started-bedrock&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Change your AWS region to US East (N. Virginia) - us-east-1. This ensures that you can access all available LLM models.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/bedrock-console.png&#34; alt=&#34;bedrock-console&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Build your GenAI</title>
-      <link>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/4-build-first-genai/</link>
+      <link>/campaign/gen-ai-awards-2024/4-build-first-genai/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/4-build-first-genai/</guid>
-      <description>This guide shows how you can build a simple GenAI Python by using prompt engineering methods.
-1. After accessing the AWS Bedrock console, navigate directly to the Playground/chat section to begin experimenting. 2. Select the model you want to experiment with. 3. First, choose the provider, then select the model from this provider, and press &amp;ldquo;apply&amp;rdquo; to return to the playground chat interface. 4. Try the simple prompt: &amp;ldquo;Generate an SDV Python code to open the driver&amp;rsquo;s door.</description>
+      <guid>/campaign/gen-ai-awards-2024/4-build-first-genai/</guid>
+      <description>&lt;p&gt;This guide shows how you can build a simple GenAI Python by using prompt engineering methods.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; After accessing the AWS Bedrock console, navigate directly to the Playground/chat section to begin experimenting.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20build%20your%20GenAI/1-chat.jpg&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Select the model you want to experiment with.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20build%20your%20GenAI/3-chat.jpg&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; First, choose the provider, then select the model from this provider, and press &amp;ldquo;apply&amp;rdquo; to return to the playground chat interface.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20build%20your%20GenAI/4-select.jpg&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Try the simple prompt: &amp;ldquo;Generate an SDV Python code to open the driver&amp;rsquo;s door.&amp;rdquo;&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20build%20your%20GenAI/5-input.jpg&#34; alt=&#34;4&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Submit your genAI</title>
-      <link>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/5-submit-your-genai/</link>
+      <link>/campaign/gen-ai-awards-2024/5-submit-your-genai/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/5-submit-your-genai/</guid>
-      <description>This guide explains how to submit your work for the GenAI Awards. You can make your submission through the Marketplace, which accepts a variety of entries, including GenAI, Widget, and Vehicle App projects.
-On the Marketplace website, we refer to a GenAI submission as a &amp;ldquo;Package.&amp;rdquo;
-From previous Review your team screen. Click Go to marketplace, or you can go to https://marketplace.digital.auto In the marketplace, if you&amp;rsquo;ve previously logged into the GenAI website, your login should carry over.</description>
+      <guid>/campaign/gen-ai-awards-2024/5-submit-your-genai/</guid>
+      <description>&lt;p&gt;This guide explains how to submit your work for the GenAI Awards. You can make your submission through the &lt;a href=&#34;https://marketplace.digital.auto&#34;&gt;Marketplace&lt;/a&gt;, which accepts a variety of entries, including GenAI, Widget, and Vehicle App projects.&lt;/p&gt;&#xA;&lt;p&gt;On the &lt;a href=&#34;https://marketplace.digital.auto&#34;&gt;Marketplace&lt;/a&gt; website, we refer to a GenAI submission as a &amp;ldquo;Package.&amp;rdquo;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;From previous &lt;strong&gt;Review your team&lt;/strong&gt; screen. Click &lt;strong&gt;Go to marketplace&lt;/strong&gt;, or you can go to &lt;a href=&#34;https://marketplace.digital.auto&#34;&gt;https://marketplace.digital.auto&lt;/a&gt;&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI-Awards/open-marketplace.png&#34; alt=&#34;open-marketplace&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;In the marketplace, if you&amp;rsquo;ve previously logged into the GenAI website, your login should carry over. If you find yourself not signed in, please log in again using the same account with which you registered your team on the GenAI website.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Update your submission</title>
-      <link>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/6-update-genai/</link>
+      <link>/campaign/gen-ai-awards-2024/6-update-genai/</link>
       <pubDate>Thu, 03 Aug 2023 06:48:57 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/6-update-genai/</guid>
-      <description>This guide shows how you can update your GenAI submission
-1. After accessing the marketplace, navigate to &amp;ldquo;My package&amp;rdquo; 2. Select your GenAI Awards submission pacakge 3. Click update button 4. Adjust the deployment URL, dredentials, and instruction </description>
+      <guid>/campaign/gen-ai-awards-2024/6-update-genai/</guid>
+      <description>&lt;p&gt;This guide shows how you can update your GenAI submission&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; After accessing the marketplace, navigate to &amp;ldquo;My package&amp;rdquo;&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20update%20your%20submission/1.jpg&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Select your GenAI Awards submission pacakge&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20update%20your%20submission/2.jpg&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Click update button&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20update%20your%20submission/3.jpg&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Adjust the deployment URL, dredentials, and instruction&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/vW9gFVaiF33Z/GenAI%20Awards%20-%20How%20to%20update%20your%20submission/4.jpg&#34; alt=&#34;4&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Use GenAI on playground</title>
-      <link>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/7-use-genai/</link>
+      <link>/campaign/gen-ai-awards-2024/7-use-genai/</link>
       <pubDate>Mon, 25 Sep 2023 07:07:47 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/campaign/gen-ai-awards-2024/7-use-genai/</guid>
-      <description>1. SDV ProtoPilot (GenAI Python) 1. Click on the SDV Protopilot button. Then enter your input prompt and choose a generator. 2. Select a generator from the marketplace, your own generator will be displayed here after the admin approves it. 3. Input prompt and selected a generator, click on the &amp;ldquo;Generate&amp;rdquo; button and wait for the code to be generated. 4. This may take from 30 to 90 seconds, depending on the complexity and quality of the generator.</description>
+      <guid>/campaign/gen-ai-awards-2024/7-use-genai/</guid>
+      <description>&lt;h3 id=&#34;1-sdv-protopilot-genai-python&#34;&gt;1. SDV ProtoPilot (GenAI Python)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Click on the SDV Protopilot button. Then enter your input prompt and choose a generator.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI/SDV%20ProtoPilot/21.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Select a generator from the marketplace, your own generator will be displayed here after the admin approves it.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI/SDV%20ProtoPilot/22.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Input prompt and selected a generator, click on the &amp;ldquo;Generate&amp;rdquo; button and wait for the code to be generated.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI/SDV%20ProtoPilot/23.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; This may take from 30 to 90 seconds, depending on the complexity and quality of the generator. If the generator is well-trained and fine-tuned, it will produce the code faster and more accurately.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/GenAI/SDV%20ProtoPilot/24.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

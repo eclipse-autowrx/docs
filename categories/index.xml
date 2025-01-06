@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on digital.auto playground documentation</title>
-    <link>https://eclipse.dev/autowrx/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on digital.auto playground documentation</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://eclipse.dev/autowrx/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

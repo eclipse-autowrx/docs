@@ -2,31 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ECU Plug and Play on digital.auto playground documentation</title>
-    <link>https://eclipse.dev/autowrx/dreamkit/working/ecuplugplay/</link>
+    <link>/dreamkit/working/ecuplugplay/</link>
     <description>Recent content in ECU Plug and Play on digital.auto playground documentation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 May 2024 07:01:23 +0700</lastBuildDate><atom:link href="https://eclipse.dev/autowrx/dreamkit/working/ecuplugplay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 May 2024 08:07:23 +0700</lastBuildDate>
+    <atom:link href="/dreamkit/working/ecuplugplay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identify your ECU with dreamKIT</title>
-      <link>https://eclipse.dev/autowrx/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/</link>
+      <link>/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/</link>
       <pubDate>Fri, 24 May 2024 08:07:23 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/</guid>
-      <description>In this section, we will help you to identify the requirements to successfully connect an ECU to dreamKIT. The necessary information will consists of the dreamKIT hardware specifications and the communication identifiers on your ECU.
-What you will achieve By following this guide, you can register any ECU to the dreamKIT. You will be confident to connect any ECU for your own development purpose.
-1. dreamKIT hardware specifications Currently, our dreamKIT supports Controller Area Network (CAN) bus, both Standard CAN and CAN-FD.</description>
+      <guid>/dreamkit/working/ecuplugplay/ecu-how-to-identify-your-ecu/</guid>
+      <description>&lt;p&gt;In this section, we will help you to identify the requirements to successfully connect an ECU to dreamKIT. The necessary information will consists of the dreamKIT hardware specifications and the communication identifiers on your ECU.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-you-will-achieve&#34;&gt;What you will achieve&lt;/h2&gt;&#xA;&lt;p&gt;By following this guide, you can register any ECU to the dreamKIT. You will be confident to connect any ECU for your own development purpose.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-dreamkit-hardware-specifications&#34;&gt;1. dreamKIT hardware specifications&lt;/h2&gt;&#xA;&lt;p&gt;Currently, our dreamKIT supports Controller Area Network (CAN) bus, both Standard CAN and CAN-FD. Please ensure your ECU has CAN protocol.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Develop SDV applications to interact with your ECUs</title>
-      <link>https://eclipse.dev/autowrx/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/</link>
+      <link>/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/</link>
       <pubDate>Fri, 24 May 2024 07:54:53 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/</guid>
-      <description>In this tutorial, we&amp;rsquo;ll walk you through a simple yet illustrative example: creating and deploying a simple LED blinking application to an ECU.
-Before going into the coding and deployment, you could explore the digital.auto ecosystem to better understand the capabilities and features of dreamKIT. For a preview of what our team has done with the dreamKIT, please watch our videos. These resources provide you with insights and inspiration for your projects.</description>
+      <guid>/dreamkit/working/ecuplugplay/ecu-how-to-develop-sdv-applications/</guid>
+      <description>&lt;p&gt;In this tutorial, we&amp;rsquo;ll walk you through a simple yet illustrative example: creating and deploying a simple LED blinking application to an ECU.&lt;/p&gt;&#xA;&lt;p&gt;Before going into the coding and deployment, you could explore the &lt;a href=&#34;https://www.digital-auto.org/&#34;&gt;digital.auto&lt;/a&gt; ecosystem to better understand the capabilities and features of dreamKIT. For a preview of what our team has done with the dreamKIT, please watch our &lt;a href=&#34;https://youtube.com/playlist?list=PLJ_UU5lKzLPrFau3iMGTaBfRGQGulfCpJ&amp;amp;si=dLVU6kzulmqTlQV8&#34;&gt;videos&lt;/a&gt;. These resources provide you with insights and inspiration for your projects.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

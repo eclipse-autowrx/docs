@@ -2,69 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Getting Started on digital.auto playground documentation</title>
-    <link>https://eclipse.dev/autowrx/basics/</link>
+    <link>/basics/</link>
     <description>Recent content in Getting Started on digital.auto playground documentation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jul 2023 16:13:24 +0700</lastBuildDate><atom:link href="https://eclipse.dev/autowrx/basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Aug 2023 07:29:15 +0700</lastBuildDate>
+    <atom:link href="/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overview</title>
-      <link>https://eclipse.dev/autowrx/basics/overview/</link>
+      <link>/basics/overview/</link>
       <pubDate>Wed, 02 Aug 2023 07:05:26 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/basics/overview/</guid>
-      <description>1. Overview The open and web based digital.auto playground offers a rapid prototyping environment to explore and validate ideas of a Vehicle App.
-digital.auto interacts with different vehicle sensors and actuators via standardized APIs specified by the COVESA Vehicle Signal Specification (VSS) without custom setup requirements.
-Within the platform you can:
-browse, navigate and enhance vehicle signals (sensors, actuators and branches) in the Vehicle API Catalogue mapped to a 3D model of the vehicle.</description>
+      <guid>/basics/overview/</guid>
+      <description>&lt;h2 id=&#34;1-overview&#34;&gt;1. Overview&lt;/h2&gt;&#xA;&lt;p&gt;The open and web based &lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;digital.auto&lt;/a&gt; playground offers a rapid prototyping environment to explore and validate ideas of a &lt;em&gt;Vehicle App&lt;/em&gt;.&lt;br&gt;&#xA;&lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;digital.auto&lt;/a&gt; interacts with different vehicle sensors and actuators via standardized APIs specified by the COVESA &lt;a href=&#34;https://covesa.github.io/vehicle_signal_specification/introduction/&#34;&gt;Vehicle Signal Specification (VSS)&lt;/a&gt; without custom setup requirements.&lt;br&gt;&#xA;Within the platform you can:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;browse, navigate and enhance vehicle signals (sensors, actuators and branches) in the &lt;a href=&#34;https://digitalauto.netlify.app/model/STLWzk1WyqVVLbfymb4f/cvi/list&#34;&gt;Vehicle API Catalogue&lt;/a&gt; mapped to a 3D model of the vehicle.&lt;/li&gt;&#xA;&lt;li&gt;build &lt;em&gt;Vehicle App&lt;/em&gt; prototypes in the browser using Python and the Vehicle API Catalogue.&lt;/li&gt;&#xA;&lt;li&gt;test the &lt;em&gt;Vehicle App&lt;/em&gt; prototype in a dashboard with 3D animation for API calls.&lt;/li&gt;&#xA;&lt;li&gt;create new plugins, which usually represent UX widgets or remote server communication to enhance the vehicle mockup experience in the playground.&lt;/li&gt;&#xA;&lt;li&gt;collect and evaluate user feedback to prioritize your development portfolio.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;2-start-the-journey-of-a-_vehicle-app_&#34;&gt;2. Start the journey of a &lt;em&gt;Vehicle App&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;As first step open &lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;digital.auto&lt;/a&gt;, select &lt;a href=&#34;https://digitalauto.netlify.app/model&#34;&gt;&lt;em&gt;Get Started&lt;/em&gt;&lt;/a&gt; in the prototyping section of the landing page and use the Vehicle Model of your choice.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Login</title>
-      <link>https://eclipse.dev/autowrx/basics/login/</link>
+      <link>/basics/login/</link>
       <pubDate>Wed, 02 Aug 2023 07:17:50 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/basics/login/</guid>
-      <description>Before you begin exploring our rapid prototyping environment for Vehicle Apps, let&amp;rsquo;s ensure you&amp;rsquo;re familiar with our login process. Follow this step-by-step guide for a smooth start:
-Click &amp;ldquo;Login&amp;rdquo; in the top right conner of the playground homepage to open the login popup.
-1. Login From here, you can:
-Log In: If you already have an account, click on the &amp;ldquo;Login&amp;rdquo; button, and follow below procedure.
-Sign Up: New around here?</description>
+      <guid>/basics/login/</guid>
+      <description>&lt;p&gt;Before you begin exploring our rapid prototyping environment for Vehicle Apps, let&amp;rsquo;s ensure you&amp;rsquo;re familiar with our login process. Follow this step-by-step guide for a smooth start:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Click &amp;ldquo;Login&amp;rdquo; in the top right conner of the &lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;playground homepage&lt;/a&gt; to open the login popup.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./images/entry_login.png&#34; alt=&#34;Entry Login&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-login&#34;&gt;1. Login&lt;/h3&gt;&#xA;&lt;p&gt;From here, you can:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Log In&lt;/strong&gt;: If you already have an account, click on the &amp;ldquo;Login&amp;rdquo; button, and follow below procedure.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sign Up&lt;/strong&gt;: New around here? No worries. Then refer to the &lt;a href=&#34;#2-sign-up&#34;&gt;&amp;ldquo;Sign-up&amp;rdquo;&lt;/a&gt; section below for a guided walk-through.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Introduction</title>
-      <link>https://eclipse.dev/autowrx/basics/intro/</link>
+      <link>/basics/intro/</link>
       <pubDate>Wed, 02 Aug 2023 07:29:01 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/basics/intro/</guid>
-      <description>What is playground.digital.auto? The playground.digital.auto is a cloud-based, rapid prototyping environment for new, SDV-enabled features. The prototypes are built against real-world vehicle APIs and can be seamlessly migrated to automotive runtimes, such as Eclipse Velocitas. The playground is open and free to use at playground.digital.auto.
-The playground is designed to foster continuous, customer-centric digital innovation. By supporting the new way of thinking and working digital first, digital.auto enables developers to deliver fast tangible results and early validation.</description>
+      <guid>/basics/intro/</guid>
+      <description>&lt;h3 id=&#34;what-is-playgrounddigitalauto&#34;&gt;What is playground.digital.auto?&lt;/h3&gt;&#xA;&lt;p&gt;The playground.digital.auto is a cloud-based, rapid prototyping environment for new, SDV-enabled features. The prototypes are built against real-world vehicle APIs and can be seamlessly migrated to automotive runtimes, such as Eclipse Velocitas. The playground is open and free to use at &lt;a href=&#34;https://digitalauto.netlify.app/&#34;&gt;playground.digital.auto&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The playground is designed to foster continuous, customer-centric digital innovation. By supporting the new way of thinking and working digital first, digital.auto enables developers to deliver fast tangible results and early validation. Prototypes are developed in Python. To interact with vehicle sensors and actuators, the COVESA &lt;a href=&#34;https://wiki.covesa.global/display/WIK4/VSS+-+Vehicle+Signal+Specification&#34;&gt;Vehicle Signal Specification (VSS)&lt;/a&gt; is used. In the browser environment of the playground, the vehicle sensors and actuators are mocked, using simple test values. Access to VSS in Python is provided via the emerging VSS Python mapping, as defined by the &lt;a href=&#34;https://projects.eclipse.org/projects/automotive.velocitas&#34;&gt;Eclipse Velocitas&lt;/a&gt; project (part of Eclipse SdV). As we will discuss in the following, access to more sophisticated vehicle simulation environments or even real sensors and actuators is possible via a cloud bridge mechanism.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playing with Prototypes</title>
-      <link>https://eclipse.dev/autowrx/basics/play/</link>
+      <link>/basics/play/</link>
       <pubDate>Wed, 02 Aug 2023 07:29:01 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/basics/play/</guid>
-      <description>This page provides instructions on how to interact with the prototype and try it out on yourself.
-To begin with, open the desired prototype from the model you have selected.
-The prototype offers 5 primary sections that you can explore: Journey, Code, Dashboard, Discussion, and Feedback. In the following guide, we will walk you through each of these sections in detail.
-Journey In this section, you have the opportunity to either introduce your own prototype or read about the introductions of others.</description>
+      <guid>/basics/play/</guid>
+      <description>&lt;p&gt;This page provides instructions on how to interact with the prototype and try it out on yourself.&lt;/p&gt;&#xA;&lt;p&gt;To begin with, open the desired prototype from the model you have selected.&lt;/p&gt;&#xA;&lt;p&gt;The prototype offers 5 primary sections that you can explore: Journey, Code, Dashboard, Discussion, and Feedback. In the following guide, we will walk you through each of these sections in detail.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./images/overall.png&#34; alt=&#34;prototype feature&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;_journey_&#34;&gt;&lt;em&gt;Journey&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In this section, you have the opportunity to either introduce your own prototype or read about the introductions of others. The main focus of this section is to showcase the purpose and objectives of each prototype&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Experiment</title>
-      <link>https://eclipse.dev/autowrx/basics/experiment/</link>
+      <link>/basics/experiment/</link>
       <pubDate>Wed, 02 Aug 2023 07:29:15 +0700</pubDate>
-      
-      <guid>https://eclipse.dev/autowrx/basics/experiment/</guid>
-      <description>To get started on your experimental journey, visit the playground Home and scroll down to Prototypes Gallery section
-These are the most common prototypes help you undertand how the playground working, and what it can do.
-Select prototype Passenger welcome and explorer what it does.
-At the first Tab, Customer Journey, we can see the general description of this prototype, what the problem it solve, who will get impact on this issue, the complexity level, also the release status.</description>
+      <guid>/basics/experiment/</guid>
+      <description>&lt;p&gt;To get started on your experimental journey, visit the playground Home and scroll down to &lt;!-- raw HTML omitted --&gt;Prototypes Gallery&lt;!-- raw HTML omitted --&gt; section&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs/prototype_gallery.png&#34; alt=&#34;Prototype Gallery&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;These are the most common prototypes help you undertand how the playground working, and what it can do.&lt;/p&gt;&#xA;&lt;p&gt;Select prototype &lt;!-- raw HTML omitted --&gt;Passenger welcome&lt;!-- raw HTML omitted --&gt; and explorer what it does.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs/gallery01.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the first Tab, Customer Journey, we can see the general description of this prototype, what the problem it solve, who will get impact on this issue, the complexity level, also the release status. And at the bottom, the most important thing, is Customer Journey. This table will describle the story line step by step. Who will do what, you will have the picture what going in each minor step.&#xA;&lt;img src=&#34;https://bewebstudio.digitalauto.tech/data/projects/6D9qAxt57P4e/docs/sample_001.png&#34; alt=&#34;Customer Journey&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
