@@ -30,13 +30,6 @@ build-hugo:
   artifacts:
     paths:
       - public
-  resources:
-    requests:
-      memory: 1Gi
-      cpu: 500m
-    limits:
-      memory: 1.5Gi
-      cpu: 750m
 
 push-modification:
   extends: .ef-git
@@ -65,10 +58,3 @@ push-modification:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       # when: manual 
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE == "schedule"
-  resources:
-    requests:
-      memory: 500Mi
-      cpu: 250m
-    limits:
-      memory: 1Gi
-      cpu: 500m
