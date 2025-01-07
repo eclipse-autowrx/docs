@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Releases on digital.auto playground documentation</title>
+    <link>/releases/</link>
+    <description>Recent content in Releases on digital.auto playground documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2023 07:12:12 +0700</lastBuildDate><atom:link href="/releases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrate from v1 to v2</title>
+      <link>/releases/version2/</link>
+      <pubDate>Wed, 15 Nov 2023 20:50:38 +0700</pubDate>
+      
+      <guid>/releases/version2/</guid>
+      <description>At playground.digital.auto, we&amp;rsquo;ve listened to your feedback and identified some limitations in the architecture of v1. To address these, we&amp;rsquo;re excited to announce a new version with significant improvements!
+Python applications utilize the standard Velocitas library. Python applications can leverage external libraries, enabling the development of a wide range of applications. Widgets are fully plug-and-play, with no dependency on any specific model. UX improvements enhance user-friendliness. Rust Language Support: Write, compile, and execute Rust code with a single click.</description>
+    </item>
+    
+  </channel>
+</rss>

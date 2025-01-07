@@ -8,7 +8,7 @@
 
 
     <link rel="icon" href="/images/favicon.svg" type="image/svg">
-    <title>Advanced :: digital.auto playground documentation</title>
+    <title>Setup autowrx instance :: digital.auto playground documentation</title>
 
     
     <link href="/css/nucleus.css?1736223162" rel="stylesheet">
@@ -61,7 +61,7 @@ if (!doNotTrack) {
 </head>
 
   </head>
-  <body class="" data-url="/advanced/">
+  <body class="" data-url="/advanced/setup-instance/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -658,8 +658,8 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/advanced/" title="Advanced" class="dd-item
+        parent
         
-        active
         
         ">
       <a href="/advanced/">
@@ -793,7 +793,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/advanced/setup-instance/" title="Setup autowrx instance" class="dd-item ">
+      <li data-nav-id="/advanced/setup-instance/" title="Setup autowrx instance" class="dd-item active">
         <a href="/advanced/setup-instance/">
         Setup autowrx instance
         <i class="fas fa-check read-icon"></i>
@@ -1272,7 +1272,7 @@ if (!doNotTrack) {
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://gitlab.eclipse.org/eclipse/autowrx/docs/-/tree/main/content/advanced/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://gitlab.eclipse.org/eclipse/autowrx/docs/-/tree/main/content/advanced/setup-instance.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -1287,6 +1287,8 @@ if (!doNotTrack) {
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -1297,7 +1299,13 @@ if (!doNotTrack) {
             
           
           
-            <a href='/'></a> > Advanced
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/advanced/'>Advanced</a> > Setup autowrx instance
+          
+        
           
         
           
@@ -1306,6 +1314,26 @@ if (!doNotTrack) {
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#setting-up-autowrx">Setting up autowrx</a></li>
+    <li><a href="#customize-your-instance">Customize your instance</a>
+      <ul>
+        <li><a href="#editable-files-for-customization">Editable files for customization</a></li>
+        <li><a href="#srcconfigsconfigts">src/configs/config.ts</a></li>
+        <li><a href="#srcindexcss">src/index.css</a></li>
+        <li><a href="#instancets">instance.ts</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -1313,29 +1341,273 @@ if (!doNotTrack) {
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              Setup autowrx instance
+            </h1>
           
 
         
 
 
+<p>This guide will walk you through the steps to set up, run, and customize an instance of the open-source autowrx project.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before proceeding with the setup, ensure that you have the following prerequisites installed on your system:</p>
+<ul>
+<li>node (version 20.12.12 or higher)</li>
+<li>Yarn (optional, if installed, it needs to be installed globally)</li>
+</ul>
+<h2 id="setting-up-autowrx">Setting up autowrx</h2>
+<p>Follow the steps below to set up your instance of autowrx:</p>
+<ol>
+<li>
+<p>Clone the Repository</p>
+<p>First, clone the autowrx repository from GitLab. You can choose to clone the repository using either HTTPS or SSH.</p>
+<p>To clone with HTTPS, use the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://gitlab.eclipse.org/eclipse/autowrx/autowrx.git
+</span></span></code></pre></div><p>To clone with SSH, use this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone git@gitlab.eclipse.org:eclipse/autowrx/autowrx.git
+</span></span></code></pre></div></li>
+<li>
+<p>Install dependencies</p>
+<p>Navigate into the directory of the cloned repository and install all necessary dependencies.</p>
+<p>Using Yarn:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd autowrx
+</span></span><span style="display:flex;"><span>yarn
+</span></span></code></pre></div><p>Using npm:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd autowrx
+</span></span><span style="display:flex;"><span>npm i
+</span></span></code></pre></div></li>
+<li>
+<p>Add a .env File</p>
+<p>Next, you need to create a .env file in the root directory of the project. This file will contain configuration variables, such as the server endpoint. Below is an example of what your .env file should look like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>VITE_SERVER_BASE_URL<span style="color:#f92672">=</span>https://autowrx-server.example.com
+</span></span></code></pre></div><p>Replace <code>https://autowrx-server.example.com</code> with the actual server endpoint of your autowrx instance.</p>
+</li>
+<li>
+<p>Run project</p>
+<p>Finally, you can run the project using either Yarn or npm. Choose one of the following commands:</p>
+<p>Using Yarn:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yarn dev
+</span></span></code></pre></div><p>Using npm:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm run dev
+</span></span></code></pre></div></li>
+</ol>
+<p>Your autowrx instance should now be up and running at localhost:3000, ready for you to customize and use.</p>
+<h2 id="customize-your-instance">Customize your instance</h2>
+<p>After setting up your instance, you can customize its appearance and content. The files and configurations you need to edit for customization are listed and described below.</p>
+<h3 id="editable-files-for-customization">Editable files for customization</h3>
+<p>The image below contains the files you can edit:
+<img src="https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/Setup-instance/editable-custom-files.png" alt="editable-custom-files"></p>
+<p>The following files, starting from the root of your project directory, can be customized:</p>
+<ul>
+<li>public/imgs/favicon.ico: This file is the small favicon that appears on the browser tab.</li>
+<li>public/imgs/logo-wide.png: This file is the logo of your instance.</li>
+<li>src/configs/config.ts: This file contains various configuration settings.</li>
+<li>src/index.css: This file contains the styling for your instance.</li>
+<li>instance.ts: This file allows you to update some content of the instance.</li>
+</ul>
+<blockquote>
+<p>Note: If any of the above files do not exist in your project, please create a new file with the exact name.</p>
+</blockquote>
+<p>For more detailed information about the config.ts, index.css, and instance.ts files, refer to the instructions below.</p>
+<h3 id="srcconfigsconfigts">src/configs/config.ts</h3>
+<p>Refer to the table below for the meaning of properties.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>serverBaseUrl</td>
+<td>Base URL of API</td>
+</tr>
+<tr>
+<td>serverVersion</td>
+<td>Version of API</td>
+</tr>
+<tr>
+<td>instanceLogo</td>
+<td>Logo of your instance</td>
+</tr>
+<tr>
+<td>genAI</td>
+<td>Related configurations for GenAI feature</td>
+</tr>
+<tr>
+<td>genAI.defaultEndpointUrl</td>
+<td>Default endpoint for calling GenAI</td>
+</tr>
+<tr>
+<td>genAI.marketplaceUrl</td>
+<td>The endpoint for listing GenAIs. Default is <a href="https://store-be.digitalauto.tech/marketplace/genai">https://store-be.digitalauto.tech/marketplace/genai</a></td>
+</tr>
+<tr>
+<td>genAI.sdvApp</td>
+<td>Array of objects. Each object contains custom GenAI beside listed GenAIs from genAI.marketplaceUrl</td>
+</tr>
+<tr>
+<td>genAI.sdvApp.id</td>
+<td>Id of the GenAI app</td>
+</tr>
+<tr>
+<td>genAI.sdvApp.type</td>
+<td>Type of GenAI. Either <code>GenAI_Widget</code>, <code>GenAI_Python</code> or <code>GenAI_Dashboard</code></td>
+</tr>
+<tr>
+<td>genAI.sdvApp.description</td>
+<td>Description of GenAI app</td>
+</tr>
+<tr>
+<td>genAI.sdvApp.endpointUrl</td>
+<td>Endpoint URL for calling GenAI. If left blank, it will use genAI.defaultEndpointUrl as a fallback</td>
+</tr>
+<tr>
+<td>genAI.sdvApp.customPayload</td>
+<td>Customize the payload (body) when calling the GenAI</td>
+</tr>
+</tbody>
+</table>
+<h3 id="srcindexcss">src/index.css</h3>
+<p>Scroll down to the bottom of the file (at Font and Colors for instances section). Here are all the properties you can edit to update appearance of the instance globally.
+<img src="https://bewebstudio.digitalauto.tech/data/projects/nTcRsgxcDWgr/Setup-instance/css-configuration.png?abc=1722840808182?date=1722840808197" alt="css-configuration"></p>
+<blockquote>
+<p>Note: All the color values in the image above are in HSL format. You can update the value with different formats (eg. RGBA, HEX).</p>
+</blockquote>
+<p>Refer to the table below for the meaning of variables:</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&ndash;da-primary-100</td>
+<td>Primarily used as the background color for various elements.</td>
+</tr>
+<tr>
+<td>&ndash;da-primary-300</td>
+<td>A median color between &ndash;da-primary-100 and &ndash;da-primary-500.</td>
+</tr>
+<tr>
+<td>&ndash;da-primary-500</td>
+<td>Mainly used in primary text and certain borders.</td>
+</tr>
+<tr>
+<td>&ndash;da-secondary-100</td>
+<td>Light secondary color.</td>
+</tr>
+<tr>
+<td>&ndash;da-secondary-300</td>
+<td>Medium secondary color.</td>
+</tr>
+<tr>
+<td>&ndash;da-secondary-500</td>
+<td>Secondary color, often used for less important text.</td>
+</tr>
+<tr>
+<td>&ndash;da-accent-100</td>
+<td>Light accent color.</td>
+</tr>
+<tr>
+<td>&ndash;da-accent-300</td>
+<td>Medium accent color.</td>
+</tr>
+<tr>
+<td>&ndash;da-accent-500</td>
+<td>Accent color, used in various text elements.</td>
+</tr>
+<tr>
+<td>&ndash;da-white</td>
+<td>The white color, mainly used for text and background elements.</td>
+</tr>
+<tr>
+<td>&ndash;da-black</td>
+<td>The black color, used for some text and background elements.</td>
+</tr>
+<tr>
+<td>&ndash;da-gray-light</td>
+<td>Light gray color, primarily used for text, background, and borders. titlece.</td>
+</tr>
+<tr>
+<td>&ndash;da-gradient-from</td>
+<td>The starting color of a gradient, used for primary buttons and background image overlay on the homepage.</td>
+</tr>
+<tr>
+<td>&ndash;da-gradient-to</td>
+<td>The ending color of a gradient, used for primary buttons and background image overlay on the homepage.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="instancets">instance.ts</h3>
+<p>Refer to the table below for the meaning of properties.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>Name of the instance</td>
+</tr>
+<tr>
+<td>policy_url</td>
+<td>URL to your policy</td>
+</tr>
+<tr>
+<td>partners</td>
+<td>List of your partners. This will be displayed at the bottom of homepage</td>
+</tr>
+<tr>
+<td>partners.category</td>
+<td>Name of the group (category) of partners</td>
+</tr>
+<tr>
+<td>partners.items</td>
+<td>List of partners in a group</td>
+</tr>
+<tr>
+<td>partners.items.name</td>
+<td>Name of the partner</td>
+</tr>
+<tr>
+<td>partners.items.img</td>
+<td>Logo of the partner</td>
+</tr>
+<tr>
+<td>partners.items.url</td>
+<td>URL to partner&rsquo;s website</td>
+</tr>
+<tr>
+<td>text</td>
+<td>Some text content in your instance</td>
+</tr>
+<tr>
+<td>text.home_ads_pan_title</td>
+<td>The title of the hero banner on the homepage</td>
+</tr>
+<tr>
+<td>text.home_ads_pan_desc</td>
+<td>The description of the hero banner on the homepage</td>
+</tr>
+</tbody>
+</table>
 
-	<h3 id="chapter-4">Chapter 4</h3>
-<h1 id="advanced">Advanced</h1>
-<p>Now let&rsquo;s do the complex things.</p>
 
-
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
-        
-            </div> 
         
         </div>
         
@@ -1823,6 +2095,7 @@ if (!doNotTrack) {
             
                 
                     
+                    
                 
                 
 
@@ -1838,6 +2111,9 @@ if (!doNotTrack) {
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -2090,10 +2366,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/campaign/gen-ai-awards-2024/7-use-genai/" title="Use GenAI on playground"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/advanced/playground_n_soafee/" title="Cloud native experiment with playground"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/advanced/architecture/" title="Architecture" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/advanced/ai_sdv_app/" title="AI SdV Application" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -2125,3 +2401,4 @@ if (!doNotTrack) {
 
   </body>
 </html>
+

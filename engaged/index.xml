@@ -4,51 +4,68 @@
     <title>Build Your First Prototype on digital.auto playground documentation</title>
     <link>/engaged/</link>
     <description>Recent content in Build Your First Prototype on digital.auto playground documentation</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Aug 2023 06:32:41 +0700</lastBuildDate>
-    <atom:link href="/engaged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 07:09:57 +0700</lastBuildDate><atom:link href="/engaged/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create &#39;Hello World&#39; Prototype</title>
       <link>/engaged/helloworld/</link>
       <pubDate>Wed, 02 Aug 2023 07:31:32 +0700</pubDate>
+      
       <guid>/engaged/helloworld/</guid>
-      <description>&lt;p&gt;A software engineer typically starts programming journey by printing &amp;ldquo;hello world&amp;rdquo; on the terminal. An embedded software engineer typically begins first MCU programming by blinking a LED. That&amp;rsquo;s a good moment to remember.&#xA;In this section, to get started with digital.auto playground, we do the same basis but memorable thing - &lt;strong&gt;blinking your vehicle headlight&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Before going to detail, here is a summary of what we shall do in this section:&lt;/p&gt;</description>
+      <description>A software engineer typically starts programming journey by printing &amp;ldquo;hello world&amp;rdquo; on the terminal. An embedded software engineer typically begins first MCU programming by blinking a LED. That&amp;rsquo;s a good moment to remember. In this section, to get started with digital.auto playground, we do the same basis but memorable thing - blinking your vehicle headlight.
+Before going to detail, here is a summary of what we shall do in this section:</description>
     </item>
+    
     <item>
       <title>Using &#39;General 3D Car Model&#39; Widget</title>
       <link>/engaged/3dcar/</link>
       <pubDate>Wed, 02 Aug 2023 07:31:32 +0700</pubDate>
+      
       <guid>/engaged/3dcar/</guid>
-      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;General 3D Car Model&lt;/strong&gt; widget is designed to enhance your experience in developing software for software-defined vehicles (SDV). It allows you to interact with a realistic 3D model of a sedan, complete with customizable features via Vehicle APIs. This guide will walk you through the steps to integrate and use this widget in your SDV applications.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a quick overview of what we&amp;rsquo;ll cover:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Adding the widget to your dashboard from the Marketplace&lt;/p&gt;</description>
+      <description>Introduction General 3D Car Model widget is designed to enhance your experience in developing software for software-defined vehicles (SDV). It allows you to interact with a realistic 3D model of a sedan, complete with customizable features via Vehicle APIs. This guide will walk you through the steps to integrate and use this widget in your SDV applications.
+Here&amp;rsquo;s a quick overview of what we&amp;rsquo;ll cover:
+1. Adding the widget to your dashboard from the Marketplace</description>
     </item>
+    
     <item>
       <title>Using &#39;Simple LandingAI&#39; Widget</title>
       <link>/engaged/simplelandingai/</link>
       <pubDate>Wed, 02 Aug 2023 07:31:32 +0700</pubDate>
+      
       <guid>/engaged/simplelandingai/</guid>
-      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;This Landing AI widget allows users to import Landing AI models and use their prediction result as API value to control vehicle functions, streamlining the presentation of ideas about their SDV application without the need for in-depth web code manipulation.&lt;/p&gt;&#xA;&lt;p&gt;Here we take demo case as an example to demonstrate how to create an AI-related Software-defined Vehicle prototype. The process is divided into two main parts, building an object detection AI model on the Landing AI platform &lt;a href=&#34;https://landing.ai/&#34;&gt;&lt;strong&gt;LandingAI&lt;/strong&gt;&lt;/a&gt; from scratch and deploying this model on digital.auto Playground.&lt;/p&gt;</description>
+      <description>Introduction This Landing AI widget allows users to import Landing AI models and use their prediction result as API value to control vehicle functions, streamlining the presentation of ideas about their SDV application without the need for in-depth web code manipulation.
+Here we take demo case as an example to demonstrate how to create an AI-related Software-defined Vehicle prototype. The process is divided into two main parts, building an object detection AI model on the Landing AI platform LandingAI from scratch and deploying this model on digital.</description>
     </item>
+    
     <item>
       <title>Vehicle API</title>
       <link>/engaged/vss_basic/</link>
       <pubDate>Thu, 03 Aug 2023 06:32:41 +0700</pubDate>
+      
       <guid>/engaged/vss_basic/</guid>
-      <description>&lt;h1 id=&#34;vehicle-api-introduction&#34;&gt;Vehicle API introduction&lt;/h1&gt;&#xA;&lt;p&gt;Vehicle API is an abstract way to manipulate everything an actuator on vehicle, or get a sensor value from vehicle without knowledge of ECU and E/E Architechture.&#xA;On the context of Software define Vehicle, we are an application developer. We would like to make an smart application to serve special purpose. Let&amp;rsquo;s say we would have an AI algorithm to turn on or off the headlight depend on weather condition and some other factors, and then the algorithm output say that we should turn the light on. How can we do that if we don&amp;rsquo;t know anything about embedded, CAN signal, ECU, gateway, and plenty of security, safety stuff&amp;hellip; you can not do that. Vehicle API was born to solve that problem.&lt;/p&gt;</description>
+      <description>Vehicle API introduction Vehicle API is an abstract way to manipulate everything an actuator on vehicle, or get a sensor value from vehicle without knowledge of ECU and E/E Architechture. On the context of Software define Vehicle, we are an application developer. We would like to make an smart application to serve special purpose. Let&amp;rsquo;s say we would have an AI algorithm to turn on or off the headlight depend on weather condition and some other factors, and then the algorithm output say that we should turn the light on.</description>
     </item>
+    
     <item>
       <title>Using builtin widget</title>
       <link>/engaged/widget_basic/</link>
       <pubDate>Wed, 02 Aug 2023 10:13:23 +0700</pubDate>
+      
       <guid>/engaged/widget_basic/</guid>
-      <description>&lt;p&gt;At the &lt;a href=&#34;/engaged/helloworld/&#34;&gt;&amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section&lt;/a&gt;, you already now how to pick a widget from gallery and put it to dashboars. In this section, we will go deeper on each kind of widget, change the option to she how we can manipulate them just by some simple arguments.&lt;/p&gt;&#xA;&lt;p&gt;Before you begin, let make a simple prototype with below python code. If you don&amp;rsquo;t know how, please read this tutorial first &lt;a href=&#34;/engaged/helloworld/&#34;&gt;&amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section&lt;/a&gt;&lt;/p&gt;</description>
+      <description>At the &amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section, you already now how to pick a widget from gallery and put it to dashboars. In this section, we will go deeper on each kind of widget, change the option to she how we can manipulate them just by some simple arguments.
+Before you begin, let make a simple prototype with below python code. If you don&amp;rsquo;t know how, please read this tutorial first &amp;ldquo;Create &amp;lsquo;Hello World&amp;rsquo; Prototype&amp;rdquo; section</description>
     </item>
+    
     <item>
       <title>Create custom widget</title>
       <link>/engaged/create_custom_widget/</link>
       <pubDate>Wed, 02 Aug 2023 10:13:23 +0700</pubDate>
+      
       <guid>/engaged/create_custom_widget/</guid>
-      <description>&lt;h2 id=&#34;1-widget-introduction&#34;&gt;1. Widget introduction&lt;/h2&gt;&#xA;&lt;p&gt;Widget is an element of a graphical user interface that displays information or provides a specific way for a user to interact with an application. In the context of digital.auto playground, a widget is associated to the behavior represented by one or more Vehicle APIs.&lt;/p&gt;&#xA;&lt;p&gt;Each widget is an isolated website, embedded into the playground dashboard by iframe. The playground supports a mechanism to set/get APIs value from/to widget.&lt;/p&gt;</description>
+      <description>1. Widget introduction Widget is an element of a graphical user interface that displays information or provides a specific way for a user to interact with an application. In the context of digital.auto playground, a widget is associated to the behavior represented by one or more Vehicle APIs.
+Each widget is an isolated website, embedded into the playground dashboard by iframe. The playground supports a mechanism to set/get APIs value from/to widget.</description>
     </item>
+    
   </channel>
 </rss>
