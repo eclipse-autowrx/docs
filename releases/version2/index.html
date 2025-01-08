@@ -11,22 +11,22 @@
     <title>Migrate from v1 to v2 :: digital.auto playground documentation</title>
 
     
-    <link href="/css/nucleus.css?1736223162" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1736223162" rel="stylesheet">
-    <link href="/css/hybrid.css?1736223162" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1736223162" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1736223162" rel="stylesheet">
-    <link href="/css/auto-complete.css?1736223162" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1736223162" rel="stylesheet">
-    <link href="/css/theme.css?1736223162" rel="stylesheet">
-    <link href="/css/tabs.css?1736223162" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1736223162" rel="stylesheet">
+    <link href="/css/nucleus.css?1736311052" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1736311052" rel="stylesheet">
+    <link href="/css/hybrid.css?1736311052" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1736311052" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1736311052" rel="stylesheet">
+    <link href="/css/auto-complete.css?1736311052" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1736311052" rel="stylesheet">
+    <link href="/css/theme.css?1736311052" rel="stylesheet">
+    <link href="/css/tabs.css?1736311052" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1736311052" rel="stylesheet">
     
-    <link href="/css/theme-green.css?1736223162" rel="stylesheet">
+    <link href="/css/theme-green.css?1736311052" rel="stylesheet">
     
-    <link href="/css/playground.css?1736223162" rel="stylesheet">
+    <link href="/css/playground.css?1736311052" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1736223162"></script>
+    <script src="/js/jquery-3.3.1.min.js?1736311052"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -105,14 +105,14 @@ if (!doNotTrack) {
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1736223162"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1736223162"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1736311052"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1736311052"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1736223162"></script>
+<script type="text/javascript" src="/js/search.js?1736311052"></script>
 
     
   </div>
@@ -1318,9 +1318,14 @@ if (!doNotTrack) {
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-the-python-code-is-formatted-differently-now">1. The Python code is formatted differently now</a></li>
-    <li><a href="#2-the-plugin-mechanism-has-been-deprecated">2. The plugin mechanism has been deprecated</a></li>
-    <li><a href="#3-your-python-code-runs-within-sdv-runtime-which-is-a-docker-container">3. Your Python code runs within SDV Runtime, which is a Docker container</a></li>
+    <li>
+      <ul>
+        <li><a href="#1-the-python-code-is-formatted-differently-now">1. The Python code is formatted differently now</a></li>
+        <li><a href="#2-the-plugin-mechanism-has-been-deprecated">2. The plugin mechanism has been deprecated</a></li>
+        <li><a href="#3-your-python-code-runs-within-sdv-runtime-which-is-a-docker-container">3. Your Python code runs within SDV Runtime, which is a Docker container</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-migrate-your-prototypes-from-v1-to-v2">How to migrate your prototypes from v1 to v2</a></li>
   </ul>
 </nav>
     </div>
@@ -1357,7 +1362,7 @@ if (!doNotTrack) {
 <li>Asset Management: Users can add and manage their own SDV runtimes or hardware kits, ensuring exclusive usage and controlled sharing. Furthermore, users can share their assets with collaborators.</li>
 </ul>
 <p>To accommodate the aforementioned features, the underlying architecture of the entire playground has undergone a complete overhaul. Please take note of the following points when transitioning to version 2.</p>
-<h2 id="1-the-python-code-is-formatted-differently-now">1. The Python code is formatted differently now</h2>
+<h3 id="1-the-python-code-is-formatted-differently-now">1. The Python code is formatted differently now</h3>
 <p>Below is sample code for simple head light blinking app.</p>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6%; margin-left: 2%">
     <div style="flex: 1 1 calc(33.33% - 6%); margin-bottom: 20px"><!-- raw HTML omitted -->
@@ -1449,13 +1454,21 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">on_start</span>(self):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> self<span style="color:#f92672">.</span>Vehicle<span style="color:#f92672">.</span>Body<span style="color:#f92672">.</span>Lights<span style="color:#f92672">.</span>Beam<span style="color:#f92672">.</span>Low<span style="color:#f92672">.</span>IsOn<span style="color:#f92672">.</span>subscribe(self<span style="color:#f92672">.</span>on_light_value_changed)
 </span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
-</span></span></code></pre></div><h2 id="2-the-plugin-mechanism-has-been-deprecated">2. The plugin mechanism has been deprecated</h2>
+</span></span></code></pre></div><h3 id="2-the-plugin-mechanism-has-been-deprecated">2. The plugin mechanism has been deprecated</h3>
 <p>To enhance clarity and adhere to the plug-and-play principle, widgets are now decoupled from any specific model. Python code and widgets operate with complete isolation.</p>
 <p>[widgets] &lt;=&gt; Vehicle API &lt;=&gt; [SDV App]</p>
 <p>Data exchange between widgets and your application must exclusively occur through the Vehicle API.</p>
-<h2 id="3-your-python-code-runs-within-sdv-runtime-which-is-a-docker-container">3. Your Python code runs within SDV Runtime, which is a Docker container</h2>
+<h3 id="3-your-python-code-runs-within-sdv-runtime-which-is-a-docker-container">3. Your Python code runs within SDV Runtime, which is a Docker container</h3>
 <p>Upon clicking the Run button, your code is executed within a runtime environment. The runtime processes your code and streams the output back to the dashboard. Consequently, it is crucial to carefully select the appropriate runtime environment before running your application.</p>
 <p>We provide a selection of shared runtimes for user convenience. These pre-configured environments allow users to readily execute their applications. Alternatively, users have the flexibility to configure and deploy their own custom runtime environments.</p>
+<h2 id="how-to-migrate-your-prototypes-from-v1-to-v2">How to migrate your prototypes from v1 to v2</h2>
+<p>By default, when you log in to v2 for the first time, your data from v1 will not be transferred. This is because the data structure and underlying infrastructure are completely different, and we cannot guarantee a seamless automatic migration.</p>
+<p>We encourage you to explore the improved features of version 2 and create new prototypes for your use cases. However, if you need to transfer your prototypes from v1 to v2, you can follow the guidance in this video.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/Jd8pyLJOgDo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 
 
 <footer class="footline">
@@ -2230,19 +2243,19 @@ if (!doNotTrack) {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1736223162"></script>
-    <script src="/js/perfect-scrollbar.min.js?1736223162"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1736223162"></script>
-    <script src="/js/jquery.sticky.js?1736223162"></script>
-    <script src="/js/featherlight.min.js?1736223162"></script>
-    <script src="/js/highlight.pack.js?1736223162"></script>
+    <script src="/js/clipboard.min.js?1736311052"></script>
+    <script src="/js/perfect-scrollbar.min.js?1736311052"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1736311052"></script>
+    <script src="/js/jquery.sticky.js?1736311052"></script>
+    <script src="/js/featherlight.min.js?1736311052"></script>
+    <script src="/js/highlight.pack.js?1736311052"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1736223162"></script>
-    <script src="/js/learn.js?1736223162"></script>
-    <script src="/js/hugo-learn.js?1736223162"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1736311052"></script>
+    <script src="/js/learn.js?1736311052"></script>
+    <script src="/js/hugo-learn.js?1736311052"></script>
     
         
-            <script src="/mermaid/mermaid.js?1736223162"></script>
+            <script src="/mermaid/mermaid.js?1736311052"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
