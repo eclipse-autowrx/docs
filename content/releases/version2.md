@@ -17,7 +17,7 @@ At [playground.digital.auto](https://playground.digital.auto), we've listened to
 
 To accommodate the aforementioned features, the underlying architecture of the entire playground has undergone a complete overhaul. Please take note of the following points when transitioning to version 2.
 
-## 1. The Python code is formatted differently now
+### 1. The Python code is formatted differently now
 
 Below is sample code for simple head light blinking app.
 
@@ -104,7 +104,7 @@ async def on_start(self):
 
 ```
 
-## 2. The plugin mechanism has been deprecated
+### 2. The plugin mechanism has been deprecated
 To enhance clarity and adhere to the plug-and-play principle, widgets are now decoupled from any specific model. Python code and widgets operate with complete isolation.
 
 [widgets] <=> Vehicle API <=> [SDV App]
@@ -112,12 +112,22 @@ To enhance clarity and adhere to the plug-and-play principle, widgets are now de
 Data exchange between widgets and your application must exclusively occur through the Vehicle API.
 
 
-## 3. Your Python code runs within SDV Runtime, which is a Docker container
+### 3. Your Python code runs within SDV Runtime, which is a Docker container
 Upon clicking the Run button, your code is executed within a runtime environment. The runtime processes your code and streams the output back to the dashboard. Consequently, it is crucial to carefully select the appropriate runtime environment before running your application.
 
 We provide a selection of shared runtimes for user convenience. These pre-configured environments allow users to readily execute their applications. Alternatively, users have the flexibility to configure and deploy their own custom runtime environments.
 
 
+## How to migrate your prototypes from v1 to v2
+
+By default, when you log in to v2 for the first time, your data from v1 will not be transferred. This is because the data structure and underlying infrastructure are completely different, and we cannot guarantee a seamless automatic migration.
+
+We encourage you to explore the improved features of version 2 and create new prototypes for your use cases. However, if you need to transfer your prototypes from v1 to v2, you can follow the guidance in this video.
+
+{{< youtube Jd8pyLJOgDo >}}
 
 
 
+
+### Give your feedback
+To provide feedback or request support [click here](https://forms.office.com/e/P5gv3U3dzA)

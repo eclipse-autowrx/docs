@@ -17,6 +17,8 @@ Date: January 6th 2025
 
 Available at: https://playground.digital.auto
 
+To provide feedback or request support [click here](https://forms.office.com/e/P5gv3U3dzA)
+
 At [playground.digital.auto](https://playground.digital.auto), we've listened to your feedback and identified some limitations in the architecture of v1. To address these, we're excited to announce a new version with significant improvements!
 - Python applications utilize the standard Velocitas library. 
 - Python applications can leverage external libraries, enabling the development of a wide range of applications.

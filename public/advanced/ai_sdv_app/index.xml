@@ -4,23 +4,31 @@
     <title>AI SdV Application on digital.auto playground documentation</title>
     <link>/advanced/ai_sdv_app/</link>
     <description>Recent content in AI SdV Application on digital.auto playground documentation</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Sep 2023 07:07:47 +0700</lastBuildDate>
-    <atom:link href="/advanced/ai_sdv_app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Aug 2023 07:07:47 +0700</lastBuildDate><atom:link href="/advanced/ai_sdv_app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI App Concept</title>
       <link>/advanced/ai_sdv_app/ai_app_on_pg/</link>
       <pubDate>Mon, 25 Sep 2023 07:07:47 +0700</pubDate>
+      
       <guid>/advanced/ai_sdv_app/ai_app_on_pg/</guid>
-      <description>&lt;h3 id=&#34;preface&#34;&gt;Preface&lt;/h3&gt;&#xA;&lt;p&gt;This document for AI engineer who familiar with AI application development concept.&lt;/p&gt;&#xA;&lt;p&gt;It assumes you have basic understanding on Vehicle API concept, we provide simple explanation at this &lt;a href=&#34;/playground/engaged/vss_basic&#34;&gt;VSS Basic Documentation&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The purpose of this document is to discuss AI-on-Edge, means realtime AI running directly on vehicle, not apply for AI-on-Cloud like ChatGPT&amp;hellip;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ai-application-on-playground&#34;&gt;AI application on playground&lt;/h3&gt;&#xA;&lt;p&gt;Nowadays, AI is a hot topic. There are plenty of tools, libraries and methods to build and deploy an AI application or reuse AI service from 3rd provider. In the scope of this tutorial, we discuss about the process to build an AI application by your own, test it on &lt;strong&gt;digital.auto playground&lt;/strong&gt;, and deploy it to &lt;strong&gt;PoC HW&lt;/strong&gt; such as dreamKIT&amp;hellip;&lt;/p&gt;</description>
+      <description>Preface This document for AI engineer who familiar with AI application development concept.
+It assumes you have basic understanding on Vehicle API concept, we provide simple explanation at this VSS Basic Documentation.
+The purpose of this document is to discuss AI-on-Edge, means realtime AI running directly on vehicle, not apply for AI-on-Cloud like ChatGPT&amp;hellip;
+AI application on playground Nowadays, AI is a hot topic. There are plenty of tools, libraries and methods to build and deploy an AI application or reuse AI service from 3rd provider.</description>
     </item>
+    
     <item>
       <title>AI with playground</title>
       <link>/advanced/ai_sdv_app/ai_getting_started/</link>
       <pubDate>Thu, 03 Aug 2023 06:51:01 +0700</pubDate>
+      
       <guid>/advanced/ai_sdv_app/ai_getting_started/</guid>
-      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;AI becomes more and more popular in daily life, and&#xA;definitely it is also a trend in the automotive industry.&#xA;In this section, we will introduce how to use AI in the playground.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; AI have a lot of different applications, and we will only introduce a simple image processing use case in this section.&lt;/p&gt;&#xA;&lt;p&gt;We assume that you already know how to create account, model and prototype in the playground. If not, please refer this &lt;a href=&#34;/engaged/helloworld.md&#34;&gt;Helloworld&lt;/a&gt; section.&lt;/p&gt;</description>
+      <description>Introduction AI becomes more and more popular in daily life, and definitely it is also a trend in the automotive industry. In this section, we will introduce how to use AI in the playground.
+Note: AI have a lot of different applications, and we will only introduce a simple image processing use case in this section.
+We assume that you already know how to create account, model and prototype in the playground.</description>
     </item>
+    
   </channel>
 </rss>
