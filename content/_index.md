@@ -1,5 +1,5 @@
 # Welcome to official digital.auto documentation
 
-This page provides guideline to create SdV applications efficiently on playground.digital.auto
+This page provides deep dive information for the feature of playground.digital.auto.
 
-For more academic background on digitalization and AIoT, please visit https://www.digitalplaybook.org
+For more theoretical information about Software-Defined Vehicle, please consider visiting https://www.sdv.guide/

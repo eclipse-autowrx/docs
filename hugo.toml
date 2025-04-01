@@ -10,7 +10,7 @@ themeVariant = "green"
 disableLandingPageButton = true
 showVisitedLinks = true
 
-editURL = "https://gitlab.eclipse.org/eclipse/autowrx/docs/-/tree/main/content/"
+editURL = "https://github.com/eclipse-autowrx/docs/-/tree/main/content/"
 
 # For search functionality
 [outputs]
@@ -24,9 +24,8 @@ home = [ "HTML", "RSS", "JSON"]
 [[menu.shortcuts]] 
 
 
-name = "<i class='fas fa-gitlab'></i> GitLab repo"
-identifier = "ds"
-url = "https://gitlab.eclipse.org/eclipse/autowrx/"
+name = "<i class='fas fa-github'></i> Github repo"
+url = "https://github.com/eclipse-autowrx"
 weight = 10
 
 [[menu.shortcuts]]
