@@ -8,6 +8,4 @@ pre = "<b>1. </b>"
 
 ### Chapter 1
 
-# Releases
-
 Announce Version Release with Changelogs (will soon be replaced by the formal release mechanism of github)

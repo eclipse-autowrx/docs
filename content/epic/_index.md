@@ -8,7 +8,5 @@ pre: "<b>3. </b>"
 ---
 ### Chapter 3
 
-# EPIC
-
 Here listing all major features of digital.auto
 

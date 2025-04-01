@@ -8,6 +8,4 @@ pre: "<b>2. </b>"
 
 ### Chapter 2
 
-# Core Architecture
-
 Providing the high level architecture for the core of digital.auto
