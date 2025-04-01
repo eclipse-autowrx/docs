@@ -5,4 +5,5 @@ draft: false
 weight: 3
 ---
 
-### Distributed Runtime
+Distributed Runtime
+![distributed runtime design](./images/runtime.png)
