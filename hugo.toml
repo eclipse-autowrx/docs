@@ -10,7 +10,7 @@ themeVariant = "green"
 disableLandingPageButton = true
 showVisitedLinks = true
 
-editURL = "https://github.com/eclipse-autowrx/docs/-/tree/main/content/"
+editURL = "https://github.com/eclipse-autowrx/docs/blob/main/content/"
 
 # For search functionality
 [outputs]
