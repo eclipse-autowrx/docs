@@ -1,19 +1,17 @@
 # Playground documentation
 
-The digital.auto playground documentation is realized with Eclipse gitlab pages. 
-since there is some current limitation on Eclipse gitlab, we need to open a ticket and follow the template of gitlab ci here https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate/-/blob/main/.gitlab-ci.template.yml
-
-The official documentation page is planned to be hosted at https://docs.digital.auto
+The digital.auto playground documentation is realized with Eclipse Github pages.
+The generated documentation is planned to be hosted at https://docs.digital.auto
 
 ## Dependencies
 
 The static page is generated with:
 
 -   [HUGO](https://gohugo.io/)
--   [Learn Theme](https://themes.gohugo.io/hugo-theme-learn/)
+-   [ReLearn Theme](https://github.com/McShelby/hugo-theme-relearn/)
 
 Please follow the [documentation](https://gohugo.io/documentation/) for installation and further questions around the framework.
-Currently, the HUGO version used for generating VSS documentation is `0.115.4`,
+Currently, the HUGO version used for generating VSS documentation is `0.145.0`,
 
 ## Run the documentation server locally
 
@@ -47,7 +45,7 @@ Reference: [Git Documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodul
 Within the repository
 
 ```
-hugo server -D -s ./docs
+hugo server -D 
 ```
 
 Optional `-D:` include draft pages as well. Afterwards, you can access the
@@ -57,8 +55,10 @@ page under http://localhost:1313/.
 
 If you want to contribute, do the following:
 
-1. Change documentation in `/docs`
+1. Check out the branch gh-pages
 
-2. Test your changes locally, as described above
+2. Change documentation in `/content`
 
-3. Create Pull Request for review
+3. Test your changes locally, as described above
+
+4. Push :)
