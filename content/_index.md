@@ -2,4 +2,4 @@
 
 This page provides deep dive information for the feature of playground.digital.auto.
 
-For more theoretical information about Software-Defined Vehicle, please consider visiting https://www.sdv.guide/
+For a detailed introduction into SDV concepts and methodology, please refer to the sdv.guide
