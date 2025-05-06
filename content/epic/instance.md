@@ -1,6 +1,6 @@
 ---
-title: "Instance Setup Guide"
-linkTitle: "Instance Setup"
+title: "Instance"
+linkTitle: "Instance"
 weight: 20
 description: >
   Comprehensive guide for setting up Eclipse AutoWRX components: Frontend, Backend, and SDV Runtime using Docker
@@ -28,19 +28,49 @@ This guide covers the setup and configuration of all components using Docker onl
 Create a `.env` file:
 
 ```env
-FRONTEND_PORT=3000
-API_URL=http://localhost:3000/api
-WS_URL=ws://localhost:3000
+NODE_ENV=development
+ENV=dev
+
+# MongoDB
+MONGODB_URL=mongodb://mongodb:27017/playground
+MONGO_USER=
+MONGO_PASSWORD=
+MONGO_DB=playground
+MONGODB_PORT=27017
+MONGOOSE_STRICT_QUERY=true
+
+# Upload Service
+UPLOAD_PORT=3000
+UPLOAD_DOMAIN=upload
+UPLOAD_PROTOCOL=http
+UPLOAD_PATH=/usr/src/upload/data
 
 BACKEND_PORT=3000
-NODE_ENV=production
-MONGODB_URL=mongodb://mongodb:27017/autowrx
 
-JWT_SECRET=your-secure-jwt-secret-key
+# JWT
+JWT_SECRET=thisisasamplesecret
 JWT_ACCESS_EXPIRATION_MINUTES=30
 JWT_REFRESH_EXPIRATION_DAYS=30
+JWT_COOKIE_NAME=token
 
-MONGODB_PORT=27017
+# Kong
+KONG_PROXY_PORT=8000
+KONG_NGINX_WORKER_PROCESSES=auto
+
+# Homologation
+HOMOLOGATION_AUTH_CLIENT_ID=your_client_id
+HOMOLOGATION_AUTH_CLIENT_SECRET=your_client_secret
+
+# CORS
+CORS_ORIGIN=localhost:\d+,127\.0\.0\.1:\d+
+
+# Admin Configuration
+ADMIN_EMAILS=admin@example.com
+ADMIN_PASSWORD=admin_secure_password
+
+# Logging
+LOG_LEVEL=debug
+
 ```
 
 ## Docker Compose Setup
@@ -52,7 +82,7 @@ version: '3.8'
 
 services:
   frontend:
-    image: ghcr.io/eclipse-autowrx/autowrx-app:v2.1.0.rc0
+    image: ghcr.io/eclipse-autowrx/autowrx-app:latest
     ports:
       - "${FRONTEND_PORT:-3000}:4173"
     environment:
@@ -63,7 +93,7 @@ services:
     restart: unless-stopped
 
   backend:
-    image: ghcr.io/eclipse-autowrx/playground-be:dev-953d16d-v0.0.0
+    image: ghcr.io/eclipse-autowrx/playground-be:latest
     ports:
       - "${BACKEND_PORT}:3000"
     environment:
@@ -72,15 +102,21 @@ services:
       - JWT_SECRET=${JWT_SECRET}
       - JWT_ACCESS_EXPIRATION_MINUTES=${JWT_ACCESS_EXPIRATION_MINUTES}
       - JWT_REFRESH_EXPIRATION_DAYS=${JWT_REFRESH_EXPIRATION_DAYS}
+      - UPLOAD_PORT=${UPLOAD_PORT}
+      - UPLOAD_DOMAIN=${UPLOAD_DOMAIN}
+
     depends_on:
       - mongodb
     restart: unless-stopped
+    entrypoint: []
+    command: ["yarn", "dev"]
+
 
   sdv-runtime:
     image: ghcr.io/eclipse-autowrx/sdv-runtime:latest
     environment:
       - RUNTIME_NAME=ProductionRuntime
-      - SYNCER_SERVER_URL=http://backend:3000
+      - SYNCER_SERVER_URL=http://localhost:3090
     ports:
       - "55555:55555"
     depends_on:
@@ -90,12 +126,16 @@ services:
     restart: unless-stopped
 
   mongodb:
-    image: mongo:4.4
+    image: mongo:4.4.6-bionic
     ports:
       - "${MONGODB_PORT}:27017"
     volumes:
-      - ./data/mongodb:/data/db
+      - dbdata:/data/db
     restart: unless-stopped
+
+volumes:
+  dbdata:
+
 ```
 
 ## Start the Stack
@@ -115,7 +155,7 @@ docker compose up -d
 
 ## Access the Services
 
-- Frontend: http://localhost:3000  
+- Frontend: http://localhost:4173  
 - Backend API: http://localhost:3000/api  
 - SDV Runtime Databroker: localhost:55555  
 
