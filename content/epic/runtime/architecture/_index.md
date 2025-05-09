@@ -13,7 +13,7 @@ The SDV-Runtime provides a containerized environment for Software Defined Vehicl
 1. **Start here** to understand the overall architecture
 2. Next, explore the [Component Details](./components/) to learn about each part
 3. Then, read about the [Data Flows](./data-flows/) to understand how data moves through the system
-4. Finally, head to the [Getting Started Guide](/getting-started/) to begin using SDV-Runtime
+4. Finally, head to the [Getting Started Guide](../getting-started/) to begin using SDV-Runtime
 
 ## System Overview
 

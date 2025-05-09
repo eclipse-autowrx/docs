@@ -13,7 +13,7 @@ weight: 11
 1. First, make sure you've read the [Architecture Overview](../)
 2. On this page, learn about each component in detail
 3. Next, explore the [Data Flows](../data-flows/) to understand how components interact
-4. After that, check the [Getting Started Guide](/getting-started/) to begin using the components
+4. After that, check the [Getting Started Guide](../getting-started/) to begin using the components
 
 ## Core Components
 
