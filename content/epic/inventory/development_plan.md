@@ -37,10 +37,10 @@ This document provides a detailed development plan for the Inventory Management 
 
 - **Tasks**:
   1. Define Mongoose schemas for Schema, Instance, Relation, and InstanceRelation entities.
-  2. Select and integrate a JSON Schema validation library (e.g., Ajv) for validating schema definitions and instance data.
+  2. Integrate JSON Schema validation for validating schema definitions and instance data.
 - **Testing**:
-  - Write **unit tests** to validate that the Mongoose schemas enforce the correct constraints (e.g., required fields, data types).
-  - Write **unit tests** to verify that the JSON Schema validation library correctly validates schema definitions and instance data (e.g., valid vs. invalid inputs).
+  - Write **unit tests** to validate that the Mongoose schemas enforce the correct constraints.
+  - Write **unit tests** to verify that the JSON Schema validation library correctly validates schema definitions and instance data.
 
 ### Phase 2: Schema and Instance Management
 
@@ -51,8 +51,8 @@ This document provides a detailed development plan for the Inventory Management 
   4. Implement dynamic form generation in the frontend based on the JSON Schema for creating new Instance entities, including data validation, and integrate with backend.
   5. Develop frontend UI for listing, viewing details, updating, and deleting Instance entities, and connect with backend APIs.
 - **Testing**:
-  - Write **unit tests** for the backend CRUD routes for Schema and Instance entities (e.g., test each HTTP method).
-  - Write **integration tests** for the API endpoints to ensure they interact correctly with the database (e.g., data persistence and retrieval).
+  - Write **unit tests** for the backend CRUD routes for Schema and Instance entities
+  - Write **integration tests** for the API endpoints to ensure they interact correctly with the database
 
 ### Phase 3: Relationship Management (InstanceRelations)
 
@@ -73,20 +73,20 @@ This document provides a detailed development plan for the Inventory Management 
   6. Develop frontend UI for creating and deleting InstanceRelation entities, ensuring validation, and integrate with backend.
 - **Testing**:
   - Write **unit tests** for the backend CRUD routes for Relation and InstanceRelation entities.
-  - Write **unit tests** for the validation logic in InstanceRelation creation (e.g., schema matching, uniqueness).
-  - Write **unit tests** for the cascading delete logic (e.g., ensure related entities are deleted correctly).
+  - Write **unit tests** for the validation logic in InstanceRelation creation
+  - Write **unit tests** for the cascading delete logic
   - Write **integration tests** for the Relation and InstanceRelation API endpoints to verify database interactions.
 
 ### Phase 4: Implement Data Change Capturing/Tracking to Inventory Entities
 
 - **Tasks**:
-  1. Select and integrate a Mongoose plugin for capturing data changes (e.g., mongoose-audit-trail).
+  1. Create a Mongoose plugin for capturing data changes
   2. Apply the change capture plugin to the four core entities: Schema, Instance, Relation, and InstanceRelation.
   3. Develop backend API routes to query the change log data.
   4. Implement frontend UI to view the change log and integrate with backend APIs.
 - **Testing**:
-  - Write **unit tests** to verify that the change capture mechanism logs changes to the core entities (e.g., create, update, delete actions).
-  - Write **unit tests** for the backend API routes that query the change log data (e.g., filtering by entity or timestamp).
+  - Write **unit tests** to verify that the change capture mechanism logs changes to the core entities
+  - Write **unit tests** for the backend API routes that query the change log data
   - Write **integration tests** to ensure the change log API endpoints correctly retrieve logged data from the database.
 
 ### Phase 5: Implement Integrations of Inventory to Specific Features & Improve Search and Filter
@@ -96,12 +96,12 @@ This document provides a detailed development plan for the Inventory Management 
   2. Implement backend logic to integrate the Inventory system with other specified features.
   3. Define the logic and mechanism for categorizing and traversing inventory items.
   4. Implement a tree browser UI component for navigating hierarchical inventory structures.
-  5. Conduct discussions and gather feedback on the current Inventory system to identify improvements and add more details to UI screens (e.g., related instances, helpful links).
+  5. Conduct discussions and gather feedback on the current Inventory system to identify improvements and add more details to UI screens
   6. Provide basic integration of a GenAI service into the Inventory system.
 - **Testing**:
-  - Write **integration tests** for the user flows between the Inventory system and other features (e.g., data consistency across systems).
-  - Write **unit tests** for the logic and mechanisms for categorizing and traversing inventory items (e.g., tree structure accuracy).
-  - Write **unit tests** for the basic GenAI service integration (e.g., input/output validation).
+  - Write **integration tests** for the user flows between the Inventory system and other features
+  - Write **unit tests** for the logic and mechanisms for categorizing and traversing inventory items
+  - Write **unit tests** for the basic GenAI service integration
 
 ### Phase 6: Implement Role Browser Mappings and Access Control for Inventory
 
@@ -111,8 +111,8 @@ This document provides a detailed development plan for the Inventory Management 
   3. Implement access control logic in the backend to enforce permissions on inventory operations.
   4. Develop frontend UI for managing access control settings and integrate with backend APIs.
 - **Testing**:
-  - Write **unit tests** for the role-to-permission mapping logic (e.g., role assignment accuracy).
-  - Write **unit tests** for the access control logic in the backend (e.g., permission enforcement).
+  - Write **unit tests** for the role-to-permission mapping logic
+  - Write **unit tests** for the access control logic in the backend
   - Write **integration tests** for the role mapping and access control API endpoints to verify database interactions and permission enforcement.
 
 ### Phase 7: Deep-Dive/Advanced GenAI Integration
@@ -134,9 +134,9 @@ This document provides a detailed development plan for the Inventory Management 
 
 - **Tasks**:
   1. Execute all **unit** and **integration tests** developed in previous phases to ensure the entire system functions as expected.
-  2. Write additional **unit** and **integration tests** for edge cases (e.g., rare user inputs), performance (e.g., load handling), security (e.g., unauthorized access), and any gaps not covered in phase-specific tests.
+  2. Write additional **unit** and **integration tests** for edge cases, performance, security, and any gaps not covered in phase-specific tests.
   3. Document API endpoints using tools like Swagger/OpenAPI, including request/response formats, parameters, and authentication requirements.
   4. Document the data model, including diagrams or descriptions of the four entities (Schema, Instance, Relation, InstanceRelation) and their relationships, as well as validation rules and constraints.
 - **Testing Focus**:
   - Run the full test suite from all phases.
-  - Address any remaining testing needs (e.g., cross-phase interactions, system-wide validation).
+  - Address any remaining testing needs
