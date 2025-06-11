@@ -1,208 +1,218 @@
 ---
 title: "Instance"
-date: 2025-04-01T11:56:57+07:00
-draft: false
-weight: 7
+linkTitle: "Instance"
+weight: 20
+description: >
+  Comprehensive guide for setting up Eclipse AutoWRX components: Frontend, Backend, and SDV Runtime using Docker
 ---
-
-### Setting Up Your Own Playground Instance
 
 ## Overview
 
-The **playground.digital.auto** is an open, web-based prototyping environment designed for developing **Software-Defined Vehicle (SDV)** solutions.
+Eclipse AutoWRX consists of three main components that work together:
 
-The playground consists of two primary components:
+1. **Frontend (autowrx)**: React-based web interface for the digital.auto playground  
+2. **Backend (backend-core)**: RESTful API server handling business logic  
+3. **SDV Runtime**: Containerized runtime environment for vehicle applications  
 
-- **Frontend**: [GitLab autowrx frontend](https://github.com/eclipse-autowrx/autowrx)
-- **Backend**: [GitLab autowrx backend-core](https://github.com/eclipse-autowrx/backend-core/backend-core)
+This guide covers the setup and configuration of all components using Docker only.
 
-## Installation Requirements
+## Prerequisites
 
-It is recommended to use **Linux or macOS** for launching an instance. While the frontend works on both Windows and Linux/macOS, the backend currently **only supports Linux/macOS**.
+- Docker & Docker Compose  
+- Git  
+- Linux/macOS recommended  
+- GitHub Personal Access Token (PAT) for pulling GHCR images  
 
-### Installing Node.js
+## Environment Configuration
 
-Node.js is required to run the application. Install **Node.js (>= 20.12.12)**:
+Create a `.env` file:
 
-```sh
-nvm install 20.12.12  # If using Node Version Manager (NVM)
-nvm use 20.12.12
+```env
+# Environment
+NODE_ENV=development
+ENV=dev
+
+# MongoDB
+MONGODB_URL=mongodb://mongodb:27017/playground-be
+MONGO_USER=
+MONGO_PASSWORD=
+MONGO_DB=playground
+MONGODB_PORT=27017
+MONGOOSE_STRICT_QUERY=true
+DB_CONTAINER_NAME=${ENV}-playground-db
+
+# Upload Service
+UPLOAD_PORT=9810
+UPLOAD_DOMAIN=/api/v2/file/
+UPLOAD_PROTOCOL=http
+UPLOAD_PATH=./data/dev/upload
+
+# Application Ports
+PORT=8080
+KONG_PROXY_PORT=9800
+KONG_NGINX_WORKER_PROCESSES=auto
+
+# JWT
+JWT_SECRET=examplesecret
+JWT_ACCESS_EXPIRATION_MINUTES=30
+JWT_REFRESH_EXPIRATION_DAYS=30
+JWT_COOKIE_NAME=token
+
+# Homologation
+HOMOLOGATION_AUTH_CLIENT_ID=your_client_id
+HOMOLOGATION_AUTH_CLIENT_SECRET=your_client_secret
+
+# CORS
+CORS_ORIGIN=localhost:\d+,127\.0\.0\.1:\d+
+
+# Admin Configuration
+ADMIN_EMAILS=admin@example.com
+ADMIN_PASSWORD=admin_secure_password
+
+# Logging
+LOG_LEVEL=debug
 ```
 
-Additionally, install [Yarn](https://yarnpkg.com/) for package management:
+## Docker Compose Setup
 
-```sh
-npm install -g yarn
+Create a `docker-compose.yml` file:
+
+```yaml
+version: '3.8'
+
+services:
+  frontend:
+    image: ghcr.io/eclipse-autowrx/autowrx-app:latest
+    ports:
+      - "${FRONTEND_PORT:-3000}:4173"
+    environment:
+      - VITE_API_URL=${API_URL}
+      - VITE_WS_URL=${WS_URL}
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  backend:
+    image: ghcr.io/eclipse-autowrx/playground-be:dev-131e939-v0.1.0
+    ports:
+      - "${BACKEND_PORT}:3000"
+    environment:
+      - NODE_ENV=${NODE_ENV}
+      - MONGODB_URL=${MONGODB_URL}
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_ACCESS_EXPIRATION_MINUTES=${JWT_ACCESS_EXPIRATION_MINUTES}
+      - JWT_REFRESH_EXPIRATION_DAYS=${JWT_REFRESH_EXPIRATION_DAYS}
+      - UPLOAD_PORT=${UPLOAD_PORT}
+      - UPLOAD_DOMAIN=${UPLOAD_DOMAIN}
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+    entrypoint: []
+    command: ["yarn", "dev"]
+
+  sdv-runtime:
+    image: ghcr.io/eclipse-autowrx/sdv-runtime:latest
+    environment:
+      - RUNTIME_NAME=ProductionRuntime
+      - SYNCER_SERVER_URL=http://localhost:3090
+    ports:
+      - "55555:55555"
+    depends_on:
+      - backend
+    volumes:
+      - ./data/runtime:/data
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:4.4.6-bionic
+    ports:
+      - "${MONGODB_PORT}:27017"
+    volumes:
+      - dbdata:/data/db
+    restart: unless-stopped
+
+volumes:
+  dbdata:
 ```
 
-### Installing Docker & Docker Compose
+## Start the Stack
 
-Docker is required to containerize and manage multiple instances. Install it following this guide:
+1. Authenticate to GitHub Container Registry:
 
-- **Ubuntu 20.04**: [How to Install Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
-- **MacOS**: [Install Docker Desktop on Mac](https://docs.docker.com/desktop/setup/install/mac-install/)
-
-Verify installation:
-
-```sh
-docker --version
-docker compose version
+```bash
+echo $GITHUB_PAT | docker login ghcr.io -u USERNAME --password-stdin
 ```
 
-## Cloning the Source Code
+2. Pull and start all services:
 
-### Install Git
-
-Git is used for version control. Install it if you haven't already:
-
-```sh
-sudo apt install git  # Ubuntu
-brew install git      # macOS
+```bash
+docker compose pull
+docker compose up -d
 ```
 
-### Fork and Clone the Repositories
+## Troubleshooting Backend DNS Error
 
-1. **Fork the repositories**:
+If after starting the stack you see the following error in the backend logs:
 
-   - [autowrx frontend](https://github.com/eclipse-autowrx/autowrx/-/forks/new)
-   - [backend-core](https://github.com/eclipse-autowrx/backend-core/-/forks/new)
-
-   > **_NOTES:_** Forking the repositories is optional but required if you plan to contribute changes to the project.
-
-2. **Clone your forked repositories**:
-
-   **Frontend:**
-
-   ```sh
-   gh repo clone eclipse-autowrx/autowrx
-   cd autowrx
-   yarn install  # Install dependencies
-   ```
-
-   **Backend:**
-
-   ```sh
-   gh repo clone eclipse-autowrx/backend-core
-   cd backend-core
-   yarn install  # Install dependencies
-   ```
-
-## Configuring Environment Variables
-
-Before running the application, set up environment variables in **.env** files.
-
-### **Frontend**
-
-Check `.env.sample` in the `autowrx` folder for all required variables.
-
-### **Backend**
-
-Refer to `.env.sample` in the `backend-core` folder. The backend requires more environment variables related to external services such as:
-
-- **Brevo** (Email sending)
-- **GitHub** (Proposal Wishlist API in COVESA repository)
-- **AWS** (GenAI request handling via AWS Bedrock)
-- **ETAS** (ETAS GenAI model integration)
-- **Certivity** (Vehicle API regulation data retrieval)
-
-## Running the Application
-
-### Development Mode
-
-#### **Frontend**
-
-```sh
-cd autowrx
-yarn dev
+```
+backend-1      | error: Error: getaddrinfo ENOTFOUND api.github.com
 ```
 
-#### **Backend**
+You can fix this by disabling the scheduled check in the backend container.
 
-The backend runs as multiple containers (4 in total). Start it using:
+### Manual Fix
 
-```sh
-cd backend-core
-chmod +x ./start.sh
-./start.sh
+1. Access the backend container shell (replace `test-backend-1` with your actual container name):
+
+```bash
+docker exec -it test-backend-1 sh
 ```
 
-> **Note:** The backend may require `sudo` privileges to create directories for storing uploaded files.
+2. Edit the backend source file:
 
-### Production Mode
-
-#### **Frontend**
-
-There are two deployment options:
-
-**Option 1 (Recommended): Manual Deployment**
-
-```sh
-cd autowrx
-yarn build  # Creates a `dist` folder
-pm2 serve dist 4000 --spa --name autowrx # Example command if you are using pm2 to deploy
+```bash
+vi /usr/src/playground-be/src/index.js
 ```
 
-**Option 2: Docker Deployment**
+3. Locate and comment out the last line:
 
-Choose this when you want to share and deploy multiple instances.
-
-```sh
-cd autowrx
-yarn build
-docker build -t <your_docker_username>/playground-fe:latest .
-docker login # login to docker hub
-docker push <your_docker_username>/playground-fe:latest
+```js
+// setupScheduledCheck();
 ```
 
-To run it:
+4. Save and exit the editor.
 
-```sh
-export APP_PORT=<your_frontend_port>
-export IMAGE_TAG=<your_docker_username>/playground-fe:latest
-docker compose up -d --remove-orphans
+5. Restart the backend container:
+
+```bash
+docker restart test-backend-1
 ```
 
-> **Note:** If you modify the `.env` file, rebuild the Docker image before restarting.
+### Quick Fix Command
 
-#### **Backend**
+Alternatively, run this single command (replace `test-backend-1` with your backend container name if different):
 
-```sh
-cd backend-core
-chmod +x ./start.sh
-./start.sh -prod -d  # Runs in production mode (detached)
+```bash
+docker exec -it test-backend-1 sh -c "sed -i '\$s/^setupScheduledCheck();/\/\/ setupScheduledCheck();/' /usr/src/playground-be/src/index.js" && docker restart test-backend-1
 ```
 
-## Common Issues & Fixes
+This will comment out the scheduled check line and restart the backend container in one step.
 
-### **1. Node.js Version Not Compatible**
+## Access the Services
 
-If you see an error related to an incompatible Node.js version, use **nvm** to switch. For example:
+- Frontend: http://localhost:4173  
+- Backend API: http://localhost:3000/api  
+- SDV Runtime Databroker: localhost:55555  
 
-```sh
-nvm install 20.12.12
-nvm use 20.12.12
+## Logs and Status
+
+```bash
+docker compose ps
+docker compose logs -f
 ```
 
-### **2. `docker compose` command not found**
+## Support and Resources
 
-This error may occur if you have installed `docker-compose` (with a hyphen), which is the older Python-based version. The backend currently uses the newer plugin-based version: `docker compose` (without a hyphen).
-
-**Solution:**
-
-- Replace `docker compose` with `docker-compose` in the `start.sh` script located in the `backend-core` folder.
-- Alternatively, install the latest `docker compose` plugin to resolve the issue.
-
-### **3. Missing Environment Variables**
-
-Ensure you have set all required variables in `.env` files. Check `.env.sample` in both frontend and backend projects.
-
-### **4. Unable to Log In After Successful Setup**
-
-This issue may be caused by an incorrect `JWT_COOKIE_DOMAIN` environment variable. The value of this variable must match your backend's domain.
-
-**Examples:**
-
-- If your backend is running at `http://localhost:9800`, set `JWT_COOKIE_DOMAIN` to either `localhost` or `.`.
-- If your backend is hosted at `https://domain.example.com`, set `JWT_COOKIE_DOMAIN` to `.`, `example.com`, or `domain.example.com`.
-
-Ensure this setting is correctly configured to avoid authentication issues.
+- [Frontend Issues](https://github.com/eclipse-autowrx/autowrx/issues)  
+- [Backend Issues](https://github.com/eclipse-autowrx/backend-core/issues)  
+- [SDV Runtime Issues](https://github.com/eclipse-autowrx/sdv-runtime/issues)

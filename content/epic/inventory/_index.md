@@ -5,3 +5,4 @@ draft: false
 weight: 5
 ---
 
+Documentation and details for the Inventory feature.
