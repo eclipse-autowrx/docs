@@ -36,6 +36,11 @@ NOTICE
 package-lock.json
 yarn.lock
 go.sum
+.gitlab-ci.yml
+
+# Third party libraries
+public/mermaid/
+public/js/mermaid.js
 
 # Binary and media files
 *.png
