@@ -1,3 +1,13 @@
+<!--
+  Copyright (c) 2025 Eclipse Foundation.
+  
+  This program and the accompanying materials are made available under the
+  terms of the MIT License which is available at
+  https://opensource.org/licenses/MIT.
+
+  SPDX-License-Identifier: MIT
+-->
+
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6%; margin-left: 2%">
     {{- range split .Inner "<--->" }}
     <div style="flex: 1 1 calc(33.33% - 6%); margin-bottom: 20px">{{ . | $.Page.RenderString -}}</div>

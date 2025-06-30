@@ -1,0 +1,70 @@
+# License Header Ignore File for docs
+# This file documents which files/directories should be excluded from license header additions
+
+# Generated Hugo content
+public/
+public/**
+
+# Hugo themes (third-party)
+themes/
+themes/**
+
+# Static assets that don't need headers
+static/images/
+static/fonts/
+
+# Binary and media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.pdf
+*.ttf
+*.woff
+*.woff2
+*.eot
+
+# Hugo generated files
+resources/_gen/
+
+# Git and version control
+.git/
+.gitmodules
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (if any)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Hugo build artifacts
+.hugo_build.lock
+
+# Cache directories
+.cache/
+.temp/
+*.tmp
+
+# License and legal files
+LICENSE
+NOTICE
+COPYING
+
+# Image directories within content (don't need headers)
+*/images/
+*/image/
+
+# Font files
+*/fonts/

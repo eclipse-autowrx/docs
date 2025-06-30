@@ -1,3 +1,13 @@
+<\!--
+Copyright (c) 2025 Eclipse Foundation.
+
+This program and the accompanying materials are made available under the
+terms of the MIT License which is available at
+https://opensource.org/licenses/MIT.
+
+SPDX-License-Identifier: MIT
+-->
+
 ---
 title: "Identify your ECU with dreamKIT"
 date: 2024-05-24T08:07:23+07:00
